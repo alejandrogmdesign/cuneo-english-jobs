@@ -139,10 +139,10 @@ h1 {
 .links { display: flex; flex-wrap: wrap; gap: 6px 18px; align-items: center; margin-top: 10px; font-size: 0.95rem; }
 .links a { display: inline-flex; align-items: center; min-height: 44px; }
 .links a.open {
-  padding: 0 18px; border-radius: 999px; background: var(--stamp); color: var(--surface);
+  padding: 0 16px; border: 1.5px solid var(--stamp); border-radius: 999px;
   font-weight: 600; text-decoration: none;
 }
-.links a.open:hover { filter: brightness(1.12); }
+.links a.open:hover { background: var(--stamp-soft); }
 
 .empty { padding: 36px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
 .empty h2 { margin: 0 0 6px; font-size: 1.2rem; }
@@ -159,7 +159,7 @@ section.more > p { margin: 0 0 14px; color: var(--muted); max-width: 62ch; }
 .plain .sub { display: block; color: var(--muted); font-size: 0.92rem; }
 .intro { max-width: 62ch; color: var(--muted); font-size: 0.95rem; }
 .intro p { margin: 10px 0 0; }
-.intro .signoff { color: var(--ink); }
+.intro .signoff { white-space: nowrap; } /* keep "Good luck -Alex" on one line */
 main { padding-bottom: 56px; }
 
 /* ---------- schools dialog */
