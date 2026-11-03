@@ -26,6 +26,7 @@ export default {
       new Response(JSON.stringify(body), { status, headers: { ...cors, "Content-Type": "application/json; charset=utf-8", "Cache-Control": "no-store" } });
 
     if (request.method === "OPTIONS") return new Response(null, { status: 204, headers: cors });
+    if (url.pathname === "/fetch") return relay(request, url, env);
     if (url.pathname !== "/sources") return reply({ error: "Not found." }, 404);
 
     const data = (await env.SOURCES.get("list", { type: "json" })) || { added: [], removed: [] };
@@ -72,6 +73,40 @@ export default {
   },
 };
 
+// Some school servers refuse GitHub's runners (rate limits per IP, bot checks for datacenter
+// addresses). The scanner retries those through here. Only the scanner has SCAN_KEY.
+async function relay(request, url, env) {
+  if (request.method !== "GET") return new Response("GET only", { status: 405 });
+  if (!(await keyMatches(request.headers.get("X-Scan-Key") || "", env.SCAN_KEY, ""))) return new Response("Forbidden", { status: 403 });
+  let target;
+  try {
+    target = new URL(url.searchParams.get("url") || "");
+  } catch {
+    return new Response("Bad url", { status: 400 });
+  }
+  if (!/^https?:$/.test(target.protocol) || /(^|\.)workers\.dev$/i.test(target.hostname)) return new Response("Bad url", { status: 400 });
+  try {
+    const r = await fetch(target.toString(), {
+      redirect: "follow",
+      headers: {
+        "User-Agent": request.headers.get("User-Agent") || "Mozilla/5.0",
+        "Accept-Language": "it-IT,it;q=0.9,en;q=0.5",
+      },
+    });
+    return new Response(r.body, {
+      status: 200,
+      headers: {
+        "Content-Type": r.headers.get("Content-Type") || "application/octet-stream",
+        "X-Upstream-Status": String(r.status),
+        "X-Upstream-Url": r.url || target.toString(),
+        "Cache-Control": "no-store",
+      },
+    });
+  } catch (e) {
+    return new Response(String(e).slice(0, 200), { status: 502, headers: { "X-Upstream-Status": "0" } });
+  }
+}
+
 function normaliseUrl(raw) {
   try {
     let s = String(raw || "").trim();
@@ -90,11 +125,11 @@ async function sha1(text) {
   return [...new Uint8Array(buf)].map((b) => b.toString(16).padStart(2, "0")).join("");
 }
 
-async function keyMatches(header, key) {
+async function keyMatches(header, key, prefix = "Bearer ") {
   if (!key) return false;
   const enc = new TextEncoder();
   const a = enc.encode(header);
-  const b = enc.encode("Bearer " + key);
+  const b = enc.encode(prefix + key);
   if (a.byteLength !== b.byteLength) return false;
   return crypto.subtle.timingSafeEqual(a, b);
 }

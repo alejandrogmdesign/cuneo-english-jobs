@@ -78,13 +78,47 @@ def _server_of(url):
         return ip
 
 
-def fetch(url, max_bytes=3_000_000, timeout=25):
-    """GET a URL. Returns (status, final_url, text). Never raises."""
+RELAY = SOURCES_API            # the same Cloudflare Worker, path /fetch
+SCAN_KEY = os.environ.get("SCAN_KEY", "")
+REFUSED = {202, 403, 429, 509}  # rate limits and bot checks seen on school hosting
+_relay_servers = set()          # servers that refused us directly: go through the relay from then on
+
+
+def _direct(url, max_bytes, timeout):
     req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept-Language": "it-IT,it;q=0.9,en;q=0.5"})
+    with urllib.request.urlopen(req, timeout=timeout, context=CTX) as r:
+        try:
+            raw = r.read(max_bytes)
+        except http.client.IncompleteRead as e:
+            raw = e.partial
+        return r.status, r.geturl(), raw.decode(r.headers.get_content_charset() or "utf-8", "replace")
+
+
+def _via_relay(url, max_bytes, timeout):
+    req = urllib.request.Request(f"{RELAY}/fetch?url={urllib.parse.quote(url, safe='')}",
+                                 headers={"User-Agent": UA, "X-Scan-Key": SCAN_KEY})
+    try:
+        with urllib.request.urlopen(req, timeout=timeout + 15) as r:
+            raw = r.read(max_bytes)
+            status = int(r.headers.get("X-Upstream-Status") or 0)
+            return status, r.headers.get("X-Upstream-Url") or url, raw.decode(r.headers.get_content_charset() or "utf-8", "replace")
+    except urllib.error.HTTPError as e:
+        return int(e.headers.get("X-Upstream-Status") or e.code), url, ""
+    except Exception as e:
+        return 0, url, type(e).__name__
+
+
+def fetch(url, max_bytes=3_000_000, timeout=25):
+    """GET a URL. Returns (status, final_url, text). Never raises.
+
+    Direct first; if the server refuses (rate limit or bot check), once more through the Worker.
+    """
     server = _server_of(url)
-    waits = [0, 8, 25, 60]
-    for attempt, wait in enumerate(waits):
-        time.sleep(wait)
+    use_relay = bool(RELAY and SCAN_KEY)
+    if use_relay and server in _relay_servers:
+        return _via_relay(url, max_bytes, timeout)
+    result = (0, url, "")
+    for attempt in range(2):
         with _ip_locks[server]:
             with _guard:
                 pause = _ip_last[server] + GAP - time.monotonic()
@@ -92,22 +126,28 @@ def fetch(url, max_bytes=3_000_000, timeout=25):
             if pause > 0:
                 time.sleep(pause)
             try:
-                with urllib.request.urlopen(req, timeout=timeout, context=CTX) as r:
-                    try:
-                        raw = r.read(max_bytes)
-                    except http.client.IncompleteRead as e:
-                        raw = e.partial
-                    cs = r.headers.get_content_charset() or "utf-8"
-                    return r.status, r.geturl(), raw.decode(cs, "replace")
+                result = _direct(url, max_bytes, timeout)
+                if result[0] not in REFUSED:
+                    return result
             except urllib.error.HTTPError as e:
-                if e.code in (429, 502, 503, 504, 509) and attempt < len(waits) - 1:
+                result = (e.code, url, "")
+                if e.code in (502, 503, 504) and attempt == 0:
+                    time.sleep(3)
                     continue
-                return e.code, url, ""
             except Exception as e:  # DNS, TLS, timeouts
-                if attempt == 0:
+                result = (0, url, type(e).__name__)
+                if attempt == 0 and not isinstance(getattr(e, "reason", None), socket.gaierror):
+                    time.sleep(2)
                     continue
-                return 0, url, type(e).__name__
-    return 0, url, ""
+        break
+    if use_relay and (result[0] in REFUSED or (result[0] == 0 and result[2] in ("TimeoutError", "URLError", "RemoteDisconnected"))):
+        relayed = _via_relay(url, max_bytes, timeout)
+        if relayed[0] == 200:
+            if result[0] in REFUSED:
+                with _guard:
+                    _relay_servers.add(server)
+            return relayed
+    return result
 
 
 def text_of(fragment):

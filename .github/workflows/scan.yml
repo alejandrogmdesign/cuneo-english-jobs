@@ -29,6 +29,7 @@ jobs:
       - name: Read the school websites
         env:
           SOURCES_API: ${{ vars.SOURCES_API }}
+          SCAN_KEY: ${{ secrets.SCAN_KEY }}
         run: python3 scanner/scan.py
 
       - name: Save the new list
