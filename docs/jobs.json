@@ -1,0 +1,2243 @@
+{
+ "generated": "2026-11-03T08:10:21+00:00",
+ "sources": [
+  {
+   "id": "CNMM161008",
+   "name": "Cpia 1 Cuneo-Saluzzo \"A.Lattes\"",
+   "town": "Cuneo",
+   "minutes": 3,
+   "site": "https://www.cpiacuneo1.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:08:53+00:00",
+   "readers": [],
+   "manual": [
+    {
+     "url": "https://suite.sogiscuola.com/registri/CNMM161008/cpia/iscrizioneAlunni.php",
+     "why": "Sogiscuola albo (not readable automatically)"
+    },
+    {
+     "url": "https://suite.sogiscuola.com/registri/CNMM161008/",
+     "why": "Sogiscuola albo (not readable automatically)"
+    }
+   ]
+  },
+  {
+   "id": "CNIC847004",
+   "name": "Cuneo Borgo San Giuseppe",
+   "town": "Cuneo",
+   "minutes": 3,
+   "site": "https://www.icborgosangiuseppe.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:08:53+00:00",
+   "readers": [
+    "spaggiari"
+   ],
+   "manual": []
+  },
+  {
+   "id": "CNIS03100P",
+   "name": "Cuneo Bianchi Bonelli Virginio",
+   "town": "Cuneo",
+   "minutes": 3,
+   "site": "https://www.cigna-baruffi-garelli.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:08:53+00:00",
+   "readers": [
+    "argo",
+    "wordpress"
+   ],
+   "manual": []
+  },
+  {
+   "id": "CNIS03200E",
+   "name": "Cuneo Delpozzo",
+   "town": "Cuneo",
+   "minutes": 3,
+   "site": "https://www.cigna-baruffi-garelli.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:08:53+00:00",
+   "readers": [
+    "argo",
+    "wordpress"
+   ],
+   "manual": []
+  },
+  {
+   "id": "CNPS02000N",
+   "name": "Cuneo \"Pellico - Peano\"",
+   "town": "Cuneo",
+   "minutes": 3,
+   "site": "https://liceocuneo.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:08:53+00:00",
+   "readers": [
+    "wordpress"
+   ],
+   "manual": []
+  },
+  {
+   "id": "CNIC85700P",
+   "name": "Cuneo Corso Soleri",
+   "town": "Cuneo",
+   "minutes": 3,
+   "site": "https://www.iccuneocorsosoleri.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:08:53+00:00",
+   "readers": [],
+   "manual": []
+  },
+  {
+   "id": "CNIC86100A",
+   "name": "Cuneo Via Sobrero",
+   "town": "Cuneo",
+   "minutes": 3,
+   "site": "https://www.comprensivocuneoviasobrero.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:08:53+00:00",
+   "readers": [],
+   "manual": []
+  },
+  {
+   "id": "CNIC86000E",
+   "name": "Cuneo Viale Angeli",
+   "town": "Cuneo",
+   "minutes": 3,
+   "site": "https://www.icvialeangelicuneo.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:08:53+00:00",
+   "readers": [
+    "argo",
+    "wordpress"
+   ],
+   "manual": []
+  },
+  {
+   "id": "CNIC84800X",
+   "name": "Cuneo Oltrestura",
+   "town": "Cuneo",
+   "minutes": 3,
+   "site": "https://www.iccuneooltrestura.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:08:53+00:00",
+   "readers": [
+    "argo",
+    "wordpress"
+   ],
+   "manual": []
+  },
+  {
+   "id": "CNIS00300E",
+   "name": "Cuneo - Grandis",
+   "town": "Cuneo",
+   "minutes": 3,
+   "site": "https://www.grandiscuneo.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:08:53+00:00",
+   "readers": [
+    "spaggiari"
+   ],
+   "manual": []
+  },
+  {
+   "id": "CNIS02800V",
+   "name": "Cuneo - Virginio-Donadio",
+   "town": "Cuneo",
+   "minutes": 3,
+   "site": "https://www.virginiodonadio.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:08:53+00:00",
+   "readers": [],
+   "manual": []
+  },
+  {
+   "id": "CNPM010004",
+   "name": "Cuneo - \"Edmondo De Amicis\"",
+   "town": "Cuneo",
+   "minutes": 3,
+   "site": "https://www.liceodeamiciscuneo.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:08:53+00:00",
+   "readers": [
+    "wordpress"
+   ],
+   "manual": []
+  },
+  {
+   "id": "CN1M00400Q",
+   "name": "Scuola Secondaria Di Primo Grado \"Mons. Andrea Fiore\"",
+   "town": "Cuneo",
+   "minutes": 3,
+   "site": "https://istitutofiore.it",
+   "kind": "paritaria",
+   "status": "ok",
+   "checked": "2026-11-03T08:08:53+00:00",
+   "readers": [
+    "wordpress"
+   ],
+   "manual": []
+  },
+  {
+   "id": "CN1E001003",
+   "name": "Scuola Primaria Paritaria \"Mons. Andrea Fiore\"",
+   "town": "Cuneo",
+   "minutes": 3,
+   "site": "https://istitutofiore.it",
+   "kind": "paritaria",
+   "status": "ok",
+   "checked": "2026-11-03T08:08:55+00:00",
+   "readers": [
+    "wordpress"
+   ],
+   "manual": []
+  },
+  {
+   "id": "CNIC809009",
+   "name": "Boves \"Antonio Vassallo\"",
+   "town": "Boves",
+   "minutes": 9,
+   "site": "https://icvassalloboves.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:08:55+00:00",
+   "readers": [
+    "karon"
+   ],
+   "manual": []
+  },
+  {
+   "id": "CNIC840009",
+   "name": "Cervasca-Bernezzo D. Galimberti",
+   "town": "Cervasca",
+   "minutes": 11,
+   "site": "https://iccervasca.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:08:55+00:00",
+   "readers": [
+    "nuvola",
+    "wordpress"
+   ],
+   "manual": []
+  },
+  {
+   "id": "CNIC80800D",
+   "name": "Borgo San Dalmazzo \"S.Grandis\"",
+   "town": "Borgo San Dalmazzo",
+   "minutes": 11,
+   "site": "https://www.icborgosd.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:08:56+00:00",
+   "readers": [
+    "argo",
+    "wordpress"
+   ],
+   "manual": []
+  },
+  {
+   "id": "CNIC804006",
+   "name": "Caraglio \"A.M. Riberi\"",
+   "town": "Caraglio",
+   "minutes": 17,
+   "site": "https://www.iccaraglio.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:08:56+00:00",
+   "readers": [
+    "argo",
+    "wordpress"
+   ],
+   "manual": []
+  },
+  {
+   "id": "CNIC81000D",
+   "name": "Robilante",
+   "town": "Robilante",
+   "minutes": 18,
+   "site": "https://icrobilante.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:08:57+00:00",
+   "readers": [],
+   "manual": []
+  },
+  {
+   "id": "CNIC80200E",
+   "name": "Morozzo",
+   "town": "Morozzo",
+   "minutes": 19,
+   "site": "https://www.icmorozzo.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:08:57+00:00",
+   "readers": [
+    "spaggiari"
+   ],
+   "manual": []
+  },
+  {
+   "id": "CNIC84300R",
+   "name": "Centallo-Villafalletto",
+   "town": "Centallo",
+   "minutes": 19,
+   "site": "https://www.comprensivocentallo.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:08:57+00:00",
+   "readers": [
+    "argo",
+    "wordpress"
+   ],
+   "manual": []
+  },
+  {
+   "id": "CNIC841005",
+   "name": "Chiusa Di Pesio - Peveragno",
+   "town": "Chiusa Di Pesio",
+   "minutes": 20,
+   "site": "https://www.icchiusapeveragno.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:08:57+00:00",
+   "readers": [
+    "spaggiari"
+   ],
+   "manual": []
+  },
+  {
+   "id": "CNIC85000X",
+   "name": "Busca \"Giosue' Carducci\"",
+   "town": "Busca",
+   "minutes": 24,
+   "site": "https://www.icbusca.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:08:58+00:00",
+   "readers": [
+    "spaggiari"
+   ],
+   "manual": []
+  },
+  {
+   "id": "CNIC82800P",
+   "name": "Dronero \"Giovanni Giolitti\"",
+   "town": "Dronero",
+   "minutes": 26,
+   "site": "https://www.icdronero.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:08:58+00:00",
+   "readers": [
+    "spaggiari"
+   ],
+   "manual": []
+  },
+  {
+   "id": "CNIC812005",
+   "name": "Villanova Mondovi'",
+   "town": "Villanova Mondovi'",
+   "minutes": 27,
+   "site": "https://icvillanovamondovi.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:08:58+00:00",
+   "readers": [
+    "wordpress"
+   ],
+   "manual": [
+    {
+     "url": "https://web.spaggiari.eu/sdg/app/default/albo_pretorio.php?sede_codice=CNME0013",
+     "why": "Spaggiari albo (blocks automatic reading)"
+    }
+   ]
+  },
+  {
+   "id": "CNIC86600D",
+   "name": "Fossano \"Federico Sacco\"",
+   "town": "Fossano",
+   "minutes": 30,
+   "site": "https://www.icsacco.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:08:58+00:00",
+   "readers": [
+    "argo",
+    "wordpress"
+   ],
+   "manual": []
+  },
+  {
+   "id": "CNIS01700C",
+   "name": "Fossano - \"G.Vallauri\"",
+   "town": "Fossano",
+   "minutes": 30,
+   "site": "http://www.vallauri.edu/public/ita/pagina.asp",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:08:59+00:00",
+   "readers": [],
+   "manual": []
+  },
+  {
+   "id": "CNIC86500N",
+   "name": "Fossano \"Andrea Paglieri\"",
+   "town": "Fossano",
+   "minutes": 30,
+   "site": "https://icfossano.edu.it",
+   "kind": "statale",
+   "status": "unreachable",
+   "checked": "2026-11-03T08:08:59+00:00",
+   "readers": [],
+   "manual": []
+  },
+  {
+   "id": "CNPS010003",
+   "name": "Fossano - \"G.Ancina\"",
+   "town": "Fossano",
+   "minutes": 30,
+   "site": "https://liceoancina.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:08:59+00:00",
+   "readers": [
+    "wordpress"
+   ],
+   "manual": []
+  },
+  {
+   "id": "CN1E00200V",
+   "name": "Scuola Paritaria \"San Domenico\"",
+   "town": "Fossano",
+   "minutes": 30,
+   "site": "https://www.scuolasandomenico.it",
+   "kind": "paritaria",
+   "status": "ok",
+   "checked": "2026-11-03T08:08:59+00:00",
+   "readers": [],
+   "manual": []
+  },
+  {
+   "id": "CNIC80300A",
+   "name": "Demonte \"L. Romano\"",
+   "town": "Demonte",
+   "minutes": 31,
+   "site": "https://www.icdemonte.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:08:59+00:00",
+   "readers": [
+    "argo",
+    "wordpress"
+   ],
+   "manual": []
+  },
+  {
+   "id": "CNIC85900A",
+   "name": "Mondovi' 2",
+   "town": "Mondovi'",
+   "minutes": 33,
+   "site": "https://icmondovi2.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:08:59+00:00",
+   "readers": [
+    "karon"
+   ],
+   "manual": []
+  },
+  {
+   "id": "CNIC85800E",
+   "name": "Mondovi' 1",
+   "town": "Mondovi'",
+   "minutes": 33,
+   "site": "https://www.icmondovi1.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:08:59+00:00",
+   "readers": [],
+   "manual": []
+  },
+  {
+   "id": "CNIC80600T",
+   "name": "Carru' \"Oderda-Perotti\"",
+   "town": "Carru'",
+   "minutes": 33,
+   "site": "https://iccarru.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:00+00:00",
+   "readers": [
+    "wordpress"
+   ],
+   "manual": []
+  },
+  {
+   "id": "CNIS02900P",
+   "name": "Mondovi' - Cigna-Baruffi-Garelli",
+   "town": "Mondovi'",
+   "minutes": 33,
+   "site": "https://www.cigna-baruffi-garelli.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:01+00:00",
+   "readers": [
+    "argo",
+    "wordpress"
+   ],
+   "manual": []
+  },
+  {
+   "id": "CNIS026007",
+   "name": "Mondovi' - Giolitti-Bellisario",
+   "town": "Mondovi'",
+   "minutes": 33,
+   "site": "https://www.giolittibellisario.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:01+00:00",
+   "readers": [],
+   "manual": []
+  },
+  {
+   "id": "CNPS07000P",
+   "name": "Mondovi' - Vasco-Beccaria-Govone",
+   "town": "Mondovi'",
+   "minutes": 33,
+   "site": "https://www.iliceimondovi.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:01+00:00",
+   "readers": [
+    "spaggiari"
+   ],
+   "manual": []
+  },
+  {
+   "id": "CN1MNS500A",
+   "name": "Scuola Arche'",
+   "town": "Mondovi'",
+   "minutes": 33,
+   "site": "https://istitutoarche.com",
+   "kind": "paritaria",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:01+00:00",
+   "readers": [
+    "wordpress"
+   ],
+   "manual": []
+  },
+  {
+   "id": "CNIC80700N",
+   "name": "Benevagienna",
+   "town": "Bene Vagienna",
+   "minutes": 35,
+   "site": "https://icbenevagienna.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:01+00:00",
+   "readers": [
+    "karon"
+   ],
+   "manual": [
+    {
+     "url": "https://web.spaggiari.eu/sdg/app/default/albo_pretorio.php?sede_codice=cnme0021&referer=http://www.icbenevagienna.edu.it/",
+     "why": "Spaggiari albo (blocks automatic reading)"
+    }
+   ]
+  },
+  {
+   "id": "CNIC84500C",
+   "name": "Verzuolo",
+   "town": "Verzuolo",
+   "minutes": 35,
+   "site": "https://www.icverzuolo.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:01+00:00",
+   "readers": [
+    "argo",
+    "wordpress"
+   ],
+   "manual": []
+  },
+  {
+   "id": "CNIS021004",
+   "name": "Saluzzo - \"Soleri-Bertoni\"",
+   "town": "Saluzzo",
+   "minutes": 37,
+   "site": "https://www.istitutosoleribertoni.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:01+00:00",
+   "readers": [
+    "wordpress"
+   ],
+   "manual": []
+  },
+  {
+   "id": "CNIC862006",
+   "name": "Saluzzo",
+   "town": "Saluzzo",
+   "minutes": 37,
+   "site": "https://www.icsaluzzo.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:02+00:00",
+   "readers": [],
+   "manual": []
+  },
+  {
+   "id": "CNIS014001",
+   "name": "Saluzzo - \"C. Denina\"",
+   "town": "Saluzzo",
+   "minutes": 37,
+   "site": "https://www.denina.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:02+00:00",
+   "readers": [
+    "spaggiari"
+   ],
+   "manual": []
+  },
+  {
+   "id": "CNPC030005",
+   "name": "Saluzzo \"G.B.Bodoni\"",
+   "town": "Saluzzo",
+   "minutes": 37,
+   "site": "https://www.liceobodoni.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:02+00:00",
+   "readers": [
+    "spaggiari"
+   ],
+   "manual": []
+  },
+  {
+   "id": "CNIC826003",
+   "name": "Venasca-Costigliole S.",
+   "town": "Venasca",
+   "minutes": 38,
+   "site": "https://www.icvenasca-costigliole.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:02+00:00",
+   "readers": [],
+   "manual": []
+  },
+  {
+   "id": "CNIC85100Q",
+   "name": "Savigliano \"Santorre Santarosa\"",
+   "town": "Savigliano",
+   "minutes": 40,
+   "site": "https://icsantarosasavigliano.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:03+00:00",
+   "readers": [
+    "nuvola",
+    "wordpress"
+   ],
+   "manual": []
+  },
+  {
+   "id": "CNIS00200P",
+   "name": "Savigliano - Cravetta Marconi",
+   "town": "Savigliano",
+   "minutes": 40,
+   "site": "https://www.cravettamarconi.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:04+00:00",
+   "readers": [
+    "spaggiari"
+   ],
+   "manual": []
+  },
+  {
+   "id": "CNIC85200G",
+   "name": "Savigliano\"Papa Giovanni Xxiii\"",
+   "town": "Savigliano",
+   "minutes": 40,
+   "site": "https://www.icpapagiovanni.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:04+00:00",
+   "readers": [
+    "argo",
+    "wordpress"
+   ],
+   "manual": []
+  },
+  {
+   "id": "CNIS02200X",
+   "name": "Savigliano - \"Arimondi-Eula\"",
+   "town": "Savigliano",
+   "minutes": 40,
+   "site": "https://www.arimondieula.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:04+00:00",
+   "readers": [],
+   "manual": []
+  },
+  {
+   "id": "CNIC811009",
+   "name": "San Michele Mondovi'",
+   "town": "San Michele Mondovi'",
+   "minutes": 41,
+   "site": "https://www.icsanmichelemondovi.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:04+00:00",
+   "readers": [],
+   "manual": []
+  },
+  {
+   "id": "CNIC813001",
+   "name": "Ceva \"Attilio Momigliano\"",
+   "town": "Ceva",
+   "minutes": 43,
+   "site": "https://icmomigliano.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:04+00:00",
+   "readers": [
+    "nuvola",
+    "wordpress"
+   ],
+   "manual": []
+  },
+  {
+   "id": "CNIS01100D",
+   "name": "Ceva - \"G. Baruffi\"",
+   "town": "Ceva",
+   "minutes": 43,
+   "site": "https://www.barufficevaormea.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:05+00:00",
+   "readers": [],
+   "manual": []
+  },
+  {
+   "id": "CNIC846008",
+   "name": "Dogliani \"Luigi Einaudi\"",
+   "town": "Dogliani",
+   "minutes": 45,
+   "site": "https://icdogliani.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:05+00:00",
+   "readers": [
+    "wordpress"
+   ],
+   "manual": []
+  },
+  {
+   "id": "CNIC838009",
+   "name": "Cavallermaggiore",
+   "town": "Cavallermaggiore",
+   "minutes": 48,
+   "site": "https://iccavallermaggiore.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:06+00:00",
+   "readers": [
+    "argo",
+    "wordpress"
+   ],
+   "manual": []
+  },
+  {
+   "id": "CNIC825007",
+   "name": "Cherasco \"Sebastiano Taricco\"",
+   "town": "Cherasco",
+   "minutes": 48,
+   "site": "https://comprensivocherasco.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:06+00:00",
+   "readers": [
+    "nuvola",
+    "wordpress"
+   ],
+   "manual": []
+  },
+  {
+   "id": "CNIC83100E",
+   "name": "Moretta",
+   "town": "Moretta",
+   "minutes": 50,
+   "site": "https://icmoretta.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:06+00:00",
+   "readers": [],
+   "manual": []
+  },
+  {
+   "id": "CNIC863002",
+   "name": "Bra 2 \"Ilaria Alpi-Gino Strada\"",
+   "town": "Bra",
+   "minutes": 51,
+   "site": "https://www.icalpistrada.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:06+00:00",
+   "readers": [
+    "argo",
+    "wordpress"
+   ],
+   "manual": []
+  },
+  {
+   "id": "CNIS01600L",
+   "name": "Bra - \"E. Guala\"",
+   "town": "Bra",
+   "minutes": 51,
+   "site": "https://www.istitutoguala.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:06+00:00",
+   "readers": [
+    "wordpress"
+   ],
+   "manual": []
+  },
+  {
+   "id": "CNIC86400T",
+   "name": "Bra \"Piero Angela\"",
+   "town": "Bra",
+   "minutes": 51,
+   "site": "https://icpieroangelabra.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:07+00:00",
+   "readers": [
+    "nuvola",
+    "wordpress"
+   ],
+   "manual": []
+  },
+  {
+   "id": "CNRH02000B",
+   "name": "Bra - Velso Mucci",
+   "town": "Bra",
+   "minutes": 51,
+   "site": "https://www.iismucci.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:07+00:00",
+   "readers": [],
+   "manual": []
+  },
+  {
+   "id": "CNPS05000D",
+   "name": "Bra \"G.Giolitti-G.B.Gandino\"",
+   "town": "Bra",
+   "minutes": 51,
+   "site": "https://www.liceidibra.com",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:07+00:00",
+   "readers": [],
+   "manual": [
+    {
+     "url": "https://web.spaggiari.eu/sdg/app/default/albo_pretorio.php?sede_codice=CNLS0003&referer=www.liceidibra.com",
+     "why": "Spaggiari albo (blocks automatic reading)"
+    }
+   ]
+  },
+  {
+   "id": "CN1M001008",
+   "name": "Sec. I Grado Paritaria San Domenico Savio",
+   "town": "Bra",
+   "minutes": 51,
+   "site": "https://salesianibra.it",
+   "kind": "paritaria",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:07+00:00",
+   "readers": [
+    "wordpress"
+   ],
+   "manual": []
+  },
+  {
+   "id": "CN1E00300P",
+   "name": "Scuola Primaria Paritaria Convitto Provvidenza",
+   "town": "Bra",
+   "minutes": 51,
+   "site": "https://convittoprovvidenza.it",
+   "kind": "paritaria",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:08+00:00",
+   "readers": [
+    "wordpress"
+   ],
+   "manual": []
+  },
+  {
+   "id": "SVIC80200A",
+   "name": "I. C. Millesimo",
+   "town": "Millesimo",
+   "minutes": 52,
+   "site": "https://www.icmillesimo.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:08+00:00",
+   "readers": [
+    "nuvola",
+    "wordpress"
+   ],
+   "manual": []
+  },
+  {
+   "id": "CNIC81900X",
+   "name": "La Morra",
+   "town": "La Morra",
+   "minutes": 53,
+   "site": "https://ic-lamorra.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:09+00:00",
+   "readers": [
+    "karon"
+   ],
+   "manual": []
+  },
+  {
+   "id": "CNIS00400A",
+   "name": "Alba - \"Cillario Ferrero\"",
+   "town": "Alba",
+   "minutes": 54,
+   "site": "https://www.cillarioferrero.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:09+00:00",
+   "readers": [
+    "spaggiari"
+   ],
+   "manual": []
+  },
+  {
+   "id": "CNIS012009",
+   "name": "Alba - Umberto I",
+   "town": "Alba",
+   "minutes": 54,
+   "site": "https://www.iisumbertoprimo.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:09+00:00",
+   "readers": [
+    "wordpress"
+   ],
+   "manual": []
+  },
+  {
+   "id": "CNIC867009",
+   "name": "Sanfront Paesana Revello",
+   "town": "Sanfront",
+   "minutes": 54,
+   "site": "https://www.icsacco.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:10+00:00",
+   "readers": [
+    "argo",
+    "wordpress"
+   ],
+   "manual": []
+  },
+  {
+   "id": "CNIC854007",
+   "name": "Alba Quartiere Piave S.Cassiano",
+   "town": "Alba",
+   "minutes": 54,
+   "site": "https://www.icalbasancassiano.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:10+00:00",
+   "readers": [
+    "argo",
+    "wordpress"
+   ],
+   "manual": []
+  },
+  {
+   "id": "CNIS00700T",
+   "name": "Alba - \"G. Govone\"",
+   "town": "Alba",
+   "minutes": 54,
+   "site": "https://www.iisgovonealba.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:10+00:00",
+   "readers": [
+    "spaggiari"
+   ],
+   "manual": []
+  },
+  {
+   "id": "CNIC855003",
+   "name": "Alba Quartiere Moretta",
+   "town": "Alba",
+   "minutes": 54,
+   "site": "https://www.icquartieremoretta.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:10+00:00",
+   "readers": [
+    "argo",
+    "wordpress"
+   ],
+   "manual": []
+  },
+  {
+   "id": "CNIS019004",
+   "name": "Alba - \"L. Einaudi\"",
+   "town": "Alba",
+   "minutes": 54,
+   "site": "https://www.iis-einaudi-alba.it/einaudi",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:11+00:00",
+   "readers": [],
+   "manual": []
+  },
+  {
+   "id": "CNMM162004",
+   "name": "Cpia 2 Alba-M.Vi'-\"Gino Strada\"",
+   "town": "Alba",
+   "minutes": 54,
+   "site": "https://cpia2albabramondovi.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:11+00:00",
+   "readers": [
+    "nuvola",
+    "wordpress"
+   ],
+   "manual": []
+  },
+  {
+   "id": "CNPM04000X",
+   "name": "Alba - \"Leonardo Da Vinci\"",
+   "town": "Alba",
+   "minutes": 54,
+   "site": "https://www.davincialba.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:12+00:00",
+   "readers": [
+    "spaggiari"
+   ],
+   "manual": []
+  },
+  {
+   "id": "CNIC869001",
+   "name": "Alba Centro Storico E Mussotto",
+   "town": "Alba",
+   "minutes": 54,
+   "site": "https://www.icsacco.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:12+00:00",
+   "readers": [
+    "argo",
+    "wordpress"
+   ],
+   "manual": []
+  },
+  {
+   "id": "CNPS030008",
+   "name": "Alba - \"Leonardo Cocito\"",
+   "town": "Alba",
+   "minutes": 54,
+   "site": "https://liceococito.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:12+00:00",
+   "readers": [
+    "karon"
+   ],
+   "manual": [
+    {
+     "url": "https://www.trasparenzascuole.it/Public/APDPublic_ExtV3.aspx?CF=81001850049",
+     "why": "Axios albo (not readable automatically)"
+    }
+   ]
+  },
+  {
+   "id": "CNPLG5500P",
+   "name": "Alba International School",
+   "town": "Alba",
+   "minutes": 54,
+   "site": "https://www.albainternationalschool.com",
+   "kind": "paritaria",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:12+00:00",
+   "readers": [],
+   "manual": []
+  },
+  {
+   "id": "CN1MMA500M",
+   "name": "Alba International School",
+   "town": "Alba",
+   "minutes": 54,
+   "site": "https://www.albainternationalschool.com",
+   "kind": "paritaria",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:12+00:00",
+   "readers": [],
+   "manual": []
+  },
+  {
+   "id": "CN1EN55004",
+   "name": "Alba International School",
+   "town": "Alba",
+   "minutes": 54,
+   "site": "https://www.albainternationalschool.com",
+   "kind": "paritaria",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:12+00:00",
+   "readers": [],
+   "manual": []
+  },
+  {
+   "id": "CNIC81600C",
+   "name": "Cortemilia-Saliceto",
+   "town": "Monesiglio",
+   "minutes": 55,
+   "site": "https://iccortemilia-saliceto.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:13+00:00",
+   "readers": [
+    "nuvola",
+    "karon"
+   ],
+   "manual": []
+  },
+  {
+   "id": "CNIC83000P",
+   "name": "Racconigi \"B. Muzzone\"",
+   "town": "Racconigi",
+   "minutes": 55,
+   "site": "https://www.istitutomuzzone.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:14+00:00",
+   "readers": [
+    "argo",
+    "wordpress"
+   ],
+   "manual": []
+  },
+  {
+   "id": "TOIC8AM009",
+   "name": "I.C. Carmagnola Iii",
+   "town": "Carmagnola",
+   "minutes": 56,
+   "site": "https://www.ic3carmagnola.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:14+00:00",
+   "readers": [
+    "argo",
+    "wordpress"
+   ],
+   "manual": []
+  },
+  {
+   "id": "TOIC8AP00R",
+   "name": "I.C. Carmagnola Ii",
+   "town": "Carmagnola",
+   "minutes": 56,
+   "site": "https://www.iccarmagnola2.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:14+00:00",
+   "readers": [
+    "argo",
+    "wordpress"
+   ],
+   "manual": []
+  },
+  {
+   "id": "TOIC8AN005",
+   "name": "I.C. Carmagnola I",
+   "town": "Carmagnola",
+   "minutes": 56,
+   "site": "https://www.iccarmagnolaprimo.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:14+00:00",
+   "readers": [
+    "argo",
+    "wordpress"
+   ],
+   "manual": []
+  },
+  {
+   "id": "TOIC845001",
+   "name": "I.C. Cavour",
+   "town": "Cavour",
+   "minutes": 56,
+   "site": "https://www.iccavour.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:14+00:00",
+   "readers": [
+    "wordpress"
+   ],
+   "manual": []
+  },
+  {
+   "id": "TOIS008006",
+   "name": "I.I.S. Baldessano-Roccati",
+   "town": "Carmagnola",
+   "minutes": 56,
+   "site": "https://baldessano.roccati.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:15+00:00",
+   "readers": [],
+   "manual": []
+  },
+  {
+   "id": "CNIC820004",
+   "name": "Santa Vittoria D'Alba",
+   "town": "Santa Vittoria D'Alba",
+   "minutes": 57,
+   "site": "https://www.icberterosantavittoria.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:15+00:00",
+   "readers": [
+    "argo",
+    "wordpress"
+   ],
+   "manual": []
+  },
+  {
+   "id": "CNIC817008",
+   "name": "Sommariva Del Bosco",
+   "town": "Sommariva Del Bosco",
+   "minutes": 58,
+   "site": "https://istitutogiovanniarpino.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:15+00:00",
+   "readers": [
+    "karon"
+   ],
+   "manual": []
+  },
+  {
+   "id": "CNIC833006",
+   "name": "Barge",
+   "town": "Barge",
+   "minutes": 60,
+   "site": "https://www.icbarge.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:15+00:00",
+   "readers": [],
+   "manual": []
+  },
+  {
+   "id": "CNIC81400R",
+   "name": "Bossolasco-Murazzano",
+   "town": "Bossolasco",
+   "minutes": 60,
+   "site": "https://icbossolascomurazzano.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:15+00:00",
+   "readers": [
+    "nuvola",
+    "karon"
+   ],
+   "manual": []
+  },
+  {
+   "id": "CNIC818004",
+   "name": "Sommariva Perno",
+   "town": "Sommariva Perno",
+   "minutes": 61,
+   "site": "https://wwwcomprensivosommarivaperno.it",
+   "kind": "statale",
+   "status": "unreachable",
+   "checked": "2026-11-03T08:09:16+00:00",
+   "readers": [],
+   "manual": []
+  },
+  {
+   "id": "CNIC868005",
+   "name": "Neive Santo Stefano Belbo",
+   "town": "Neive",
+   "minutes": 61,
+   "site": "https://www.icsacco.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:16+00:00",
+   "readers": [
+    "argo",
+    "wordpress"
+   ],
+   "manual": []
+  },
+  {
+   "id": "SVIC803006",
+   "name": "I. C. Carcare",
+   "town": "Carcare",
+   "minutes": 61,
+   "site": "https://www.iccarcare.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:16+00:00",
+   "readers": [],
+   "manual": []
+  },
+  {
+   "id": "SVPC030001",
+   "name": "Liceo \"S.Giuseppe Calasanzio\" - Carcare",
+   "town": "Carcare",
+   "minutes": 61,
+   "site": "https://www.liceocarcare.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:16+00:00",
+   "readers": [
+    "wordpress"
+   ],
+   "manual": []
+  },
+  {
+   "id": "CNIC84900Q",
+   "name": "Diano D'Alba",
+   "town": "Diano D'Alba",
+   "minutes": 62,
+   "site": "https://icdianoalba.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:17+00:00",
+   "readers": [
+    "karon"
+   ],
+   "manual": []
+  },
+  {
+   "id": "TOIC84700L",
+   "name": "I.C. Vigone",
+   "town": "Vigone",
+   "minutes": 62,
+   "site": "https://icvigone.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:17+00:00",
+   "readers": [
+    "argo",
+    "wordpress"
+   ],
+   "manual": []
+  },
+  {
+   "id": "CNIC83200A",
+   "name": "Bagnolo P.Te \"Beppe Fenoglio\"",
+   "town": "Bagnolo Piemonte",
+   "minutes": 63,
+   "site": "https://ics-bagnolopiemonte.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:17+00:00",
+   "readers": [
+    "nuvola",
+    "wordpress"
+   ],
+   "manual": []
+  },
+  {
+   "id": "TOIC8AQ00L",
+   "name": "I.C. Carignano",
+   "town": "Carignano",
+   "minutes": 64,
+   "site": "https://www.iccarignano.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:17+00:00",
+   "readers": [],
+   "manual": []
+  },
+  {
+   "id": "TOIS03300V",
+   "name": "Norberto Bobbio",
+   "town": "Carignano",
+   "minutes": 64,
+   "site": "https://www.iisbobbio.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:17+00:00",
+   "readers": [],
+   "manual": []
+  },
+  {
+   "id": "TOIC886007",
+   "name": "I.C. La Loggia",
+   "town": "La Loggia",
+   "minutes": 64,
+   "site": "https://www.iclaloggia.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:17+00:00",
+   "readers": [
+    "argo",
+    "wordpress"
+   ],
+   "manual": []
+  },
+  {
+   "id": "TO1M01000G",
+   "name": "Don Bosco",
+   "town": "Lombriasco",
+   "minutes": 64,
+   "site": "https://salesianilombriasco.it",
+   "kind": "paritaria",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:18+00:00",
+   "readers": [
+    "wordpress"
+   ],
+   "manual": []
+  },
+  {
+   "id": "TOTA015004",
+   "name": "Don Bosco",
+   "town": "Lombriasco",
+   "minutes": 64,
+   "site": "https://salesianilombriasco.it",
+   "kind": "paritaria",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:18+00:00",
+   "readers": [
+    "wordpress"
+   ],
+   "manual": []
+  },
+  {
+   "id": "CNIC83600N",
+   "name": "Garessio",
+   "town": "Garessio",
+   "minutes": 65,
+   "site": "https://icgaressio.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:18+00:00",
+   "readers": [
+    "nuvola",
+    "karon"
+   ],
+   "manual": []
+  },
+  {
+   "id": "CNIC82200Q",
+   "name": "Canale",
+   "town": "Canale",
+   "minutes": 65,
+   "site": "https://iccanale.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:19+00:00",
+   "readers": [
+    "karon"
+   ],
+   "manual": []
+  },
+  {
+   "id": "TOIC88500B",
+   "name": "I.C. Moncalieri/Santa Maria",
+   "town": "Moncalieri",
+   "minutes": 65,
+   "site": "https://www.icsantamaria.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:19+00:00",
+   "readers": [
+    "argo",
+    "wordpress"
+   ],
+   "manual": []
+  },
+  {
+   "id": "TOIC88900P",
+   "name": "I.C. Moncalieri/Borgo S. Pietro",
+   "town": "Moncalieri",
+   "minutes": 65,
+   "site": "https://www.istitutocomprensivoborgosanpietro.edu.it",
+   "kind": "statale",
+   "status": "unreachable",
+   "checked": "2026-11-03T08:09:19+00:00",
+   "readers": [],
+   "manual": []
+  },
+  {
+   "id": "TOIC88800V",
+   "name": "I.C. Moncalieri/Centro Storico",
+   "town": "Moncalieri",
+   "minutes": 65,
+   "site": "https://iccentrostoricomoncalieri.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:19+00:00",
+   "readers": [
+    "argo",
+    "wordpress"
+   ],
+   "manual": []
+  },
+  {
+   "id": "TOIS032003",
+   "name": "I.I.S. E. Majorana",
+   "town": "Moncalieri",
+   "minutes": 65,
+   "site": "https://www.iismajoranamoncalieri.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:20+00:00",
+   "readers": [
+    "wordpress"
+   ],
+   "manual": []
+  },
+  {
+   "id": "TOIC887003",
+   "name": "I.C. Moncalieri/Nasi",
+   "town": "Moncalieri",
+   "minutes": 65,
+   "site": "https://www.icnasi.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:20+00:00",
+   "readers": [
+    "argo",
+    "wordpress"
+   ],
+   "manual": []
+  },
+  {
+   "id": "TOMM32500B",
+   "name": "Cpia 3 Torino - T. De Mauro",
+   "town": "Moncalieri",
+   "minutes": 65,
+   "site": "https://www.cpia3torino.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:21+00:00",
+   "readers": [
+    "wordpress"
+   ],
+   "manual": [
+    {
+     "url": "https://suite.sogiscuola.com/registri/TOMM32500B/index.php",
+     "why": "Sogiscuola albo (not readable automatically)"
+    },
+    {
+     "url": "https://suite.sogiscuola.com/registri/TOMM32500B/cpia/iscrizioneAlunni.php",
+     "why": "Sogiscuola albo (not readable automatically)"
+    }
+   ]
+  },
+  {
+   "id": "TOTF04000D",
+   "name": "G.B.Pininfarina",
+   "town": "Moncalieri",
+   "minutes": 65,
+   "site": "https://www.itispininfarina.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:21+00:00",
+   "readers": [],
+   "manual": []
+  },
+  {
+   "id": "TO1M00600X",
+   "name": "Istituto Sant'Anna Opera Barolo",
+   "town": "Moncalieri",
+   "minutes": 65,
+   "site": "https://scuolabarolomoncalieri.it",
+   "kind": "paritaria",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:21+00:00",
+   "readers": [
+    "wordpress"
+   ],
+   "manual": []
+  },
+  {
+   "id": "TO1E05600Q",
+   "name": "Centro Flora Manfrinati",
+   "town": "Moncalieri",
+   "minutes": 65,
+   "site": null,
+   "kind": "paritaria",
+   "status": "no-site",
+   "checked": "2026-11-03T08:09:21+00:00",
+   "readers": [],
+   "manual": []
+  },
+  {
+   "id": "TO1M055005",
+   "name": "Centro Flora Manfrinati",
+   "town": "Moncalieri",
+   "minutes": 65,
+   "site": null,
+   "kind": "paritaria",
+   "status": "no-site",
+   "checked": "2026-11-03T08:09:21+00:00",
+   "readers": [],
+   "manual": []
+  },
+  {
+   "id": "TO1E009006",
+   "name": "Istituto Sant'Anna Opera Barolo",
+   "town": "Moncalieri",
+   "minutes": 65,
+   "site": "https://scuolabarolomoncalieri.it",
+   "kind": "paritaria",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:21+00:00",
+   "readers": [
+    "wordpress"
+   ],
+   "manual": []
+  },
+  {
+   "id": "TOIC8BM00X",
+   "name": "I.C. Pinerolo I",
+   "town": "Osasco",
+   "minutes": 66,
+   "site": "https://www.istitutocomprensivopinerolo1.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:22+00:00",
+   "readers": [
+    "argo",
+    "wordpress"
+   ],
+   "manual": []
+  },
+  {
+   "id": "TOIS044009",
+   "name": "Prever",
+   "town": "Osasco",
+   "minutes": 66,
+   "site": "https://www.prever.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:22+00:00",
+   "readers": [
+    "wordpress"
+   ],
+   "manual": []
+  },
+  {
+   "id": "TOIC83200V",
+   "name": "I.C. Trofarello",
+   "town": "Trofarello",
+   "minutes": 67,
+   "site": "https://www.ictrofarello.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:22+00:00",
+   "readers": [
+    "argo",
+    "wordpress"
+   ],
+   "manual": []
+  },
+  {
+   "id": "CNIC82300G",
+   "name": "Govone",
+   "town": "Govone",
+   "minutes": 67,
+   "site": "https://www.icgovone.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:23+00:00",
+   "readers": [
+    "argo",
+    "wordpress"
+   ],
+   "manual": []
+  },
+  {
+   "id": "TOIC858003",
+   "name": "I.C. Santena",
+   "town": "Santena",
+   "minutes": 67,
+   "site": "https://www.scuolesantena.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:25+00:00",
+   "readers": [
+    "argo",
+    "wordpress"
+   ],
+   "manual": []
+  },
+  {
+   "id": "TOIC8A5005",
+   "name": "I.C. Nichelino I",
+   "town": "Nichelino",
+   "minutes": 68,
+   "site": "https://www.icnichelinouno.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:25+00:00",
+   "readers": [
+    "argo",
+    "wordpress"
+   ],
+   "manual": []
+  },
+  {
+   "id": "TOIC8A6001",
+   "name": "I.C. Nichelino Ii",
+   "town": "Nichelino",
+   "minutes": 68,
+   "site": "https://www.icnichelino2.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:26+00:00",
+   "readers": [
+    "argo",
+    "wordpress"
+   ],
+   "manual": []
+  },
+  {
+   "id": "TOIC83500A",
+   "name": "I.C. Airasca",
+   "town": "Scalenghe",
+   "minutes": 68,
+   "site": "https://www.icairasca.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:26+00:00",
+   "readers": [
+    "argo",
+    "wordpress"
+   ],
+   "manual": []
+  },
+  {
+   "id": "TOIS04100T",
+   "name": "I.I.S. J.C. Maxwell",
+   "town": "Nichelino",
+   "minutes": 68,
+   "site": "https://www.jcmaxwell.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:26+00:00",
+   "readers": [],
+   "manual": []
+  },
+  {
+   "id": "TOIC8A700R",
+   "name": "I.C. Nichelino Iii",
+   "town": "Nichelino",
+   "minutes": 68,
+   "site": "https://www.icnichelino3.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:26+00:00",
+   "readers": [
+    "argo",
+    "wordpress"
+   ],
+   "manual": []
+  },
+  {
+   "id": "TOIS03600A",
+   "name": "I.I.S. E. Da Rotterdam",
+   "town": "Nichelino",
+   "minutes": 68,
+   "site": "https://www.erasmonichelino.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:27+00:00",
+   "readers": [],
+   "manual": []
+  },
+  {
+   "id": "TOIC8BF00G",
+   "name": "I.C. Nichelino Iv - Montalcini",
+   "town": "Nichelino",
+   "minutes": 68,
+   "site": "https://www.istitutocomprensivonichelino4.edu.it",
+   "kind": "statale",
+   "status": "unreachable",
+   "checked": "2026-11-03T08:09:27+00:00",
+   "readers": [],
+   "manual": []
+  },
+  {
+   "id": "TOIC85600B",
+   "name": "I.C. Cambiano",
+   "town": "Cambiano",
+   "minutes": 69,
+   "site": "https://www.iccambiano.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:28+00:00",
+   "readers": [
+    "argo",
+    "wordpress"
+   ],
+   "manual": []
+  },
+  {
+   "id": "TOIC84200D",
+   "name": "I.C. Bricherasio",
+   "town": "Bricherasio",
+   "minutes": 69,
+   "site": "https://www.icbricherasio.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:28+00:00",
+   "readers": [
+    "argo",
+    "wordpress"
+   ],
+   "manual": []
+  },
+  {
+   "id": "TOIC8CK00V",
+   "name": "I.C. Pinerolo 3-4",
+   "town": "Macello",
+   "minutes": 69,
+   "site": "https://www.scuolecollegno3.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:29+00:00",
+   "readers": [
+    "argo",
+    "wordpress"
+   ],
+   "manual": []
+  },
+  {
+   "id": "CNIC82100X",
+   "name": "Monta'",
+   "town": "Monta'",
+   "minutes": 70,
+   "site": "https://www.icmonta.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:29+00:00",
+   "readers": [],
+   "manual": []
+  },
+  {
+   "id": "TOIC874001",
+   "name": "I.C. Vinovo",
+   "town": "Vinovo",
+   "minutes": 70,
+   "site": "https://www.scuolevinovo.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:29+00:00",
+   "readers": [
+    "argo",
+    "wordpress"
+   ],
+   "manual": []
+  },
+  {
+   "id": "TOIC83400E",
+   "name": "I.C. Candiolo",
+   "town": "Piobesi Torinese",
+   "minutes": 70,
+   "site": "https://iccandiolo.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:29+00:00",
+   "readers": [
+    "karon"
+   ],
+   "manual": []
+  },
+  {
+   "id": "ATIC81200T",
+   "name": "Costigliole",
+   "town": "Costigliole D'Asti",
+   "minutes": 70,
+   "site": "https://iccostigliole.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:30+00:00",
+   "readers": [
+    "nuvola",
+    "wordpress"
+   ],
+   "manual": []
+  },
+  {
+   "id": "SVIC811005",
+   "name": "I. C. Cairo Montenotte",
+   "town": "Cairo Montenotte",
+   "minutes": 70,
+   "site": "https://www.istitutocomprensivocairo.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:31+00:00",
+   "readers": [],
+   "manual": []
+  },
+  {
+   "id": "SVMM062003",
+   "name": "Cpia Savona",
+   "town": "Cairo Montenotte",
+   "minutes": 70,
+   "site": "https://cpiasavona.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:31+00:00",
+   "readers": [
+    "nuvola",
+    "wordpress"
+   ],
+   "manual": []
+  },
+  {
+   "id": "TOIC843009",
+   "name": "I.C. Luserna S. Giovanni",
+   "town": "Lusernetta",
+   "minutes": 70,
+   "site": "https://icdeamicis-luserna.it",
+   "kind": "statale",
+   "status": "unreachable",
+   "checked": "2026-11-03T08:09:32+00:00",
+   "readers": [],
+   "manual": []
+  },
+  {
+   "id": "SVIS00300A",
+   "name": "Iis \"Federico Patetta\" Cairo Montenotte",
+   "town": "Cairo Montenotte",
+   "minutes": 70,
+   "site": "https://www.patettacairo.edu.it",
+   "kind": "statale",
+   "status": "ok",
+   "checked": "2026-11-03T08:09:32+00:00",
+   "readers": [],
+   "manual": []
+  }
+ ],
+ "jobs": [
+  {
+   "id": "07b9fa481952",
+   "title": "Decreto nomina commissione di valutazione per conferimento incarichi formatori esperti per attività di Lettorato Inglese – “Agenda 2030 : Our beautiful word”!",
+   "url": "https://www.portaleargo.it/albopretorio/online/#/dettaglio-atto?customerCode=SC28367&id=4744984",
+   "kind": "filled",
+   "source": "CNIC86000E",
+   "date": "2026-11-02",
+   "deadline": null,
+   "firstSeen": "2026-11-03T08:10:21+00:00"
+  },
+  {
+   "id": "2c24a695212e",
+   "title": "Agenda Nord 2026 - Avviso di selezione assistene per lezioni tenute dal madrelingua inglese alunni Secondaria di primo grado di Centallo (CCE) - CUP D34D24005670007",
+   "url": "https://www.portaleargo.it/albopretorio/online/#/dettaglio-atto?customerCode=SC9060&id=4743587",
+   "kind": "open",
+   "source": "CNIC84300R",
+   "date": "2026-11-02",
+   "deadline": null,
+   "firstSeen": "2026-11-03T08:10:21+00:00"
+  },
+  {
+   "id": "69aabb879307",
+   "title": "Agenda Nord 2026 -Avviso di selezione assistene per lezioni tenute dal madrelingua inglese alunni primaria Centallo e Roata Chiusani (CCE) - CUP D34D24005670007",
+   "url": "https://www.portaleargo.it/albopretorio/online/#/dettaglio-atto?customerCode=SC9060&id=4743533",
+   "kind": "open",
+   "source": "CNIC84300R",
+   "date": "2026-11-02",
+   "deadline": null,
+   "firstSeen": "2026-11-03T08:10:21+00:00"
+  },
+  {
+   "id": "5512227a7a9e",
+   "title": "Bando di Avviso Progetto FCE INFANZIA 2026/27 - selezione per conferimento di incarico individuale Esperto lingue straniere con particolare riferimento alla lingua INGLESE",
+   "url": "https://www.portaleargo.it/albopretorio/online/#/dettaglio-atto?customerCode=SC28528&id=4743751",
+   "kind": "open",
+   "source": "CNIC86600D",
+   "date": "2026-11-02",
+   "deadline": null,
+   "firstSeen": "2026-11-03T08:10:21+00:00"
+  },
+  {
+   "id": "0eb665dc2db4",
+   "title": "Decreto formazione graduatoria triennale per gli aa. ss. 2026/27-2027/28-2028/29 e affidamento di n. 1 incarico individuale di Esperto Lingua Inglese per la preparazione agli esami di certificazione CAE da svolgersi nell’anno scolastico 2026/2027",
+   "url": "https://web.spaggiari.eu/sdg2/Documenti/CNLG0005/l52e4pjabr",
+   "kind": "filled",
+   "source": "CNPC030005",
+   "date": "2026-11-02",
+   "deadline": null,
+   "firstSeen": "2026-11-03T08:10:21+00:00"
+  },
+  {
+   "id": "9964c4c9befb",
+   "title": "Decreto per l’avvio di una procedura di selezione per il conferimento di 2 incarichi così definiti: 1 esperto per la realizzazione del “corso di inglese B2” 1 tutor per il “corso di inglese B2”",
+   "url": "https://web.spaggiari.eu/sdg2/Documenti/CNII0011/lgglf734vi",
+   "kind": "open",
+   "source": "CNIS00200P",
+   "date": "2026-11-02",
+   "deadline": null,
+   "firstSeen": "2026-11-03T08:10:21+00:00"
+  },
+  {
+   "id": "dc0574320171",
+   "title": "Graduatoria definitiva Esperto Lingua Inglese per aa. ss. 2026/27-2027/28-2028/29",
+   "url": "https://web.spaggiari.eu/sdg2/Documenti/CNLG0005/nd64j499rm",
+   "kind": "filled",
+   "source": "CNPC030005",
+   "date": "2026-10-29",
+   "deadline": null,
+   "firstSeen": "2026-11-03T08:10:21+00:00"
+  },
+  {
+   "id": "8481e47de14b",
+   "title": "Decreto conferimento incarico figure professionali Esperti e Tutor PN Agenda Nord - RECUPERI SCUOLA SECONDARIA e INGLESE CLASSI III",
+   "url": "https://www.portaleargo.it/albopretorio/online/#/dettaglio-atto?customerCode=SC29092&id=4734758",
+   "kind": "filled",
+   "source": "CNIC85200G",
+   "date": "2026-10-28",
+   "deadline": null,
+   "firstSeen": "2026-11-03T08:10:21+00:00"
+  },
+  {
+   "id": "546f7c119517",
+   "title": "FCRF - Centallo Certifica le Eccellenze - Verbale commissione graduatoria provvisoria realtiva all'avviso di selezione madrelingua inglese per corso alunni Primaria Centallo a.s. 2026-2027",
+   "url": "https://www.portaleargo.it/albopretorio/online/#/dettaglio-atto?customerCode=SC9060&id=4729736",
+   "kind": "filled",
+   "source": "CNIC84300R",
+   "date": "2026-10-27",
+   "deadline": null,
+   "firstSeen": "2026-11-03T08:10:21+00:00"
+  },
+  {
+   "id": "973517453c4e",
+   "title": "Graduatoria definitiva esperti e tutor progetto Agenda Nord recuperi secondaria e inglese classi III",
+   "url": "https://www.portaleargo.it/albopretorio/online/#/dettaglio-atto?customerCode=SC29092&id=4730021",
+   "kind": "filled",
+   "source": "CNIC85200G",
+   "date": "2026-10-27",
+   "deadline": null,
+   "firstSeen": "2026-11-03T08:10:21+00:00"
+  },
+  {
+   "id": "8dda81332d59",
+   "title": "Decreto di approvazione graduatoria definitiva esperti e tutor progetto Agenda Nord recuperi secondaria e inglese classi III",
+   "url": "https://www.portaleargo.it/albopretorio/online/#/dettaglio-atto?customerCode=SC29092&id=4730014",
+   "kind": "filled",
+   "source": "CNIC85200G",
+   "date": "2026-10-27",
+   "deadline": null,
+   "firstSeen": "2026-11-03T08:10:21+00:00"
+  },
+  {
+   "id": "73f7228a0ec5",
+   "title": "Verbale conclusivo approvazione graduatoria definitiva esperti e tutor progetto Agenda Nord recuperi secondaria e inglese classi III",
+   "url": "https://www.portaleargo.it/albopretorio/online/#/dettaglio-atto?customerCode=SC29092&id=4730013",
+   "kind": "filled",
+   "source": "CNIC85200G",
+   "date": "2026-10-27",
+   "deadline": null,
+   "firstSeen": "2026-11-03T08:10:21+00:00"
+  },
+  {
+   "id": "30a0d045a824",
+   "title": "Nomina commissione di valutazione per selezione Esperto Madrelingua Inglese Scuola Primaria Progetto Centallo Certifica le Eccellenze a.s. 2026/2027",
+   "url": "https://www.portaleargo.it/albopretorio/online/#/dettaglio-atto?customerCode=SC9060&id=4728115",
+   "kind": "filled",
+   "source": "CNIC84300R",
+   "date": "2026-10-26",
+   "deadline": null,
+   "firstSeen": "2026-11-03T08:10:21+00:00"
+  },
+  {
+   "id": "f3feaeda6b7b",
+   "title": "FCRS - Saluzzo Certifica le Eccellenze - Graduatoria provvisoria madrelingua inglese - alunni secondaria Villafalletto a.s. 2026/2027",
+   "url": "https://www.portaleargo.it/albopretorio/online/#/dettaglio-atto?customerCode=SC9060&id=4726627",
+   "kind": "filled",
+   "source": "CNIC84300R",
+   "date": "2026-10-26",
+   "deadline": null,
+   "firstSeen": "2026-11-03T08:10:21+00:00"
+  },
+  {
+   "id": "3fb832ccc69c",
+   "title": "AVVISO DI SELEZIONE PUBBLICA PERSONALE DOCENTE INTERNO E CONTESTUALE AVVISO DI SELEZIONE ESPERTI ESTERNI PER IL RECLUTAMENTO DI N. 1 ESPERTO MADRELINGUA INGLESE",
+   "url": "https://web.spaggiari.eu/sdg2/Documenti/CNII0004/gk3etvual1",
+   "kind": "open",
+   "source": "CNIS014001",
+   "date": "2026-10-26",
+   "deadline": null,
+   "firstSeen": "2026-11-03T08:10:21+00:00"
+  },
+  {
+   "id": "2b57079cf7f8",
+   "title": "Costituzione Commissione giudicatrice per la formazione della graduatoria triennale aa. ss. 2026/27 – 2027/28 - 2028/29 per la ricerca di esperto esterno Lingua Inglese",
+   "url": "https://web.spaggiari.eu/sdg2/Documenti/CNLG0005/n8rah2gf3s",
+   "kind": "filled",
+   "source": "CNPC030005",
+   "date": "2026-10-26",
+   "deadline": null,
+   "firstSeen": "2026-11-03T08:10:21+00:00"
+  },
+  {
+   "id": "7a2e69688223",
+   "title": "FCRF - Centallo Certifica le Eccellenze - Avviso di selezione esperto madrelingua inglese per corso rivolto agli alunni della scuola secondaria di Centallo",
+   "url": "https://www.portaleargo.it/albopretorio/online/#/dettaglio-atto?customerCode=SC9060&id=4723938",
+   "kind": "open",
+   "source": "CNIC84300R",
+   "date": "2026-10-24",
+   "deadline": null,
+   "firstSeen": "2026-11-03T08:10:21+00:00"
+  },
+  {
+   "id": "d3cf19c713a2",
+   "title": "VERBALE DI AGGIUDICAZIONE N. 2 FIGURE ESPERTI DI MADRELINGUA INGLESE PROGETTO FCE 2026-27",
+   "url": "https://www.portaleargo.it/albopretorio/online/#/dettaglio-atto?customerCode=SC28528&id=4718820",
+   "kind": "filled",
+   "source": "CNIC86600D",
+   "date": "2026-10-22",
+   "deadline": null,
+   "firstSeen": "2026-11-03T08:10:21+00:00"
+  },
+  {
+   "id": "977e9dc81d7d",
+   "title": "Bando FCE - NOMINA E CONVOCAZIONE DELLA COMMISSIONE VALUTATRICE",
+   "url": "https://www.portaleargo.it/albopretorio/online/#/dettaglio-atto?customerCode=SC28528&id=4713392",
+   "kind": "filled",
+   "source": "CNIC86600D",
+   "date": "2026-10-21",
+   "deadline": null,
+   "firstSeen": "2026-11-03T08:10:21+00:00"
+  },
+  {
+   "id": "7447849c23ca",
+   "title": "Decreto per l’avvio di una procedura di selezione per il conferimento di 4 incarichi così definiti: 1 esperto per la realizzazione del corso “Tecnologie per la manutenzione” 1 tutor per il corso “Tecnologie per la manutenzione” 1 esperto per la realizzazione del “corso di inglese B1” 1 tutor per il ",
+   "url": "https://web.spaggiari.eu/sdg2/Documenti/CNII0011/50l5a69rtl",
+   "kind": "open",
+   "source": "CNIS00200P",
+   "date": "2026-10-21",
+   "deadline": null,
+   "firstSeen": "2026-11-03T08:10:21+00:00"
+  },
+  {
+   "id": "d5e2c2b306c6",
+   "title": "Manifestazione di interesse per il conferimento di incarichi di lettorato madrelingua inglese",
+   "url": "https://web.spaggiari.eu/sdg2/Documenti/CNII0014/6ff9kkfr8a",
+   "kind": "open",
+   "source": "CNIS00300E",
+   "date": "2026-10-15",
+   "deadline": null,
+   "firstSeen": "2026-11-03T08:10:21+00:00"
+  },
+  {
+   "id": "8ed4831ccaf7",
+   "title": "DECRETO DI NOMINA COMMISSIONE CONVERSAZIONE MADRE LINGUA INGLESE 26/27",
+   "url": "https://www.portaleargo.it/albopretorio/online/#/dettaglio-atto?customerCode=SC15429&id=4670542",
+   "kind": "filled",
+   "source": "TOIC85600B",
+   "date": "2026-10-08",
+   "deadline": null,
+   "firstSeen": "2026-11-03T08:10:21+00:00"
+  },
+  {
+   "id": "6342929844ef",
+   "title": "AVVISO “RICERCA ESPERTO ESTERNO LINGUA INGLESE” PROGETTO P0301 “CERTIFICAZIONI ENTI ESTERNI PET-FCE-DELF....” - AA. SS. 2026/27 – 2027/28 – 2028/29 FORMAZIONE GRADUATORIA TRIENNALE E AFFIDAMENTO INCARICO PER L’A. S. 2026/27",
+   "url": "https://web.spaggiari.eu/sdg2/Documenti/CNLG0005/isfpkcaiof",
+   "kind": "open",
+   "source": "CNPC030005",
+   "date": "2026-10-06",
+   "deadline": null,
+   "firstSeen": "2026-11-03T08:10:21+00:00"
+  },
+  {
+   "id": "f80faaca9639",
+   "title": "CONTRATTO DI PRESTAZIONE D'OPERA ESPERTO MADRELINGUA KET 2026/2027",
+   "url": "https://web.spaggiari.eu/sdg2/Documenti/CNME0005/a7s67ujik0",
+   "kind": "filled",
+   "source": "CNIC80200E",
+   "date": "2026-10-01",
+   "deadline": null,
+   "firstSeen": "2026-11-03T08:10:21+00:00"
+  },
+  {
+   "id": "058cfbc0057e",
+   "title": "AVVISO DI SELEZIONE ESPERTO LINGUA INGLESE MADRELINGUA KET",
+   "url": "https://web.spaggiari.eu/sdg2/Documenti/CNME0005/lk91kcvqdn",
+   "kind": "open",
+   "source": "CNIC80200E",
+   "date": "2026-09-16",
+   "deadline": null,
+   "firstSeen": "2026-11-03T08:10:21+00:00"
+  },
+  {
+   "id": "424c9942ec94",
+   "title": "Avviso selezione di esperti esterni madrelingua per cosri di conversazione inglese",
+   "url": "https://www.portaleargo.it/albopretorio/online/#/dettaglio-atto?customerCode=SC15429&id=4617023",
+   "kind": "open",
+   "source": "TOIC85600B",
+   "date": "2026-09-16",
+   "deadline": null,
+   "firstSeen": "2026-11-03T08:10:21+00:00"
+  },
+  {
+   "id": "636b9b968fe0",
+   "title": "INCARICO ROBERTA PEIRETTI CORSO INGLESE 10 ORE SOSTITUZIONE AIGOTTI",
+   "url": "https://www.istitutosoleribertoni.edu.it/wpfd_file/timbro_incarico-roberta-peiretti-corso-inglese-10-ore-sostituzione-aigotti-pdf-1/",
+   "kind": "filled",
+   "source": "CNIS021004",
+   "date": "2026-07-23",
+   "deadline": null,
+   "firstSeen": "2026-11-03T08:10:21+00:00"
+  },
+  {
+   "id": "fbb9b2f4762a",
+   "title": "AVVIO mod inglese lettoratoPON Comp di Base",
+   "url": "https://www.istitutosoleribertoni.edu.it/wpfd_file/avvio_mod_inglese_lettoratopon_comp__di_base-signed/",
+   "kind": "open",
+   "source": "CNIS021004",
+   "date": "2026-07-14",
+   "deadline": null,
+   "firstSeen": "2026-11-03T08:10:21+00:00"
+  },
+  {
+   "id": "41a895b8b340",
+   "title": "Nomina commissione valutazione istanze pervenute per il reclutamento di n. 1 esperto esterno madrelingua inglese progetto settimana immersiva lingue straniere Io Cittadino del Mondo",
+   "url": "https://www.portaleargo.it/albopretorio/online/#/dettaglio-atto?customerCode=SC23075&id=4539513",
+   "kind": "filled",
+   "source": "CNIC82300G",
+   "date": "2026-07-13",
+   "deadline": null,
+   "firstSeen": "2026-11-03T08:10:21+00:00"
+  }
+ ]
+}

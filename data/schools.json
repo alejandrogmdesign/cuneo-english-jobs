@@ -1,0 +1,1829 @@
+[
+ {
+  "code": "CNMM161008",
+  "name": "Cpia 1 Cuneo-Saluzzo \"A.Lattes\"",
+  "kind": "statale",
+  "town": "Cuneo",
+  "minutes": 3,
+  "site": "https://www.cpiacuneo1.edu.it",
+  "grades": [
+   "CENTRO TERRITORIALE",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "CNIC847004",
+  "name": "Cuneo Borgo San Giuseppe",
+  "kind": "statale",
+  "town": "Cuneo",
+  "minutes": 3,
+  "site": "https://www.icborgosangiuseppe.edu.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "CNIS03100P",
+  "name": "Cuneo Bianchi Bonelli Virginio",
+  "kind": "statale",
+  "town": "Cuneo",
+  "minutes": 3,
+  "site": "https://www.cigna-baruffi-garelli.edu.it",
+  "grades": [
+   "ISTITUTO SUPERIORE",
+   "ISTITUTO TECNICO COMMERCIALE",
+   "ISTITUTO TECNICO PER GEOMETRI",
+   "LICEO ARTISTICO"
+  ]
+ },
+ {
+  "code": "CNIS03200E",
+  "name": "Cuneo Delpozzo",
+  "kind": "statale",
+  "town": "Cuneo",
+  "minutes": 3,
+  "site": "https://www.cigna-baruffi-garelli.edu.it",
+  "grades": [
+   "ISTITUTO MAGISTRALE",
+   "ISTITUTO SUPERIORE",
+   "ISTITUTO TECNICO INDUSTRIALE"
+  ]
+ },
+ {
+  "code": "CNPS02000N",
+  "name": "Cuneo \"Pellico - Peano\"",
+  "kind": "statale",
+  "town": "Cuneo",
+  "minutes": 3,
+  "site": "https://liceocuneo.it",
+  "grades": [
+   "LICEO SCIENTIFICO"
+  ]
+ },
+ {
+  "code": "CNIC85700P",
+  "name": "Cuneo Corso Soleri",
+  "kind": "statale",
+  "town": "Cuneo",
+  "minutes": 3,
+  "site": "https://www.iccuneocorsosoleri.edu.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "CNIC86100A",
+  "name": "Cuneo Via Sobrero",
+  "kind": "statale",
+  "town": "Cuneo",
+  "minutes": 3,
+  "site": "https://www.comprensivocuneoviasobrero.edu.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "CNIC86000E",
+  "name": "Cuneo Viale Angeli",
+  "kind": "statale",
+  "town": "Cuneo",
+  "minutes": 3,
+  "site": "https://www.icvialeangelicuneo.edu.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "CNIC84800X",
+  "name": "Cuneo Oltrestura",
+  "kind": "statale",
+  "town": "Cuneo",
+  "minutes": 3,
+  "site": "https://www.iccuneooltrestura.edu.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "CNIS00300E",
+  "name": "Cuneo - Grandis",
+  "kind": "statale",
+  "town": "Cuneo",
+  "minutes": 3,
+  "site": "https://www.grandiscuneo.edu.it",
+  "grades": [
+   "IST PROF INDUSTRIA E ARTIGIANATO",
+   "IST PROF PER I SERVIZI COMMERCIALI E TURISTICI",
+   "ISTITUTO MAGISTRALE",
+   "ISTITUTO SUPERIORE"
+  ]
+ },
+ {
+  "code": "CNIS02800V",
+  "name": "Cuneo - Virginio-Donadio",
+  "kind": "statale",
+  "town": "Cuneo",
+  "minutes": 3,
+  "site": "https://www.virginiodonadio.it",
+  "grades": [
+   "IST PROF PER I SERVIZI ALBERGHIERI E RISTORAZIONE",
+   "ISTITUTO SUPERIORE",
+   "ISTITUTO TECNICO AGRARIO"
+  ]
+ },
+ {
+  "code": "CNPM010004",
+  "name": "Cuneo - \"Edmondo De Amicis\"",
+  "kind": "statale",
+  "town": "Cuneo",
+  "minutes": 3,
+  "site": "https://www.liceodeamiciscuneo.edu.it",
+  "grades": [
+   "ISTITUTO MAGISTRALE"
+  ]
+ },
+ {
+  "code": "CN1M00400Q",
+  "name": "Scuola Secondaria Di Primo Grado \"Mons. Andrea Fiore\"",
+  "kind": "paritaria",
+  "town": "Cuneo",
+  "minutes": 3,
+  "site": "https://istitutofiore.it",
+  "grades": [
+   "SCUOLA SEC. PRIMO GRADO NON STATALE"
+  ]
+ },
+ {
+  "code": "CN1E001003",
+  "name": "Scuola Primaria Paritaria \"Mons. Andrea Fiore\"",
+  "kind": "paritaria",
+  "town": "Cuneo",
+  "minutes": 3,
+  "site": "https://istitutofiore.it",
+  "grades": [
+   "SCUOLA PRIMARIA NON STATALE"
+  ]
+ },
+ {
+  "code": "CNIC809009",
+  "name": "Boves \"Antonio Vassallo\"",
+  "kind": "statale",
+  "town": "Boves",
+  "minutes": 9,
+  "site": "https://icvassalloboves.edu.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "CNIC840009",
+  "name": "Cervasca-Bernezzo D. Galimberti",
+  "kind": "statale",
+  "town": "Cervasca",
+  "minutes": 11,
+  "site": "https://iccervasca.edu.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "CNIC80800D",
+  "name": "Borgo San Dalmazzo \"S.Grandis\"",
+  "kind": "statale",
+  "town": "Borgo San Dalmazzo",
+  "minutes": 11,
+  "site": "https://www.icborgosd.edu.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "CNIC804006",
+  "name": "Caraglio \"A.M. Riberi\"",
+  "kind": "statale",
+  "town": "Caraglio",
+  "minutes": 17,
+  "site": "https://www.iccaraglio.edu.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "CNIC81000D",
+  "name": "Robilante",
+  "kind": "statale",
+  "town": "Robilante",
+  "minutes": 18,
+  "site": "https://icrobilante.edu.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "CNIC80200E",
+  "name": "Morozzo",
+  "kind": "statale",
+  "town": "Morozzo",
+  "minutes": 19,
+  "site": "https://www.icmorozzo.edu.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "CNIC84300R",
+  "name": "Centallo-Villafalletto",
+  "kind": "statale",
+  "town": "Centallo",
+  "minutes": 19,
+  "site": "https://www.comprensivocentallo.edu.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "CNIC841005",
+  "name": "Chiusa Di Pesio - Peveragno",
+  "kind": "statale",
+  "town": "Chiusa Di Pesio",
+  "minutes": 20,
+  "site": "https://www.icchiusapeveragno.edu.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "CNIC85000X",
+  "name": "Busca \"Giosue' Carducci\"",
+  "kind": "statale",
+  "town": "Busca",
+  "minutes": 24,
+  "site": "https://www.icbusca.edu.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "CNIC82800P",
+  "name": "Dronero \"Giovanni Giolitti\"",
+  "kind": "statale",
+  "town": "Dronero",
+  "minutes": 26,
+  "site": "https://www.icdronero.edu.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "CNIC812005",
+  "name": "Villanova Mondovi'",
+  "kind": "statale",
+  "town": "Villanova Mondovi'",
+  "minutes": 27,
+  "site": "https://icvillanovamondovi.edu.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "CNIC86600D",
+  "name": "Fossano \"Federico Sacco\"",
+  "kind": "statale",
+  "town": "Fossano",
+  "minutes": 30,
+  "site": "https://www.icsacco.edu.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "CNIS01700C",
+  "name": "Fossano - \"G.Vallauri\"",
+  "kind": "statale",
+  "town": "Fossano",
+  "minutes": 30,
+  "site": "http://www.vallauri.edu/public/ita/pagina.asp",
+  "grades": [
+   "ISTITUTO SUPERIORE",
+   "ISTITUTO TECNICO COMMERCIALE",
+   "ISTITUTO TECNICO INDUSTRIALE"
+  ]
+ },
+ {
+  "code": "CNIC86500N",
+  "name": "Fossano \"Andrea Paglieri\"",
+  "kind": "statale",
+  "town": "Fossano",
+  "minutes": 30,
+  "site": "https://icfossano.edu.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "CNPS010003",
+  "name": "Fossano - \"G.Ancina\"",
+  "kind": "statale",
+  "town": "Fossano",
+  "minutes": 30,
+  "site": "https://liceoancina.edu.it",
+  "grades": [
+   "LICEO SCIENTIFICO"
+  ]
+ },
+ {
+  "code": "CN1E00200V",
+  "name": "Scuola Paritaria \"San Domenico\"",
+  "kind": "paritaria",
+  "town": "Fossano",
+  "minutes": 30,
+  "site": "https://www.scuolasandomenico.it",
+  "grades": [
+   "SCUOLA PRIMARIA NON STATALE"
+  ]
+ },
+ {
+  "code": "CNIC80300A",
+  "name": "Demonte \"L. Romano\"",
+  "kind": "statale",
+  "town": "Demonte",
+  "minutes": 31,
+  "site": "https://www.icdemonte.edu.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "CNIC85900A",
+  "name": "Mondovi' 2",
+  "kind": "statale",
+  "town": "Mondovi'",
+  "minutes": 33,
+  "site": "https://icmondovi2.edu.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "CNIC85800E",
+  "name": "Mondovi' 1",
+  "kind": "statale",
+  "town": "Mondovi'",
+  "minutes": 33,
+  "site": "https://www.icmondovi1.edu.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "CNIC80600T",
+  "name": "Carru' \"Oderda-Perotti\"",
+  "kind": "statale",
+  "town": "Carru'",
+  "minutes": 33,
+  "site": "https://iccarru.edu.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "CNIS02900P",
+  "name": "Mondovi' - Cigna-Baruffi-Garelli",
+  "kind": "statale",
+  "town": "Mondovi'",
+  "minutes": 33,
+  "site": "https://www.cigna-baruffi-garelli.edu.it",
+  "grades": [
+   "IST PROF INDUSTRIA E ARTIGIANATO",
+   "IST TEC COMMERCIALE E PER GEOMETRI",
+   "ISTITUTO SUPERIORE",
+   "ISTITUTO TECNICO INDUSTRIALE"
+  ]
+ },
+ {
+  "code": "CNIS026007",
+  "name": "Mondovi' - Giolitti-Bellisario",
+  "kind": "statale",
+  "town": "Mondovi'",
+  "minutes": 33,
+  "site": "https://www.giolittibellisario.it",
+  "grades": [
+   "IST PROF PER I SERVIZI ALBERGHIERI E RISTORAZIONE",
+   "IST PROF PER I SERVIZI COMMERCIALI",
+   "ISTITUTO SUPERIORE",
+   "ISTITUTO TECNICO AGRARIO"
+  ]
+ },
+ {
+  "code": "CNPS07000P",
+  "name": "Mondovi' - Vasco-Beccaria-Govone",
+  "kind": "statale",
+  "town": "Mondovi'",
+  "minutes": 33,
+  "site": "https://www.iliceimondovi.edu.it",
+  "grades": [
+   "LICEO SCIENTIFICO"
+  ]
+ },
+ {
+  "code": "CN1MNS500A",
+  "name": "Scuola Arche'",
+  "kind": "paritaria",
+  "town": "Mondovi'",
+  "minutes": 33,
+  "site": "https://istitutoarche.com",
+  "grades": [
+   "SCUOLA SEC. PRIMO GRADO NON STATALE"
+  ]
+ },
+ {
+  "code": "CNIC80700N",
+  "name": "Benevagienna",
+  "kind": "statale",
+  "town": "Bene Vagienna",
+  "minutes": 35,
+  "site": "https://icbenevagienna.edu.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "CNIC84500C",
+  "name": "Verzuolo",
+  "kind": "statale",
+  "town": "Verzuolo",
+  "minutes": 35,
+  "site": "https://www.icverzuolo.edu.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "CNIS021004",
+  "name": "Saluzzo - \"Soleri-Bertoni\"",
+  "kind": "statale",
+  "town": "Saluzzo",
+  "minutes": 37,
+  "site": "https://www.istitutosoleribertoni.edu.it",
+  "grades": [
+   "ISTITUTO D'ARTE",
+   "ISTITUTO MAGISTRALE",
+   "ISTITUTO SUPERIORE",
+   "LICEO ARTISTICO"
+  ]
+ },
+ {
+  "code": "CNIC862006",
+  "name": "Saluzzo",
+  "kind": "statale",
+  "town": "Saluzzo",
+  "minutes": 37,
+  "site": "https://www.icsaluzzo.edu.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "CNIS014001",
+  "name": "Saluzzo - \"C. Denina\"",
+  "kind": "statale",
+  "town": "Saluzzo",
+  "minutes": 37,
+  "site": "https://www.denina.it",
+  "grades": [
+   "IST PROF PER I SERVIZI COMMERCIALI E TURISTICI",
+   "IST TEC COMMERCIALE E PER GEOMETRI",
+   "ISTITUTO SUPERIORE",
+   "ISTITUTO TECNICO COMMERCIALE",
+   "ISTITUTO TECNICO INDUSTRIALE"
+  ]
+ },
+ {
+  "code": "CNPC030005",
+  "name": "Saluzzo \"G.B.Bodoni\"",
+  "kind": "statale",
+  "town": "Saluzzo",
+  "minutes": 37,
+  "site": "https://www.liceobodoni.edu.it",
+  "grades": [
+   "LICEO CLASSICO"
+  ]
+ },
+ {
+  "code": "CNIC826003",
+  "name": "Venasca-Costigliole S.",
+  "kind": "statale",
+  "town": "Venasca",
+  "minutes": 38,
+  "site": "https://www.icvenasca-costigliole.edu.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "CNIC85100Q",
+  "name": "Savigliano \"Santorre Santarosa\"",
+  "kind": "statale",
+  "town": "Savigliano",
+  "minutes": 40,
+  "site": "https://icsantarosasavigliano.edu.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "CNIS00200P",
+  "name": "Savigliano - Cravetta Marconi",
+  "kind": "statale",
+  "town": "Savigliano",
+  "minutes": 40,
+  "site": "https://www.cravettamarconi.edu.it",
+  "grades": [
+   "IST PROF INDUSTRIA E ARTIGIANATO",
+   "IST PROF PER I SERVIZI COMMERCIALI E TURISTICI",
+   "ISTITUTO SUPERIORE"
+  ]
+ },
+ {
+  "code": "CNIC85200G",
+  "name": "Savigliano\"Papa Giovanni Xxiii\"",
+  "kind": "statale",
+  "town": "Savigliano",
+  "minutes": 40,
+  "site": "https://www.icpapagiovanni.edu.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "CNIS02200X",
+  "name": "Savigliano - \"Arimondi-Eula\"",
+  "kind": "statale",
+  "town": "Savigliano",
+  "minutes": 40,
+  "site": "https://www.arimondieula.edu.it",
+  "grades": [
+   "ISTITUTO SUPERIORE",
+   "ISTITUTO TECNICO INDUSTRIALE",
+   "ISTITUTO TECNICO PER GEOMETRI",
+   "LICEO CLASSICO",
+   "LICEO SCIENTIFICO"
+  ]
+ },
+ {
+  "code": "CNIC811009",
+  "name": "San Michele Mondovi'",
+  "kind": "statale",
+  "town": "San Michele Mondovi'",
+  "minutes": 41,
+  "site": "https://www.icsanmichelemondovi.edu.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "CNIC813001",
+  "name": "Ceva \"Attilio Momigliano\"",
+  "kind": "statale",
+  "town": "Ceva",
+  "minutes": 43,
+  "site": "https://icmomigliano.edu.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "CNIS01100D",
+  "name": "Ceva - \"G. Baruffi\"",
+  "kind": "statale",
+  "town": "Ceva",
+  "minutes": 43,
+  "site": "https://www.barufficevaormea.it",
+  "grades": [
+   "IST TEC COMMERCIALE E PER GEOMETRI",
+   "ISTITUTO SUPERIORE",
+   "LICEO SCIENTIFICO"
+  ]
+ },
+ {
+  "code": "CNIC846008",
+  "name": "Dogliani \"Luigi Einaudi\"",
+  "kind": "statale",
+  "town": "Dogliani",
+  "minutes": 45,
+  "site": "https://icdogliani.edu.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "CNIC838009",
+  "name": "Cavallermaggiore",
+  "kind": "statale",
+  "town": "Cavallermaggiore",
+  "minutes": 48,
+  "site": "https://iccavallermaggiore.edu.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "CNIC825007",
+  "name": "Cherasco \"Sebastiano Taricco\"",
+  "kind": "statale",
+  "town": "Cherasco",
+  "minutes": 48,
+  "site": "https://comprensivocherasco.edu.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "CNIC83100E",
+  "name": "Moretta",
+  "kind": "statale",
+  "town": "Moretta",
+  "minutes": 50,
+  "site": "https://icmoretta.edu.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "CNIC863002",
+  "name": "Bra 2 \"Ilaria Alpi-Gino Strada\"",
+  "kind": "statale",
+  "town": "Bra",
+  "minutes": 51,
+  "site": "https://www.icalpistrada.edu.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "CNIS01600L",
+  "name": "Bra - \"E. Guala\"",
+  "kind": "statale",
+  "town": "Bra",
+  "minutes": 51,
+  "site": "https://www.istitutoguala.edu.it",
+  "grades": [
+   "IST PROF INDUSTRIA E ARTIGIANATO",
+   "ISTITUTO SUPERIORE",
+   "ISTITUTO TECNICO COMMERCIALE"
+  ]
+ },
+ {
+  "code": "CNIC86400T",
+  "name": "Bra \"Piero Angela\"",
+  "kind": "statale",
+  "town": "Bra",
+  "minutes": 51,
+  "site": "https://icpieroangelabra.edu.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "CNRH02000B",
+  "name": "Bra - Velso Mucci",
+  "kind": "statale",
+  "town": "Bra",
+  "minutes": 51,
+  "site": "https://www.iismucci.it",
+  "grades": [
+   "IST PROF PER I SERVIZI ALBERGHIERI E RISTORAZIONE"
+  ]
+ },
+ {
+  "code": "CNPS05000D",
+  "name": "Bra \"G.Giolitti-G.B.Gandino\"",
+  "kind": "statale",
+  "town": "Bra",
+  "minutes": 51,
+  "site": "https://www.liceidibra.com",
+  "grades": [
+   "LICEO SCIENTIFICO"
+  ]
+ },
+ {
+  "code": "CN1M001008",
+  "name": "Sec. I Grado Paritaria San Domenico Savio",
+  "kind": "paritaria",
+  "town": "Bra",
+  "minutes": 51,
+  "site": "https://salesianibra.it",
+  "grades": [
+   "SCUOLA SEC. PRIMO GRADO NON STATALE"
+  ]
+ },
+ {
+  "code": "CN1E00300P",
+  "name": "Scuola Primaria Paritaria Convitto Provvidenza",
+  "kind": "paritaria",
+  "town": "Bra",
+  "minutes": 51,
+  "site": "https://convittoprovvidenza.it",
+  "grades": [
+   "SCUOLA PRIMARIA NON STATALE"
+  ]
+ },
+ {
+  "code": "SVIC80200A",
+  "name": "I. C. Millesimo",
+  "kind": "statale",
+  "town": "Millesimo",
+  "minutes": 52,
+  "site": "https://www.icmillesimo.edu.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "CNIC81900X",
+  "name": "La Morra",
+  "kind": "statale",
+  "town": "La Morra",
+  "minutes": 53,
+  "site": "https://ic-lamorra.edu.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "CNIS00400A",
+  "name": "Alba - \"Cillario Ferrero\"",
+  "kind": "statale",
+  "town": "Alba",
+  "minutes": 54,
+  "site": "https://www.cillarioferrero.edu.it",
+  "grades": [
+   "IST PROF INDUSTRIA E ARTIGIANATO",
+   "IST PROF PER I SERVIZI COMMERCIALI",
+   "IST PROF PER I SERVIZI COMMERCIALI E TURISTICI",
+   "ISTITUTO SUPERIORE"
+  ]
+ },
+ {
+  "code": "CNIS012009",
+  "name": "Alba - Umberto I",
+  "kind": "statale",
+  "town": "Alba",
+  "minutes": 54,
+  "site": "https://www.iisumbertoprimo.it",
+  "grades": [
+   "IST PROF PER L'AGRICOLTURA E L'AMBIENTE",
+   "ISTITUTO SUPERIORE",
+   "ISTITUTO TECNICO AGRARIO"
+  ]
+ },
+ {
+  "code": "CNIC867009",
+  "name": "Sanfront Paesana Revello",
+  "kind": "statale",
+  "town": "Sanfront",
+  "minutes": 54,
+  "site": "https://www.icsacco.edu.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "CNIC854007",
+  "name": "Alba Quartiere Piave S.Cassiano",
+  "kind": "statale",
+  "town": "Alba",
+  "minutes": 54,
+  "site": "https://www.icalbasancassiano.edu.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "CNIS00700T",
+  "name": "Alba - \"G. Govone\"",
+  "kind": "statale",
+  "town": "Alba",
+  "minutes": 54,
+  "site": "https://www.iisgovonealba.it",
+  "grades": [
+   "ISTITUTO SUPERIORE",
+   "LICEO ARTISTICO",
+   "LICEO CLASSICO"
+  ]
+ },
+ {
+  "code": "CNIC855003",
+  "name": "Alba Quartiere Moretta",
+  "kind": "statale",
+  "town": "Alba",
+  "minutes": 54,
+  "site": "https://www.icquartieremoretta.edu.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "CNIS019004",
+  "name": "Alba - \"L. Einaudi\"",
+  "kind": "statale",
+  "town": "Alba",
+  "minutes": 54,
+  "site": "https://www.iis-einaudi-alba.it/einaudi",
+  "grades": [
+   "IST TEC COMMERCIALE E PER GEOMETRI",
+   "ISTITUTO SUPERIORE",
+   "ISTITUTO TECNICO INDUSTRIALE"
+  ]
+ },
+ {
+  "code": "CNMM162004",
+  "name": "Cpia 2 Alba-M.Vi'-\"Gino Strada\"",
+  "kind": "statale",
+  "town": "Alba",
+  "minutes": 54,
+  "site": "https://cpia2albabramondovi.edu.it",
+  "grades": [
+   "CENTRO TERRITORIALE",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "CNPM04000X",
+  "name": "Alba - \"Leonardo Da Vinci\"",
+  "kind": "statale",
+  "town": "Alba",
+  "minutes": 54,
+  "site": "https://www.davincialba.edu.it",
+  "grades": [
+   "ISTITUTO MAGISTRALE"
+  ]
+ },
+ {
+  "code": "CNIC869001",
+  "name": "Alba Centro Storico E Mussotto",
+  "kind": "statale",
+  "town": "Alba",
+  "minutes": 54,
+  "site": "https://www.icsacco.edu.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "CNPS030008",
+  "name": "Alba - \"Leonardo Cocito\"",
+  "kind": "statale",
+  "town": "Alba",
+  "minutes": 54,
+  "site": "https://liceococito.edu.it",
+  "grades": [
+   "LICEO SCIENTIFICO"
+  ]
+ },
+ {
+  "code": "CNPLG5500P",
+  "name": "Alba International School",
+  "kind": "paritaria",
+  "town": "Alba",
+  "minutes": 54,
+  "site": "https://www.albainternationalschool.com",
+  "grades": [
+   "SCUOLA SEC. SECONDO GRADO NON STATALE"
+  ]
+ },
+ {
+  "code": "CN1MMA500M",
+  "name": "Alba International School",
+  "kind": "paritaria",
+  "town": "Alba",
+  "minutes": 54,
+  "site": "https://www.albainternationalschool.com",
+  "grades": [
+   "SCUOLA SEC. PRIMO GRADO NON STATALE"
+  ]
+ },
+ {
+  "code": "CN1EN55004",
+  "name": "Alba International School",
+  "kind": "paritaria",
+  "town": "Alba",
+  "minutes": 54,
+  "site": "https://www.albainternationalschool.com",
+  "grades": [
+   "SCUOLA PRIMARIA NON STATALE"
+  ]
+ },
+ {
+  "code": "CNIC81600C",
+  "name": "Cortemilia-Saliceto",
+  "kind": "statale",
+  "town": "Monesiglio",
+  "minutes": 55,
+  "site": "https://iccortemilia-saliceto.edu.it",
+  "grades": [
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "CNIC83000P",
+  "name": "Racconigi \"B. Muzzone\"",
+  "kind": "statale",
+  "town": "Racconigi",
+  "minutes": 55,
+  "site": "https://www.istitutomuzzone.edu.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "TOIC8AM009",
+  "name": "I.C. Carmagnola Iii",
+  "kind": "statale",
+  "town": "Carmagnola",
+  "minutes": 56,
+  "site": "https://www.ic3carmagnola.edu.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "TOIC8AP00R",
+  "name": "I.C. Carmagnola Ii",
+  "kind": "statale",
+  "town": "Carmagnola",
+  "minutes": 56,
+  "site": "https://www.iccarmagnola2.edu.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "TOIC8AN005",
+  "name": "I.C. Carmagnola I",
+  "kind": "statale",
+  "town": "Carmagnola",
+  "minutes": 56,
+  "site": "https://www.iccarmagnolaprimo.edu.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "TOIC845001",
+  "name": "I.C. Cavour",
+  "kind": "statale",
+  "town": "Cavour",
+  "minutes": 56,
+  "site": "https://www.iccavour.edu.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "TOIS008006",
+  "name": "I.I.S. Baldessano-Roccati",
+  "kind": "statale",
+  "town": "Carmagnola",
+  "minutes": 56,
+  "site": "https://baldessano.roccati.edu.it",
+  "grades": [
+   "IST PROF PER I SERVIZI COMMERCIALI",
+   "IST PROF PER L'AGRICOLTURA E L'AMBIENTE",
+   "ISTITUTO SUPERIORE",
+   "ISTITUTO TECNICO AGRARIO",
+   "ISTITUTO TECNICO COMMERCIALE",
+   "LICEO SCIENTIFICO"
+  ]
+ },
+ {
+  "code": "CNIC820004",
+  "name": "Santa Vittoria D'Alba",
+  "kind": "statale",
+  "town": "Santa Vittoria D'Alba",
+  "minutes": 57,
+  "site": "https://www.icberterosantavittoria.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "CNIC817008",
+  "name": "Sommariva Del Bosco",
+  "kind": "statale",
+  "town": "Sommariva Del Bosco",
+  "minutes": 58,
+  "site": "https://istitutogiovanniarpino.edu.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "CNIC833006",
+  "name": "Barge",
+  "kind": "statale",
+  "town": "Barge",
+  "minutes": 60,
+  "site": "https://www.icbarge.edu.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "CNIC81400R",
+  "name": "Bossolasco-Murazzano",
+  "kind": "statale",
+  "town": "Bossolasco",
+  "minutes": 60,
+  "site": "https://icbossolascomurazzano.edu.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "CNIC818004",
+  "name": "Sommariva Perno",
+  "kind": "statale",
+  "town": "Sommariva Perno",
+  "minutes": 61,
+  "site": "https://wwwcomprensivosommarivaperno.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "CNIC868005",
+  "name": "Neive Santo Stefano Belbo",
+  "kind": "statale",
+  "town": "Neive",
+  "minutes": 61,
+  "site": "https://www.icsacco.edu.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "SVIC803006",
+  "name": "I. C. Carcare",
+  "kind": "statale",
+  "town": "Carcare",
+  "minutes": 61,
+  "site": "https://www.iccarcare.edu.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "SVPC030001",
+  "name": "Liceo \"S.Giuseppe Calasanzio\" - Carcare",
+  "kind": "statale",
+  "town": "Carcare",
+  "minutes": 61,
+  "site": "https://www.liceocarcare.edu.it",
+  "grades": [
+   "LICEO CLASSICO"
+  ]
+ },
+ {
+  "code": "CNIC84900Q",
+  "name": "Diano D'Alba",
+  "kind": "statale",
+  "town": "Diano D'Alba",
+  "minutes": 62,
+  "site": "https://icdianoalba.edu.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "TOIC84700L",
+  "name": "I.C. Vigone",
+  "kind": "statale",
+  "town": "Vigone",
+  "minutes": 62,
+  "site": "https://icvigone.edu.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "CNIC83200A",
+  "name": "Bagnolo P.Te \"Beppe Fenoglio\"",
+  "kind": "statale",
+  "town": "Bagnolo Piemonte",
+  "minutes": 63,
+  "site": "https://ics-bagnolopiemonte.edu.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "TOIC8AQ00L",
+  "name": "I.C. Carignano",
+  "kind": "statale",
+  "town": "Carignano",
+  "minutes": 64,
+  "site": "https://www.iccarignano.edu.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "TOIS03300V",
+  "name": "Norberto Bobbio",
+  "kind": "statale",
+  "town": "Carignano",
+  "minutes": 64,
+  "site": "https://www.iisbobbio.edu.it",
+  "grades": [
+   "IST PROF PER I SERVIZI ALBERGHIERI E RISTORAZIONE",
+   "ISTITUTO SUPERIORE",
+   "LICEO CLASSICO"
+  ]
+ },
+ {
+  "code": "TOIC886007",
+  "name": "I.C. La Loggia",
+  "kind": "statale",
+  "town": "La Loggia",
+  "minutes": 64,
+  "site": "https://www.iclaloggia.edu.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "TO1M01000G",
+  "name": "Don Bosco",
+  "kind": "paritaria",
+  "town": "Lombriasco",
+  "minutes": 64,
+  "site": "https://salesianilombriasco.it",
+  "grades": [
+   "SCUOLA SEC. PRIMO GRADO NON STATALE"
+  ]
+ },
+ {
+  "code": "TOTA015004",
+  "name": "Don Bosco",
+  "kind": "paritaria",
+  "town": "Lombriasco",
+  "minutes": 64,
+  "site": "https://salesianilombriasco.it",
+  "grades": [
+   "SCUOLA SEC. SECONDO GRADO NON STATALE"
+  ]
+ },
+ {
+  "code": "CNIC83600N",
+  "name": "Garessio",
+  "kind": "statale",
+  "town": "Garessio",
+  "minutes": 65,
+  "site": "https://icgaressio.edu.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "CNIC82200Q",
+  "name": "Canale",
+  "kind": "statale",
+  "town": "Canale",
+  "minutes": 65,
+  "site": "https://iccanale.edu.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "TOIC88500B",
+  "name": "I.C. Moncalieri/Santa Maria",
+  "kind": "statale",
+  "town": "Moncalieri",
+  "minutes": 65,
+  "site": "https://www.icsantamaria.edu.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "TOIC88900P",
+  "name": "I.C. Moncalieri/Borgo S. Pietro",
+  "kind": "statale",
+  "town": "Moncalieri",
+  "minutes": 65,
+  "site": "https://www.istitutocomprensivoborgosanpietro.edu.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "TOIC88800V",
+  "name": "I.C. Moncalieri/Centro Storico",
+  "kind": "statale",
+  "town": "Moncalieri",
+  "minutes": 65,
+  "site": "https://iccentrostoricomoncalieri.edu.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "TOIS032003",
+  "name": "I.I.S. E. Majorana",
+  "kind": "statale",
+  "town": "Moncalieri",
+  "minutes": 65,
+  "site": "https://www.iismajoranamoncalieri.edu.it",
+  "grades": [
+   "ISTITUTO SUPERIORE",
+   "ISTITUTO TECNICO COMMERCIALE",
+   "LICEO SCIENTIFICO"
+  ]
+ },
+ {
+  "code": "TOIC887003",
+  "name": "I.C. Moncalieri/Nasi",
+  "kind": "statale",
+  "town": "Moncalieri",
+  "minutes": 65,
+  "site": "https://www.icnasi.edu.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "TOMM32500B",
+  "name": "Cpia 3 Torino - T. De Mauro",
+  "kind": "statale",
+  "town": "Moncalieri",
+  "minutes": 65,
+  "site": "https://www.cpia3torino.edu.it",
+  "grades": [
+   "CENTRO TERRITORIALE",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "TOTF04000D",
+  "name": "G.B.Pininfarina",
+  "kind": "statale",
+  "town": "Moncalieri",
+  "minutes": 65,
+  "site": "https://www.itispininfarina.edu.it",
+  "grades": [
+   "ISTITUTO TECNICO INDUSTRIALE"
+  ]
+ },
+ {
+  "code": "TO1M00600X",
+  "name": "Istituto Sant'Anna Opera Barolo",
+  "kind": "paritaria",
+  "town": "Moncalieri",
+  "minutes": 65,
+  "site": "https://scuolabarolomoncalieri.it",
+  "grades": [
+   "SCUOLA SEC. PRIMO GRADO NON STATALE"
+  ]
+ },
+ {
+  "code": "TO1E05600Q",
+  "name": "Centro Flora Manfrinati",
+  "kind": "paritaria",
+  "town": "Moncalieri",
+  "minutes": 65,
+  "site": null,
+  "grades": [
+   "SCUOLA PRIMARIA NON STATALE"
+  ]
+ },
+ {
+  "code": "TO1M055005",
+  "name": "Centro Flora Manfrinati",
+  "kind": "paritaria",
+  "town": "Moncalieri",
+  "minutes": 65,
+  "site": null,
+  "grades": [
+   "SCUOLA SEC. PRIMO GRADO NON STATALE"
+  ]
+ },
+ {
+  "code": "TO1E009006",
+  "name": "Istituto Sant'Anna Opera Barolo",
+  "kind": "paritaria",
+  "town": "Moncalieri",
+  "minutes": 65,
+  "site": "https://scuolabarolomoncalieri.it",
+  "grades": [
+   "SCUOLA PRIMARIA NON STATALE"
+  ]
+ },
+ {
+  "code": "TOIC8BM00X",
+  "name": "I.C. Pinerolo I",
+  "kind": "statale",
+  "town": "Osasco",
+  "minutes": 66,
+  "site": "https://www.istitutocomprensivopinerolo1.edu.it",
+  "grades": [
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA"
+  ]
+ },
+ {
+  "code": "TOIS044009",
+  "name": "Prever",
+  "kind": "statale",
+  "town": "Osasco",
+  "minutes": 66,
+  "site": "https://www.prever.edu.it",
+  "grades": [
+   "IST PROF PER L'AGRICOLTURA E L'AMBIENTE",
+   "ISTITUTO TECNICO AGRARIO"
+  ]
+ },
+ {
+  "code": "TOIC83200V",
+  "name": "I.C. Trofarello",
+  "kind": "statale",
+  "town": "Trofarello",
+  "minutes": 67,
+  "site": "https://www.ictrofarello.edu.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "CNIC82300G",
+  "name": "Govone",
+  "kind": "statale",
+  "town": "Govone",
+  "minutes": 67,
+  "site": "https://www.icgovone.edu.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "TOIC858003",
+  "name": "I.C. Santena",
+  "kind": "statale",
+  "town": "Santena",
+  "minutes": 67,
+  "site": "https://www.scuolesantena.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "TOIC8A5005",
+  "name": "I.C. Nichelino I",
+  "kind": "statale",
+  "town": "Nichelino",
+  "minutes": 68,
+  "site": "https://www.icnichelinouno.edu.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "TOIC8A6001",
+  "name": "I.C. Nichelino Ii",
+  "kind": "statale",
+  "town": "Nichelino",
+  "minutes": 68,
+  "site": "https://www.icnichelino2.edu.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "TOIC83500A",
+  "name": "I.C. Airasca",
+  "kind": "statale",
+  "town": "Scalenghe",
+  "minutes": 68,
+  "site": "https://www.icairasca.edu.it",
+  "grades": [
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "TOIS04100T",
+  "name": "I.I.S. J.C. Maxwell",
+  "kind": "statale",
+  "town": "Nichelino",
+  "minutes": 68,
+  "site": "https://www.jcmaxwell.it",
+  "grades": [
+   "ISTITUTO SUPERIORE",
+   "ISTITUTO TECNICO INDUSTRIALE",
+   "LICEO SCIENTIFICO"
+  ]
+ },
+ {
+  "code": "TOIC8A700R",
+  "name": "I.C. Nichelino Iii",
+  "kind": "statale",
+  "town": "Nichelino",
+  "minutes": 68,
+  "site": "https://www.icnichelino3.edu.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "TOIS03600A",
+  "name": "I.I.S. E. Da Rotterdam",
+  "kind": "statale",
+  "town": "Nichelino",
+  "minutes": 68,
+  "site": "https://www.erasmonichelino.edu.it",
+  "grades": [
+   "ISTITUTO SUPERIORE",
+   "ISTITUTO TECNICO COMMERCIALE",
+   "ISTITUTO TECNICO PER GEOMETRI",
+   "LICEO SCIENTIFICO"
+  ]
+ },
+ {
+  "code": "TOIC8BF00G",
+  "name": "I.C. Nichelino Iv - Montalcini",
+  "kind": "statale",
+  "town": "Nichelino",
+  "minutes": 68,
+  "site": "https://www.istitutocomprensivonichelino4.edu.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "TOIC85600B",
+  "name": "I.C. Cambiano",
+  "kind": "statale",
+  "town": "Cambiano",
+  "minutes": 69,
+  "site": "https://www.iccambiano.edu.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "TOIC84200D",
+  "name": "I.C. Bricherasio",
+  "kind": "statale",
+  "town": "Bricherasio",
+  "minutes": 69,
+  "site": "https://www.icbricherasio.edu.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "TOIC8CK00V",
+  "name": "I.C. Pinerolo 3-4",
+  "kind": "statale",
+  "town": "Macello",
+  "minutes": 69,
+  "site": "https://www.scuolecollegno3.edu.it",
+  "grades": [
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA"
+  ]
+ },
+ {
+  "code": "CNIC82100X",
+  "name": "Monta'",
+  "kind": "statale",
+  "town": "Monta'",
+  "minutes": 70,
+  "site": "https://www.icmonta.edu.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "TOIC874001",
+  "name": "I.C. Vinovo",
+  "kind": "statale",
+  "town": "Vinovo",
+  "minutes": 70,
+  "site": "https://www.scuolevinovo.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "TOIC83400E",
+  "name": "I.C. Candiolo",
+  "kind": "statale",
+  "town": "Piobesi Torinese",
+  "minutes": 70,
+  "site": "https://iccandiolo.edu.it",
+  "grades": [
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "ATIC81200T",
+  "name": "Costigliole",
+  "kind": "statale",
+  "town": "Costigliole D'Asti",
+  "minutes": 70,
+  "site": "https://iccostigliole.edu.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "SVIC811005",
+  "name": "I. C. Cairo Montenotte",
+  "kind": "statale",
+  "town": "Cairo Montenotte",
+  "minutes": 70,
+  "site": "https://www.istitutocomprensivocairo.edu.it",
+  "grades": [
+   "ISTITUTO COMPRENSIVO",
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA",
+   "SCUOLA PRIMO GRADO"
+  ]
+ },
+ {
+  "code": "SVMM062003",
+  "name": "Cpia Savona",
+  "kind": "statale",
+  "town": "Cairo Montenotte",
+  "minutes": 70,
+  "site": "https://cpiasavona.edu.it",
+  "grades": [
+   "CENTRO TERRITORIALE"
+  ]
+ },
+ {
+  "code": "TOIC843009",
+  "name": "I.C. Luserna S. Giovanni",
+  "kind": "statale",
+  "town": "Lusernetta",
+  "minutes": 70,
+  "site": "https://icdeamicis-luserna.it",
+  "grades": [
+   "SCUOLA INFANZIA",
+   "SCUOLA PRIMARIA"
+  ]
+ },
+ {
+  "code": "SVIS00300A",
+  "name": "Iis \"Federico Patetta\" Cairo Montenotte",
+  "kind": "statale",
+  "town": "Cairo Montenotte",
+  "minutes": 70,
+  "site": "https://www.patettacairo.edu.it",
+  "grades": [
+   "IST PROF INDUSTRIA E ARTIGIANATO",
+   "IST TEC COMMERCIALE E PER GEOMETRI",
+   "ISTITUTO SUPERIORE",
+   "ISTITUTO TECNICO INDUSTRIALE"
+  ]
+ }
+]

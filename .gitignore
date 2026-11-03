@@ -1,0 +1,6 @@
+data/raw/
+.DS_Store
+worker/node_modules/
+worker/.wrangler/
+scripts/out/
+__pycache__/

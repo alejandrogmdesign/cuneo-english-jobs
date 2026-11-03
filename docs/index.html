@@ -1,0 +1,478 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>English Teaching Near Cuneo</title>
+<meta name="description" content="Calls for English teachers and native-speaker experts at schools within an hour of Cuneo, checked automatically every few hours.">
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,400;0,600;0,750;1,400&display=swap" rel="stylesheet">
+<script src="config.js"></script>
+<style>
+:root {
+  color-scheme: light dark;
+  --paper: #F4F6F8;
+  --surface: #FFFFFF;
+  --ink: #1F2A36;
+  --muted: #586573;
+  --line: #D8DEE5;
+  --stamp: #4B3FA8;        /* protocol-stamp violet */
+  --stamp-soft: #ECE9FB;
+  --chestnut: #7A4E2D;     /* "filled" notices */
+  --chestnut-soft: #F5ECE4;
+  --warn: #9A3412;
+  --focus: #4B3FA8;
+  --radius-s: 6px;
+  --radius-m: 12px;
+  --gutter: clamp(16px, 4vw, 32px);
+  --font: "Atkinson Hyperlegible Next", "Atkinson Hyperlegible", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #12171D;
+    --surface: #1A2129;
+    --ink: #E6EAEE;
+    --muted: #9CA8B4;
+    --line: #2D3742;
+    --stamp: #B3A8FF;
+    --stamp-soft: #262246;
+    --chestnut: #E0B48F;
+    --chestnut-soft: #2F2419;
+    --warn: #FDBA74;
+    --focus: #B3A8FF;
+  }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font: 400 1.0625rem/1.55 var(--font);
+  -webkit-font-smoothing: antialiased;
+}
+a { color: var(--stamp); text-underline-offset: 0.18em; text-decoration-thickness: 1px; }
+a:hover { text-decoration-thickness: 2px; }
+:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; border-radius: 4px; }
+button { font: inherit; color: inherit; }
+.wrap { max-width: 46rem; margin: 0 auto; padding: 0 var(--gutter); }
+
+/* ---------- header */
+header.top { padding: clamp(28px, 6vw, 56px) 0 8px; }
+.top-row { display: flex; gap: 16px; align-items: flex-start; justify-content: space-between; flex-wrap: wrap; }
+h1 {
+  margin: 0;
+  font-size: clamp(1.9rem, 6.4vw, 2.9rem);
+  line-height: 1.05;
+  font-weight: 750;
+  letter-spacing: -0.02em;
+  max-width: 14ch;
+  text-wrap: balance;
+}
+.status-line { margin: 14px 0 0; color: var(--muted); font-size: 0.98rem; }
+.btn {
+  appearance: none; cursor: pointer;
+  border: 1.5px solid var(--line); background: var(--surface);
+  border-radius: 999px; padding: 9px 16px; font-weight: 600; font-size: 0.95rem;
+  min-height: 44px; display: inline-flex; align-items: center; gap: 8px;
+  transition: border-color .15s ease;
+}
+.btn:hover { border-color: var(--stamp); }
+.btn.primary { background: var(--stamp); border-color: var(--stamp); color: var(--surface); }
+.btn.small { min-height: 36px; padding: 5px 12px; font-size: 0.9rem; }
+
+/* ---------- controls */
+.controls { display: flex; flex-wrap: wrap; gap: 12px 24px; align-items: center; margin: 28px 0 8px; }
+.seg { display: inline-flex; background: var(--surface); border: 1.5px solid var(--line); border-radius: 999px; padding: 3px; }
+.seg button {
+  appearance: none; border: 0; background: transparent; cursor: pointer;
+  padding: 7px 14px; border-radius: 999px; font-weight: 600; font-size: 0.95rem; min-height: 38px;
+}
+.seg button[aria-pressed="true"] { background: var(--ink); color: var(--paper); }
+.seg .count { font-weight: 400; opacity: 0.75; }
+.within { display: inline-flex; align-items: center; gap: 8px; color: var(--muted); font-size: 0.95rem; }
+.within select {
+  font: inherit; color: var(--ink); background: var(--surface);
+  border: 1.5px solid var(--line); border-radius: var(--radius-s); padding: 6px 8px; min-height: 38px;
+}
+
+/* ---------- notices */
+.notices { list-style: none; margin: 8px 0 0; padding: 0; }
+.notice {
+  display: grid; grid-template-columns: 4.6rem 1fr; gap: 4px 18px;
+  padding: 22px 0; border-top: 1px solid var(--line);
+}
+.notice:last-child { border-bottom: 1px solid var(--line); }
+.stamp {
+  grid-row: span 3;
+  align-self: start;
+  width: 4.6rem; padding: 8px 0 7px;
+  border: 2px solid var(--stamp); border-radius: 10px;
+  box-shadow: inset 0 0 0 2px var(--paper), inset 0 0 0 3.5px var(--stamp);
+  color: var(--stamp); text-align: center; line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+.stamp .d { display: block; font-size: 1.65rem; font-weight: 750; }
+.stamp .m { display: block; margin-top: 4px; font-size: 0.85rem; font-weight: 600; }
+.stamp .y { display: block; margin-top: 3px; font-size: 0.72rem; opacity: 0.8; }
+.notice.filled .stamp { color: var(--chestnut); border-color: var(--chestnut); box-shadow: inset 0 0 0 2px var(--paper), inset 0 0 0 3.5px var(--chestnut); }
+.notice.undated .stamp { border-style: dashed; box-shadow: none; }
+.title { margin: 0; font-size: 1.08rem; line-height: 1.38; font-weight: 600; overflow-wrap: break-word; text-wrap: pretty; }
+.title a { color: inherit; text-decoration: none; }
+.title a:hover { text-decoration: underline; }
+.where { margin: 2px 0 0; color: var(--muted); font-size: 0.95rem; }
+.where strong { color: var(--ink); font-weight: 600; }
+.tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; align-items: center; }
+.tag { font-size: 0.82rem; font-weight: 600; padding: 3px 9px; border-radius: 999px; background: var(--stamp-soft); color: var(--stamp); }
+.tag.filled { background: var(--chestnut-soft); color: var(--chestnut); }
+.tag.deadline { background: transparent; color: var(--warn); padding-left: 0; }
+.tag.new { transform: rotate(-3deg); border: 1.5px solid var(--stamp); background: transparent; }
+.links { display: flex; flex-wrap: wrap; gap: 6px 18px; margin-top: 10px; font-size: 0.95rem; }
+
+.empty { padding: 36px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.empty h2 { margin: 0 0 6px; font-size: 1.2rem; }
+.empty p { margin: 0; color: var(--muted); max-width: 60ch; }
+
+/* ---------- sections below */
+section.more { margin-top: 56px; }
+section.more h2 { font-size: 1.3rem; margin: 0 0 6px; letter-spacing: -0.01em; }
+section.more > p { margin: 0 0 14px; color: var(--muted); max-width: 62ch; }
+.plain { list-style: none; padding: 0; margin: 0; }
+.plain li { padding: 12px 0; border-top: 1px solid var(--line); }
+.plain li:last-child { border-bottom: 1px solid var(--line); }
+.plain .sub { display: block; color: var(--muted); font-size: 0.92rem; }
+footer { margin: 64px 0 48px; color: var(--muted); font-size: 0.92rem; max-width: 62ch; }
+
+/* ---------- schools dialog */
+dialog {
+  width: min(44rem, 100vw - 24px); max-height: min(88vh, 100dvh - 24px);
+  padding: 0; border: 1px solid var(--line); border-radius: var(--radius-m);
+  background: var(--paper); color: var(--ink);
+}
+dialog::backdrop { background: rgb(10 14 20 / 0.45); }
+.dlg-head { position: sticky; top: 0; z-index: 1; background: var(--paper); padding: 18px 20px 14px; border-bottom: 1px solid var(--line); display: flex; gap: 12px; align-items: center; justify-content: space-between; }
+.dlg-head h2 { margin: 0; font-size: 1.25rem; }
+.dlg-body { padding: 4px 20px 24px; overflow: auto; overscroll-behavior: contain; }
+.addform { margin: 16px 0 6px; padding: 16px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius-m); }
+.addform label { display: block; font-weight: 600; margin-bottom: 6px; }
+.addrow { display: flex; gap: 8px; flex-wrap: wrap; }
+.addrow input {
+  flex: 1 1 16rem; min-width: 0; font: inherit; color: var(--ink); background: var(--paper);
+  border: 1.5px solid var(--line); border-radius: var(--radius-s); padding: 9px 11px; min-height: 44px;
+}
+.hint { margin: 8px 0 0; color: var(--muted); font-size: 0.9rem; }
+.addform .sub-label { margin-top: 14px; }
+.addform .opt { font-weight: 400; color: var(--muted); }
+.msg { margin: 8px 0 0; font-size: 0.92rem; font-weight: 600; }
+.msg.err { color: var(--warn); }
+.src-group h3 { margin: 22px 0 4px; font-size: 1rem; }
+.src-group > p { margin: 0 0 6px; color: var(--muted); font-size: 0.9rem; }
+.src { display: grid; grid-template-columns: 1fr auto; gap: 2px 12px; padding: 11px 0; border-top: 1px solid var(--line); align-items: center; }
+.src .n { font-weight: 600; overflow-wrap: anywhere; }
+.src .s { grid-column: 1; color: var(--muted); font-size: 0.88rem; overflow-wrap: anywhere; }
+.src .s .bad { color: var(--warn); }
+.src button { grid-row: span 2; }
+.search { width: 100%; font: inherit; color: var(--ink); background: var(--surface); border: 1.5px solid var(--line); border-radius: var(--radius-s); padding: 9px 11px; min-height: 44px; margin-top: 16px; }
+
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+
+@media (max-width: 480px) {
+  .notice { grid-template-columns: 3.9rem 1fr; gap: 4px 14px; }
+  .stamp { width: 3.9rem; }
+  .stamp .d { font-size: 1.4rem; }
+}
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div class="top-row">
+      <h1>English teaching work near Cuneo</h1>
+      <button class="btn" id="open-sources" type="button">Schools I follow</button>
+    </div>
+    <p class="status-line" id="status">Loading the latest list…</p>
+  </header>
+
+  <main>
+    <div class="controls">
+      <div class="seg" role="group" aria-label="Which notices">
+        <button type="button" data-view="open" aria-pressed="true">Open calls <span class="count" id="count-open"></span></button>
+        <button type="button" data-view="past" aria-pressed="false">Past calls <span class="count" id="count-past"></span></button>
+      </div>
+      <label class="within">Within
+        <select id="within">
+          <option value="999">any distance</option>
+          <option value="30">30 min</option>
+          <option value="45">45 min</option>
+          <option value="60" selected>1 hour</option>
+          <option value="75">1 h 15</option>
+        </select>
+      </label>
+    </div>
+    <p class="hint" id="view-hint">Schools looking for an English teacher or native-speaker expert. Newest first.</p>
+    <ul class="notices" id="notices" aria-live="polite"></ul>
+
+    <section class="more" aria-labelledby="byhand-h">
+      <h2 id="byhand-h">Check these by hand</h2>
+      <p>These sites block automatic checking. The links open a ready-made search.</p>
+      <ul class="plain" id="byhand"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>Every few hours a small program reads the notice boards (albo online, news and job pages) of the schools in “Schools I follow” and lists anything about English teaching: madrelingua experts, lettorato, Cambridge and Trinity courses, conversation. Interpelli and supplenze are left out. It uses no AI, just keyword matching, so open the notice before applying.</p>
+    <p>Good luck. From Alex.</p>
+  </footer>
+</div>
+
+<dialog id="sources" aria-labelledby="sources-h" closedby="any">
+  <div class="dlg-head">
+    <h2 id="sources-h">Schools I follow</h2>
+    <button class="btn small" type="button" id="close-sources">Done</button>
+  </div>
+  <div class="dlg-body">
+    <form class="addform" id="addform" hidden>
+      <label for="add-url">Add a website</label>
+      <div class="addrow">
+        <input id="add-url" name="url" type="text" inputmode="url" autocapitalize="off" spellcheck="false" placeholder="www.example-school.it/lavora-con-noi" required autocomplete="off">
+      </div>
+      <p class="hint">A school’s homepage, or better, the page where it posts jobs or notices.</p>
+      <label for="add-name" class="sub-label">Name <span class="opt">(optional)</span></label>
+      <div class="addrow">
+        <input id="add-name" name="name" type="text" placeholder="e.g. British School Cuneo" autocomplete="off">
+        <button class="btn primary" type="submit">Add website</button>
+      </div>
+      <p class="hint">It’s checked from the next run, within a few hours.</p>
+      <p class="msg" id="add-msg" role="status"></p>
+    </form>
+    <p class="hint" id="readonly-note" hidden>You’re viewing the list read-only. Open the private link to add or remove websites.</p>
+    <input class="search" id="filter" type="search" placeholder="Find a school or town" aria-label="Find a school or town">
+    <div id="source-list"></div>
+  </div>
+</dialog>
+
+<script>
+(() => {
+  const CFG = window.CUNEO_JOBS_CONFIG || {};
+  const API = (CFG.sourcesApi || "").replace(/\/$/, "");
+  const KEY_STORE = "cej-key";
+  const $ = (s, el = document) => el.querySelector(s);
+  const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+
+  // Private edit link: #key=... is stored on this device, then removed from the address bar.
+  const readStore = (k) => { try { return localStorage.getItem(k); } catch { return null; } };
+  const writeStore = (k, v) => { try { localStorage.setItem(k, v); } catch {} };
+  const hashKey = new URLSearchParams(location.hash.slice(1)).get("key");
+  if (hashKey) { writeStore(KEY_STORE, hashKey); history.replaceState(null, "", location.pathname + location.search); }
+  const editKey = hashKey || readStore(KEY_STORE);
+  const canEdit = Boolean(API && editKey);
+
+  const state = { data: null, live: { added: [], removed: [] }, view: "open", within: Number(readStore("cej-within") || 60) };
+  $("#within").value = String(state.within);
+
+  // ---------- dates
+  const fmtDay = new Intl.DateTimeFormat("en-GB", { day: "numeric" });
+  const fmtMon = new Intl.DateTimeFormat("en-GB", { month: "short" });
+  const fmtLong = new Intl.DateTimeFormat("en-GB", { weekday: "short", day: "numeric", month: "short" });
+  const rtf = new Intl.RelativeTimeFormat("en", { numeric: "auto" });
+  const asDate = (iso) => (iso ? new Date(iso.length === 10 ? iso + "T12:00:00" : iso) : null);
+  const daysFromToday = (d) => Math.round((new Date(d.toDateString()) - new Date(new Date().toDateString())) / 864e5);
+  function ago(iso) {
+    const d = asDate(iso); if (!d) return "";
+    const mins = Math.round((Date.now() - d) / 60000);
+    if (mins < 60) return rtf.format(-Math.max(mins, 1), "minute");
+    if (mins < 60 * 36) return rtf.format(-Math.round(mins / 60), "hour");
+    return rtf.format(-Math.round(mins / 1440), "day");
+  }
+
+  // ---------- data
+  async function load() {
+    try {
+      const r = await fetch("jobs.json", { cache: "no-cache" });
+      if (!r.ok) throw new Error("HTTP " + r.status);
+      state.data = await r.json();
+    } catch (e) {
+      $("#status").textContent = "The list couldn’t be loaded. Check your connection and reload the page.";
+      return;
+    }
+    if (API) {
+      try {
+        const r = await fetch(API + "/sources", { cache: "no-cache" });
+        if (r.ok) state.live = await r.json();
+      } catch {}
+    }
+    render();
+  }
+
+  const removed = () => new Set(state.live.removed || []);
+  function allSources() {
+    const list = (state.data?.sources || []).slice();
+    const known = new Set(list.map((s) => s.id));
+    for (const a of state.live.added || []) {
+      if (!known.has(a.id)) list.push({ id: a.id, name: a.name || hostOf(a.url), town: a.town || "", minutes: null, site: a.url, kind: "added", status: "waiting", readers: [], manual: [] });
+    }
+    const gone = removed();
+    return list.map((s) => (gone.has(s.id) ? { ...s, status: "removed" } : s.status === "removed" ? { ...s, status: "waiting" } : s));
+  }
+  const hostOf = (u) => { try { return new URL(u).hostname.replace(/^www\./, ""); } catch { return u; } };
+
+  // ---------- render list
+  function render() {
+    const d = state.data; if (!d) return;
+    const srcs = allSources(); const byId = Object.fromEntries(srcs.map((s) => [s.id, s]));
+    const followed = srcs.filter((s) => s.status !== "removed");
+    const ok = followed.filter((s) => s.status === "ok").length;
+    $("#status").textContent = `Checked ${ago(d.generated)}. ${ok} of ${followed.length} school websites read automatically.`;
+
+    const inRange = (j) => { const s = byId[j.source]; if (!s || s.status === "removed") return false; return s.minutes == null || s.minutes <= state.within; };
+    const pool = d.jobs.filter(inRange);
+    // A call is "open" while its deadline is ahead, or, with no deadline found, for 30 days after posting.
+    const isOpen = (j) => {
+      if (j.kind !== "open") return false;
+      if (j.deadline) return daysFromToday(asDate(j.deadline)) >= 0;
+      return (Date.now() - asDate(j.date || j.firstSeen)) < 30 * 864e5;
+    };
+    const open = pool.filter(isOpen); const past = pool.filter((j) => !isOpen(j));
+    $("#count-open").textContent = `(${open.length})`; $("#count-past").textContent = `(${past.length})`;
+    const list = state.view === "open" ? open : past;
+    $("#view-hint").textContent = state.view === "open"
+      ? "Schools looking for an English teacher or native-speaker expert in the last 30 days. Newest first."
+      : "Older calls and ones already decided. These schools hire English experts, so they’re worth contacting directly.";
+
+    const ul = $("#notices");
+    if (!list.length) {
+      ul.innerHTML = `<li class="empty"><h2>${state.view === "open" ? "No open calls right now" : "No past calls yet"}</h2><p>${state.view === "open"
+        ? "Schools post most of these from September to November and again in spring. The list updates by itself every few hours. Meanwhile, try “Check these by hand” below or widen the distance."
+        : "Nothing in the last four months within this distance."}</p></li>`;
+      return;
+    }
+    ul.innerHTML = list.map((j) => noticeHTML(j, byId[j.source])).join("");
+  }
+
+  // Notice titles: drop funding codes, and calm down titles written in capitals.
+  const KEEP_CAPS = /^(PET|FCE|KET|CAE|CPE|IELTS|TOEFL|CLIL|PNRR|PON|FSE|FSE\+|DM|CRT|CRC|IC|IIS|CPIA|ITS|UE|CEFR|QCER|A1|A2|B1|B2|C1|C2|N\.)$/;
+  function tidyTitle(t) {
+    t = t.replace(/\s*[-–—,]?\s*\b(CUP|CIG)\b\s*:?\s*[A-Z0-9]{8,15}\b/g, "").replace(/\s{2,}/g, " ").trim();
+    const letters = t.replace(/[^A-Za-zÀ-ÿ]/g, "");
+    if (letters && letters.replace(/[^A-ZÀ-Þ]/g, "").length / letters.length > 0.6) {
+      t = t.split(/(\s+)/).map((w) => (KEEP_CAPS.test(w.replace(/[^\w.+]/g, "")) ? w : w.toLowerCase())).join("");
+      t = t.replace(/^(\W*)(\p{L})/u, (m, p, c) => p + c.toUpperCase());
+    }
+    return t;
+  }
+
+  function noticeHTML(j, s) {
+    const d = asDate(j.date || j.firstSeen);
+    const isNew = (Date.now() - d) < 4 * 864e5;
+    const dl = j.deadline ? asDate(j.deadline) : null;
+    let dlTag = "";
+    if (dl) {
+      const n = daysFromToday(dl);
+      dlTag = n < 0 ? `<span class="tag deadline">Closed ${fmtLong.format(dl)}</span>`
+        : `<span class="tag deadline">Apply by ${fmtLong.format(dl)}${n <= 2 ? (n === 0 ? " (today)" : n === 1 ? " (tomorrow)" : "") : ""}</span>`;
+    }
+    const where = s ? `<strong>${esc(s.name)}</strong>${s.town ? `, ${esc(s.town)}` : ""}${s.minutes != null ? `. ${s.minutes} min drive` : ""}` : "";
+    const site = s?.site ? `<a href="${esc(s.site)}" rel="noopener" target="_blank">School website</a>` : "";
+    return `<li class="notice ${state.view === "past" ? "filled" : ""} ${j.date ? "" : "undated"}">
+      <div class="stamp" aria-hidden="true"><span class="d">${fmtDay.format(d)}</span><span class="m">${fmtMon.format(d)}</span><span class="y">${d.getFullYear()}</span></div>
+      <h2 class="title" lang="it"><a href="${esc(j.url)}" rel="noopener" target="_blank">${esc(tidyTitle(j.title))}</a></h2>
+      <p class="where">${where}</p>
+      <div>
+        <div class="tags">
+          ${isNew ? '<span class="tag new">New</span>' : ""}
+          ${j.kind === "filled" ? '<span class="tag filled">Filled</span>' : ""}
+          ${dlTag}
+          <span class="sr-only">${j.date ? "Posted" : "First seen"} ${fmtLong.format(d)}</span>
+        </div>
+        <div class="links"><a href="${esc(j.url)}" rel="noopener" target="_blank">Open the notice</a>${site}</div>
+      </div>
+    </li>`;
+  }
+
+  // ---------- by hand
+  const BOARDS = [
+    { name: "Indeed", sub: "“insegnante inglese”, within 50 km of Cuneo", url: "https://it.indeed.com/jobs?q=insegnante+inglese&l=Cuneo&radius=50" },
+    { name: "Indeed (in English)", sub: "“English teacher”, within 50 km of Cuneo", url: "https://it.indeed.com/jobs?q=english+teacher&l=Cuneo&radius=50" },
+    { name: "LinkedIn", sub: "“English teacher” near Cuneo", url: "https://www.linkedin.com/jobs/search/?keywords=English%20teacher&location=Cuneo%2C%20Piedmont%2C%20Italy&distance=50" },
+    { name: "Subito.it", sub: "Job ads in the province of Cuneo mentioning “inglese”", url: "https://www.subito.it/annunci-piemonte/vendita/offerte-lavoro/cuneo/?q=inglese" },
+  ];
+  function renderByHand() {
+    const srcs = allSources().filter((s) => s.status !== "removed" && s.manual && s.manual.length && (s.minutes == null || s.minutes <= state.within));
+    $("#byhand").innerHTML = BOARDS.map((b) => `<li><a href="${b.url}" rel="noopener" target="_blank">${b.name}</a><span class="sub">${b.sub}</span></li>`).join("")
+      + srcs.map((s) => `<li><a href="${esc(s.manual[0].url)}" rel="noopener" target="_blank">${esc(s.name)} notice board</a><span class="sub">${esc(s.town)}${s.minutes != null ? `, ${s.minutes} min` : ""}. Search it for “inglese”.</span></li>`).join("");
+  }
+
+  // ---------- schools dialog
+  const dlg = $("#sources");
+  $("#open-sources").addEventListener("click", () => { renderSources(); dlg.showModal(); });
+  $("#close-sources").addEventListener("click", () => dlg.close());
+  dlg.addEventListener("click", (e) => { if (e.target === dlg) dlg.close(); }); // click outside, for browsers without closedby
+  $("#addform").hidden = !canEdit;
+  $("#readonly-note").hidden = canEdit || !API;
+  $("#filter").addEventListener("input", renderSources);
+
+  const STATUS = {
+    ok: (s) => `Read automatically${s.readers?.length ? ` (${s.readers.join(", ")})` : ""}`,
+    unreachable: () => `<span class="bad">Couldn’t reach this site at the last check</span>`,
+    "no-site": () => `<span class="bad">No website on file. Add it with “Add a website”.</span>`,
+    waiting: () => "Waiting for its first check",
+  };
+  function renderSources() {
+    const q = $("#filter").value.trim().toLowerCase();
+    const match = (s) => !q || `${s.name} ${s.town} ${s.site}`.toLowerCase().includes(q);
+    const srcs = allSources().filter(match);
+    const row = (s, action) => `<div class="src"><span class="n">${esc(s.name)}</span>
+      ${canEdit ? `<button class="btn small" type="button" data-${action}="${esc(s.id)}">${action === "remove" ? "Remove" : "Restore"}</button>` : "<span></span>"}
+      <span class="s">${esc(s.town || hostOf(s.site || ""))}${s.minutes != null ? `, ${s.minutes} min` : ""}. ${(STATUS[s.status] || STATUS.waiting)(s)}${s.manual?.length ? `. <a href="${esc(s.manual[0].url)}" target="_blank" rel="noopener">Notice board</a> needs checking by hand` : ""}</span></div>`;
+    const added = srcs.filter((s) => (s.kind === "added" || s.kind === "other") && s.status !== "removed");
+    const trouble = srcs.filter((s) => !added.includes(s) && ["unreachable", "no-site"].includes(s.status));
+    const fine = srcs.filter((s) => !added.includes(s) && !trouble.includes(s) && s.status !== "removed").sort((a, b) => (a.minutes ?? 999) - (b.minutes ?? 999));
+    const gone = srcs.filter((s) => s.status === "removed");
+    const group = (title, note, items, action) => items.length ? `<div class="src-group"><h3>${title} (${items.length})</h3>${note ? `<p>${note}</p>` : ""}${items.map((s) => row(s, action)).join("")}</div>` : "";
+    $("#source-list").innerHTML =
+      group("Websites you added", "", added, "remove") +
+      group("Needs attention", "These couldn’t be read. If you know a school’s current website, add it above and remove the old entry.", trouble, "remove") +
+      group("Schools, nearest first", "State and private schools within about 70 minutes of Cuneo.", fine, "remove") +
+      group("Removed", "Not checked any more. Restore one to check it again.", gone, "restore");
+  }
+
+  async function edit(body) {
+    const r = await fetch(API + "/sources", { method: "POST", headers: { "Content-Type": "application/json", Authorization: "Bearer " + editKey }, body: JSON.stringify(body) });
+    const out = await r.json().catch(() => ({}));
+    if (!r.ok) throw new Error(out.error || "The change couldn’t be saved (HTTP " + r.status + ").");
+    state.live = out; render(); renderByHand(); renderSources();
+  }
+  $("#source-list").addEventListener("click", async (e) => {
+    const b = e.target.closest("button[data-remove],button[data-restore]"); if (!b) return;
+    b.disabled = true;
+    try { await edit(b.dataset.remove ? { op: "remove", id: b.dataset.remove } : { op: "restore", id: b.dataset.restore }); }
+    catch (err) { b.disabled = false; alert(err.message); }
+  });
+  $("#addform").addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const msg = $("#add-msg"); msg.className = "msg"; msg.textContent = "Saving…";
+    let url = $("#add-url").value.trim(); if (url && !/^https?:\/\//i.test(url)) url = "https://" + url;
+    try {
+      await edit({ op: "add", url, name: $("#add-name").value.trim() });
+      msg.textContent = `Added ${hostOf(url)}. It will be checked within a few hours.`;
+      $("#add-url").value = ""; $("#add-name").value = "";
+    } catch (err) { msg.className = "msg err"; msg.textContent = err.message; }
+  });
+
+  // ---------- controls
+  document.querySelectorAll(".seg button").forEach((b) => b.addEventListener("click", () => {
+    state.view = b.dataset.view;
+    document.querySelectorAll(".seg button").forEach((x) => x.setAttribute("aria-pressed", String(x === b)));
+    render();
+  }));
+  $("#within").addEventListener("change", (e) => { state.within = Number(e.target.value); writeStore("cej-within", e.target.value); render(); renderByHand(); });
+
+  load().then(renderByHand);
+})();
+</script>
+</body>
+</html>

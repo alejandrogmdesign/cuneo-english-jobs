@@ -1,0 +1,17 @@
+name = "cuneo-english-jobs"
+main = "src/index.js"
+compatibility_date = "2026-10-01"
+
+# Create the namespace once with:  npx wrangler kv namespace create SOURCES
+# then paste the id it prints here.
+[[kv_namespaces]]
+binding = "SOURCES"
+id = "REPLACE_WITH_KV_NAMESPACE_ID"
+
+[vars]
+ALLOWED_ORIGIN = "*"
+# GH_REPO = "owner/cuneo-english-jobs"
+
+# Secrets (not in this file):
+#   npx wrangler secret put EDIT_KEY     the key in her private link
+#   npx wrangler secret put GH_TOKEN     optional, starts a scan as soon as she adds a site
