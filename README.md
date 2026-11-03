@@ -36,6 +36,18 @@ Run a scan by hand with `python3 scanner/scan.py`, or `python3 scanner/scan.py -
 4. Optional: to start a scan the moment she adds a site, create a fine-grained GitHub token for this repository with "Actions: read and write", then `npx wrangler secret put GH_TOKEN` and set `GH_REPO` in `wrangler.toml`.
 5. Her link: `https://<user>.github.io/<repo>/#key=<EDIT_KEY>`. The page saves the key on her device and removes it from the address bar. Share the plain link (without `#key=`) with anyone else.
 
+## Live setup
+
+- Page: https://alejandrogmdesign.github.io/cuneo-english-jobs/
+- Worker: https://cuneo-english-jobs.alejandrogmdesign.workers.dev (KV namespace `SOURCES`)
+- Her private link is in `PRIVATE-LINK.txt` on Alex's Mac (not in the repository).
+
+## Safety of her list
+
+- Only a request carrying `EDIT_KEY` (a Cloudflare secret, 48 random characters) can change the list. Everyone else can only read it.
+- Each scan saves a copy of her list in `data/her_sites_backup.json`, so git history keeps every version. To restore one, write that file's contents back to the KV key `list` (`npx wrangler kv key put list --binding SOURCES --path data/her_sites_backup.json --remote`).
+- If the private link leaks, set a new key with `npx wrangler secret put EDIT_KEY` in `worker/` and send her the new link. The old link stops working at once.
+
 ## Things to know
 
 - GitHub pauses scheduled workflows in a public repository after 60 days without activity. The scan commits on every run, which counts as activity, but if the list stops updating, open the Actions tab and re-enable the workflow.

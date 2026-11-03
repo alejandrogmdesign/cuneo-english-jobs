@@ -36,6 +36,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add docs/jobs.json data/state.json
+          [ -f data/her_sites_backup.json ] && git add data/her_sites_backup.json
           if git diff --cached --quiet; then
             echo "Nothing changed."
           else

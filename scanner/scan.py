@@ -36,6 +36,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SCHOOLS = os.path.join(ROOT, "data", "schools.json")
 EXTRA = os.path.join(ROOT, "data", "extra_sources.json")
 STATE = os.path.join(ROOT, "data", "state.json")
+BACKUP = os.path.join(ROOT, "data", "her_sites_backup.json")
 OUT = os.path.join(ROOT, "docs", "jobs.json")
 SOURCES_API = os.environ.get("SOURCES_API", "").rstrip("/")
 
@@ -328,6 +329,10 @@ def load_sources():
             try:
                 live = json.loads(body)
                 removed = set(live.get("removed", []))
+                # Backup: each run commits a copy of her list, so git history keeps every version.
+                with open(BACKUP, "w", encoding="utf-8") as f:
+                    json.dump({"added": sorted(live.get("added", []), key=lambda a: a.get("addedAt", "")),
+                               "removed": sorted(removed)}, f, ensure_ascii=False, indent=1)
                 known = {s["site"].rstrip("/") for s in sources if s.get("site")}
                 for a in live.get("added", []):
                     if a["url"].rstrip("/") not in known:

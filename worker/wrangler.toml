@@ -6,11 +6,11 @@ compatibility_date = "2026-10-01"
 # then paste the id it prints here.
 [[kv_namespaces]]
 binding = "SOURCES"
-id = "REPLACE_WITH_KV_NAMESPACE_ID"
+id = "6190f9f8e97541ffbdfaa0c1575fff0b"
 
 [vars]
-ALLOWED_ORIGIN = "*"
-# GH_REPO = "owner/cuneo-english-jobs"
+ALLOWED_ORIGIN = "https://alejandrogmdesign.github.io"
+GH_REPO = "alejandrogmdesign/cuneo-english-jobs"
 
 # Secrets (not in this file):
 #   npx wrangler secret put EDIT_KEY     the key in her private link
