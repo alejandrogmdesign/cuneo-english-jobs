@@ -21,8 +21,10 @@ import http.client
 import json
 import os
 import re
+import socket
 import ssl
 import sys
+import threading
 import time
 import urllib.error
 import urllib.parse
@@ -52,28 +54,59 @@ CTX.verify_mode = ssl.CERT_NONE
 
 # ---------------------------------------------------------------- fetching
 
+# Many school sites share a few hosting servers (Spaggiari, Argo, Nuvola). Those answer
+# "509 / 429" when one visitor asks too fast, so requests are throttled per server IP:
+# at most 2 at a time, at least 0.7 s apart, with backoff and retries on a refusal.
+_ip_cache, _ip_locks, _ip_last = {}, {}, {}
+_guard = threading.Lock()
+PER_SERVER = 2
+GAP = 0.7
+
+
+def _server_of(url):
+    host = urllib.parse.urlparse(url).hostname or ""
+    with _guard:
+        if host not in _ip_cache:
+            try:
+                _ip_cache[host] = socket.gethostbyname(host)
+            except OSError:
+                _ip_cache[host] = host
+        ip = _ip_cache[host]
+        if ip not in _ip_locks:
+            _ip_locks[ip] = threading.BoundedSemaphore(PER_SERVER)
+            _ip_last[ip] = 0.0
+        return ip
+
+
 def fetch(url, max_bytes=3_000_000, timeout=25):
     """GET a URL. Returns (status, final_url, text). Never raises."""
     req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept-Language": "it-IT,it;q=0.9,en;q=0.5"})
-    for attempt in range(2):
-        try:
-            with urllib.request.urlopen(req, timeout=timeout, context=CTX) as r:
-                try:
-                    raw = r.read(max_bytes)
-                except http.client.IncompleteRead as e:
-                    raw = e.partial
-                cs = r.headers.get_content_charset() or "utf-8"
-                return r.status, r.geturl(), raw.decode(cs, "replace")
-        except urllib.error.HTTPError as e:
-            if e.code in (429, 502, 503, 504) and attempt == 0:
-                time.sleep(3)
-                continue
-            return e.code, url, ""
-        except Exception as e:  # DNS, TLS, timeouts
-            if attempt == 0:
-                time.sleep(2)
-                continue
-            return 0, url, type(e).__name__
+    server = _server_of(url)
+    waits = [0, 8, 25, 60]
+    for attempt, wait in enumerate(waits):
+        time.sleep(wait)
+        with _ip_locks[server]:
+            with _guard:
+                pause = _ip_last[server] + GAP - time.monotonic()
+                _ip_last[server] = max(time.monotonic(), _ip_last[server] + GAP)
+            if pause > 0:
+                time.sleep(pause)
+            try:
+                with urllib.request.urlopen(req, timeout=timeout, context=CTX) as r:
+                    try:
+                        raw = r.read(max_bytes)
+                    except http.client.IncompleteRead as e:
+                        raw = e.partial
+                    cs = r.headers.get_content_charset() or "utf-8"
+                    return r.status, r.geturl(), raw.decode(cs, "replace")
+            except urllib.error.HTTPError as e:
+                if e.code in (429, 502, 503, 504, 509) and attempt < len(waits) - 1:
+                    continue
+                return e.code, url, ""
+            except Exception as e:  # DNS, TLS, timeouts
+                if attempt == 0:
+                    continue
+                return 0, url, type(e).__name__
     return 0, url, ""
 
 
