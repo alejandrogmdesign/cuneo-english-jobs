@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03T08:10:21+00:00",
+ "generated": "2026-11-03T08:27:48+00:00",
  "sources": [
   {
    "id": "CNMM161008",
@@ -9,7 +9,7 @@
    "site": "https://www.cpiacuneo1.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:08:53+00:00",
+   "checked": "2026-11-03T08:25:50+00:00",
    "readers": [],
    "manual": [
     {
@@ -30,10 +30,8 @@
    "site": "https://www.icborgosangiuseppe.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:08:53+00:00",
-   "readers": [
-    "spaggiari"
-   ],
+   "checked": "2026-11-03T08:25:50+00:00",
+   "readers": [],
    "manual": []
   },
   {
@@ -44,7 +42,7 @@
    "site": "https://www.cigna-baruffi-garelli.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:08:53+00:00",
+   "checked": "2026-11-03T08:25:50+00:00",
    "readers": [
     "argo",
     "wordpress"
@@ -59,7 +57,7 @@
    "site": "https://www.cigna-baruffi-garelli.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:08:53+00:00",
+   "checked": "2026-11-03T08:25:50+00:00",
    "readers": [
     "argo",
     "wordpress"
@@ -74,7 +72,7 @@
    "site": "https://liceocuneo.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:08:53+00:00",
+   "checked": "2026-11-03T08:25:50+00:00",
    "readers": [
     "wordpress"
    ],
@@ -88,7 +86,7 @@
    "site": "https://www.iccuneocorsosoleri.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:08:53+00:00",
+   "checked": "2026-11-03T08:25:50+00:00",
    "readers": [],
    "manual": []
   },
@@ -100,7 +98,7 @@
    "site": "https://www.comprensivocuneoviasobrero.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:08:53+00:00",
+   "checked": "2026-11-03T08:25:50+00:00",
    "readers": [],
    "manual": []
   },
@@ -112,7 +110,7 @@
    "site": "https://www.icvialeangelicuneo.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:08:53+00:00",
+   "checked": "2026-11-03T08:25:50+00:00",
    "readers": [
     "argo",
     "wordpress"
@@ -127,7 +125,7 @@
    "site": "https://www.iccuneooltrestura.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:08:53+00:00",
+   "checked": "2026-11-03T08:25:50+00:00",
    "readers": [
     "argo",
     "wordpress"
@@ -142,7 +140,7 @@
    "site": "https://www.grandiscuneo.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:08:53+00:00",
+   "checked": "2026-11-03T08:25:50+00:00",
    "readers": [
     "spaggiari"
    ],
@@ -156,7 +154,7 @@
    "site": "https://www.virginiodonadio.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:08:53+00:00",
+   "checked": "2026-11-03T08:25:50+00:00",
    "readers": [],
    "manual": []
   },
@@ -168,7 +166,7 @@
    "site": "https://www.liceodeamiciscuneo.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:08:53+00:00",
+   "checked": "2026-11-03T08:25:50+00:00",
    "readers": [
     "wordpress"
    ],
@@ -182,7 +180,7 @@
    "site": "https://istitutofiore.it",
    "kind": "paritaria",
    "status": "ok",
-   "checked": "2026-11-03T08:08:53+00:00",
+   "checked": "2026-11-03T08:25:52+00:00",
    "readers": [
     "wordpress"
    ],
@@ -196,7 +194,7 @@
    "site": "https://istitutofiore.it",
    "kind": "paritaria",
    "status": "ok",
-   "checked": "2026-11-03T08:08:55+00:00",
+   "checked": "2026-11-03T08:25:56+00:00",
    "readers": [
     "wordpress"
    ],
@@ -210,7 +208,7 @@
    "site": "https://icvassalloboves.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:08:55+00:00",
+   "checked": "2026-11-03T08:25:56+00:00",
    "readers": [
     "karon"
    ],
@@ -224,7 +222,7 @@
    "site": "https://iccervasca.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:08:55+00:00",
+   "checked": "2026-11-03T08:25:56+00:00",
    "readers": [
     "nuvola",
     "wordpress"
@@ -239,7 +237,7 @@
    "site": "https://www.icborgosd.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:08:56+00:00",
+   "checked": "2026-11-03T08:25:57+00:00",
    "readers": [
     "argo",
     "wordpress"
@@ -254,7 +252,7 @@
    "site": "https://www.iccaraglio.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:08:56+00:00",
+   "checked": "2026-11-03T08:25:58+00:00",
    "readers": [
     "argo",
     "wordpress"
@@ -269,7 +267,7 @@
    "site": "https://icrobilante.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:08:57+00:00",
+   "checked": "2026-11-03T08:25:58+00:00",
    "readers": [],
    "manual": []
   },
@@ -280,11 +278,9 @@
    "minutes": 19,
    "site": "https://www.icmorozzo.edu.it",
    "kind": "statale",
-   "status": "ok",
-   "checked": "2026-11-03T08:08:57+00:00",
-   "readers": [
-    "spaggiari"
-   ],
+   "status": "unreachable",
+   "checked": "2026-11-03T08:25:59+00:00",
+   "readers": [],
    "manual": []
   },
   {
@@ -295,7 +291,7 @@
    "site": "https://www.comprensivocentallo.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:08:57+00:00",
+   "checked": "2026-11-03T08:25:59+00:00",
    "readers": [
     "argo",
     "wordpress"
@@ -309,11 +305,9 @@
    "minutes": 20,
    "site": "https://www.icchiusapeveragno.edu.it",
    "kind": "statale",
-   "status": "ok",
-   "checked": "2026-11-03T08:08:57+00:00",
-   "readers": [
-    "spaggiari"
-   ],
+   "status": "unreachable",
+   "checked": "2026-11-03T08:26:00+00:00",
+   "readers": [],
    "manual": []
   },
   {
@@ -323,11 +317,9 @@
    "minutes": 24,
    "site": "https://www.icbusca.edu.it",
    "kind": "statale",
-   "status": "ok",
-   "checked": "2026-11-03T08:08:58+00:00",
-   "readers": [
-    "spaggiari"
-   ],
+   "status": "unreachable",
+   "checked": "2026-11-03T08:26:00+00:00",
+   "readers": [],
    "manual": []
   },
   {
@@ -337,11 +329,9 @@
    "minutes": 26,
    "site": "https://www.icdronero.edu.it",
    "kind": "statale",
-   "status": "ok",
-   "checked": "2026-11-03T08:08:58+00:00",
-   "readers": [
-    "spaggiari"
-   ],
+   "status": "unreachable",
+   "checked": "2026-11-03T08:26:00+00:00",
+   "readers": [],
    "manual": []
   },
   {
@@ -352,7 +342,7 @@
    "site": "https://icvillanovamondovi.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:08:58+00:00",
+   "checked": "2026-11-03T08:26:00+00:00",
    "readers": [
     "wordpress"
    ],
@@ -371,7 +361,7 @@
    "site": "https://www.icsacco.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:08:58+00:00",
+   "checked": "2026-11-03T08:26:01+00:00",
    "readers": [
     "argo",
     "wordpress"
@@ -386,7 +376,7 @@
    "site": "http://www.vallauri.edu/public/ita/pagina.asp",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:08:59+00:00",
+   "checked": "2026-11-03T08:26:01+00:00",
    "readers": [],
    "manual": []
   },
@@ -398,7 +388,7 @@
    "site": "https://icfossano.edu.it",
    "kind": "statale",
    "status": "unreachable",
-   "checked": "2026-11-03T08:08:59+00:00",
+   "checked": "2026-11-03T08:26:01+00:00",
    "readers": [],
    "manual": []
   },
@@ -410,7 +400,7 @@
    "site": "https://liceoancina.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:08:59+00:00",
+   "checked": "2026-11-03T08:26:01+00:00",
    "readers": [
     "wordpress"
    ],
@@ -424,8 +414,10 @@
    "site": "https://www.scuolasandomenico.it",
    "kind": "paritaria",
    "status": "ok",
-   "checked": "2026-11-03T08:08:59+00:00",
-   "readers": [],
+   "checked": "2026-11-03T08:26:02+00:00",
+   "readers": [
+    "wordpress"
+   ],
    "manual": []
   },
   {
@@ -436,7 +428,7 @@
    "site": "https://www.icdemonte.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:08:59+00:00",
+   "checked": "2026-11-03T08:26:02+00:00",
    "readers": [
     "argo",
     "wordpress"
@@ -451,7 +443,7 @@
    "site": "https://icmondovi2.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:08:59+00:00",
+   "checked": "2026-11-03T08:26:03+00:00",
    "readers": [
     "karon"
    ],
@@ -465,7 +457,7 @@
    "site": "https://www.icmondovi1.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:08:59+00:00",
+   "checked": "2026-11-03T08:26:03+00:00",
    "readers": [],
    "manual": []
   },
@@ -477,7 +469,7 @@
    "site": "https://iccarru.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:09:00+00:00",
+   "checked": "2026-11-03T08:26:04+00:00",
    "readers": [
     "wordpress"
    ],
@@ -491,7 +483,7 @@
    "site": "https://www.cigna-baruffi-garelli.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:09:01+00:00",
+   "checked": "2026-11-03T08:26:05+00:00",
    "readers": [
     "argo",
     "wordpress"
@@ -505,8 +497,8 @@
    "minutes": 33,
    "site": "https://www.giolittibellisario.it",
    "kind": "statale",
-   "status": "ok",
-   "checked": "2026-11-03T08:09:01+00:00",
+   "status": "unreachable",
+   "checked": "2026-11-03T08:26:05+00:00",
    "readers": [],
    "manual": []
   },
@@ -517,11 +509,9 @@
    "minutes": 33,
    "site": "https://www.iliceimondovi.edu.it",
    "kind": "statale",
-   "status": "ok",
-   "checked": "2026-11-03T08:09:01+00:00",
-   "readers": [
-    "spaggiari"
-   ],
+   "status": "unreachable",
+   "checked": "2026-11-03T08:26:06+00:00",
+   "readers": [],
    "manual": []
   },
   {
@@ -532,7 +522,7 @@
    "site": "https://istitutoarche.com",
    "kind": "paritaria",
    "status": "ok",
-   "checked": "2026-11-03T08:09:01+00:00",
+   "checked": "2026-11-03T08:26:06+00:00",
    "readers": [
     "wordpress"
    ],
@@ -546,7 +536,7 @@
    "site": "https://icbenevagienna.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:09:01+00:00",
+   "checked": "2026-11-03T08:26:07+00:00",
    "readers": [
     "karon"
    ],
@@ -565,7 +555,7 @@
    "site": "https://www.icverzuolo.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:09:01+00:00",
+   "checked": "2026-11-03T08:26:07+00:00",
    "readers": [
     "argo",
     "wordpress"
@@ -580,7 +570,7 @@
    "site": "https://www.istitutosoleribertoni.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:09:01+00:00",
+   "checked": "2026-11-03T08:26:07+00:00",
    "readers": [
     "wordpress"
    ],
@@ -593,8 +583,8 @@
    "minutes": 37,
    "site": "https://www.icsaluzzo.edu.it",
    "kind": "statale",
-   "status": "ok",
-   "checked": "2026-11-03T08:09:02+00:00",
+   "status": "unreachable",
+   "checked": "2026-11-03T08:26:07+00:00",
    "readers": [],
    "manual": []
   },
@@ -605,11 +595,9 @@
    "minutes": 37,
    "site": "https://www.denina.it",
    "kind": "statale",
-   "status": "ok",
-   "checked": "2026-11-03T08:09:02+00:00",
-   "readers": [
-    "spaggiari"
-   ],
+   "status": "unreachable",
+   "checked": "2026-11-03T08:26:08+00:00",
+   "readers": [],
    "manual": []
   },
   {
@@ -619,11 +607,9 @@
    "minutes": 37,
    "site": "https://www.liceobodoni.edu.it",
    "kind": "statale",
-   "status": "ok",
-   "checked": "2026-11-03T08:09:02+00:00",
-   "readers": [
-    "spaggiari"
-   ],
+   "status": "unreachable",
+   "checked": "2026-11-03T08:26:09+00:00",
+   "readers": [],
    "manual": []
   },
   {
@@ -633,8 +619,8 @@
    "minutes": 38,
    "site": "https://www.icvenasca-costigliole.edu.it",
    "kind": "statale",
-   "status": "ok",
-   "checked": "2026-11-03T08:09:02+00:00",
+   "status": "unreachable",
+   "checked": "2026-11-03T08:26:09+00:00",
    "readers": [],
    "manual": []
   },
@@ -646,7 +632,7 @@
    "site": "https://icsantarosasavigliano.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:09:03+00:00",
+   "checked": "2026-11-03T08:26:09+00:00",
    "readers": [
     "nuvola",
     "wordpress"
@@ -660,11 +646,9 @@
    "minutes": 40,
    "site": "https://www.cravettamarconi.edu.it",
    "kind": "statale",
-   "status": "ok",
-   "checked": "2026-11-03T08:09:04+00:00",
-   "readers": [
-    "spaggiari"
-   ],
+   "status": "unreachable",
+   "checked": "2026-11-03T08:26:09+00:00",
+   "readers": [],
    "manual": []
   },
   {
@@ -675,7 +659,7 @@
    "site": "https://www.icpapagiovanni.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:09:04+00:00",
+   "checked": "2026-11-03T08:26:09+00:00",
    "readers": [
     "argo",
     "wordpress"
@@ -689,8 +673,8 @@
    "minutes": 40,
    "site": "https://www.arimondieula.edu.it",
    "kind": "statale",
-   "status": "ok",
-   "checked": "2026-11-03T08:09:04+00:00",
+   "status": "unreachable",
+   "checked": "2026-11-03T08:26:10+00:00",
    "readers": [],
    "manual": []
   },
@@ -701,8 +685,8 @@
    "minutes": 41,
    "site": "https://www.icsanmichelemondovi.edu.it",
    "kind": "statale",
-   "status": "ok",
-   "checked": "2026-11-03T08:09:04+00:00",
+   "status": "unreachable",
+   "checked": "2026-11-03T08:26:10+00:00",
    "readers": [],
    "manual": []
   },
@@ -714,7 +698,7 @@
    "site": "https://icmomigliano.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:09:04+00:00",
+   "checked": "2026-11-03T08:26:10+00:00",
    "readers": [
     "nuvola",
     "wordpress"
@@ -728,8 +712,8 @@
    "minutes": 43,
    "site": "https://www.barufficevaormea.it",
    "kind": "statale",
-   "status": "ok",
-   "checked": "2026-11-03T08:09:05+00:00",
+   "status": "unreachable",
+   "checked": "2026-11-03T08:26:10+00:00",
    "readers": [],
    "manual": []
   },
@@ -741,7 +725,7 @@
    "site": "https://icdogliani.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:09:05+00:00",
+   "checked": "2026-11-03T08:26:10+00:00",
    "readers": [
     "wordpress"
    ],
@@ -755,7 +739,7 @@
    "site": "https://iccavallermaggiore.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:09:06+00:00",
+   "checked": "2026-11-03T08:26:11+00:00",
    "readers": [
     "argo",
     "wordpress"
@@ -770,7 +754,7 @@
    "site": "https://comprensivocherasco.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:09:06+00:00",
+   "checked": "2026-11-03T08:26:11+00:00",
    "readers": [
     "nuvola",
     "wordpress"
@@ -785,9 +769,14 @@
    "site": "https://icmoretta.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:09:06+00:00",
+   "checked": "2026-11-03T08:26:12+00:00",
    "readers": [],
-   "manual": []
+   "manual": [
+    {
+     "url": "https://web.spaggiari.eu/sdg/app/default/albo_pretorio.php?sede_codice=cnme0026&referer=http://www.istitutocomprensivomoretta.gov.it/",
+     "why": "Spaggiari albo (blocks automatic reading)"
+    }
+   ]
   },
   {
    "id": "CNIC863002",
@@ -797,7 +786,7 @@
    "site": "https://www.icalpistrada.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:09:06+00:00",
+   "checked": "2026-11-03T08:26:12+00:00",
    "readers": [
     "argo",
     "wordpress"
@@ -812,7 +801,7 @@
    "site": "https://www.istitutoguala.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:09:06+00:00",
+   "checked": "2026-11-03T08:26:13+00:00",
    "readers": [
     "wordpress"
    ],
@@ -826,7 +815,7 @@
    "site": "https://icpieroangelabra.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:09:07+00:00",
+   "checked": "2026-11-03T08:26:14+00:00",
    "readers": [
     "nuvola",
     "wordpress"
@@ -841,7 +830,7 @@
    "site": "https://www.iismucci.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:09:07+00:00",
+   "checked": "2026-11-03T08:26:16+00:00",
    "readers": [],
    "manual": []
   },
@@ -853,7 +842,7 @@
    "site": "https://www.liceidibra.com",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:09:07+00:00",
+   "checked": "2026-11-03T08:26:18+00:00",
    "readers": [],
    "manual": [
     {
@@ -870,7 +859,7 @@
    "site": "https://salesianibra.it",
    "kind": "paritaria",
    "status": "ok",
-   "checked": "2026-11-03T08:09:07+00:00",
+   "checked": "2026-11-03T08:26:18+00:00",
    "readers": [
     "wordpress"
    ],
@@ -884,7 +873,7 @@
    "site": "https://convittoprovvidenza.it",
    "kind": "paritaria",
    "status": "ok",
-   "checked": "2026-11-03T08:09:08+00:00",
+   "checked": "2026-11-03T08:26:18+00:00",
    "readers": [
     "wordpress"
    ],
@@ -898,7 +887,7 @@
    "site": "https://www.icmillesimo.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:09:08+00:00",
+   "checked": "2026-11-03T08:26:18+00:00",
    "readers": [
     "nuvola",
     "wordpress"
@@ -913,7 +902,7 @@
    "site": "https://ic-lamorra.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:09:09+00:00",
+   "checked": "2026-11-03T08:26:19+00:00",
    "readers": [
     "karon"
    ],
@@ -926,11 +915,9 @@
    "minutes": 54,
    "site": "https://www.cillarioferrero.edu.it",
    "kind": "statale",
-   "status": "ok",
-   "checked": "2026-11-03T08:09:09+00:00",
-   "readers": [
-    "spaggiari"
-   ],
+   "status": "unreachable",
+   "checked": "2026-11-03T08:26:19+00:00",
+   "readers": [],
    "manual": []
   },
   {
@@ -941,7 +928,7 @@
    "site": "https://www.iisumbertoprimo.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:09:09+00:00",
+   "checked": "2026-11-03T08:26:20+00:00",
    "readers": [
     "wordpress"
    ],
@@ -955,7 +942,7 @@
    "site": "https://www.icsacco.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:09:10+00:00",
+   "checked": "2026-11-03T08:26:20+00:00",
    "readers": [
     "argo",
     "wordpress"
@@ -970,7 +957,7 @@
    "site": "https://www.icalbasancassiano.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:09:10+00:00",
+   "checked": "2026-11-03T08:26:21+00:00",
    "readers": [
     "argo",
     "wordpress"
@@ -984,11 +971,9 @@
    "minutes": 54,
    "site": "https://www.iisgovonealba.it",
    "kind": "statale",
-   "status": "ok",
-   "checked": "2026-11-03T08:09:10+00:00",
-   "readers": [
-    "spaggiari"
-   ],
+   "status": "unreachable",
+   "checked": "2026-11-03T08:26:22+00:00",
+   "readers": [],
    "manual": []
   },
   {
@@ -999,7 +984,7 @@
    "site": "https://www.icquartieremoretta.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:09:10+00:00",
+   "checked": "2026-11-03T08:26:23+00:00",
    "readers": [
     "argo",
     "wordpress"
@@ -1014,7 +999,7 @@
    "site": "https://www.iis-einaudi-alba.it/einaudi",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:09:11+00:00",
+   "checked": "2026-11-03T08:26:23+00:00",
    "readers": [],
    "manual": []
   },
@@ -1026,7 +1011,7 @@
    "site": "https://cpia2albabramondovi.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:09:11+00:00",
+   "checked": "2026-11-03T08:26:23+00:00",
    "readers": [
     "nuvola",
     "wordpress"
@@ -1040,11 +1025,9 @@
    "minutes": 54,
    "site": "https://www.davincialba.edu.it",
    "kind": "statale",
-   "status": "ok",
-   "checked": "2026-11-03T08:09:12+00:00",
-   "readers": [
-    "spaggiari"
-   ],
+   "status": "unreachable",
+   "checked": "2026-11-03T08:26:24+00:00",
+   "readers": [],
    "manual": []
   },
   {
@@ -1055,7 +1038,7 @@
    "site": "https://www.icsacco.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:09:12+00:00",
+   "checked": "2026-11-03T08:26:24+00:00",
    "readers": [
     "argo",
     "wordpress"
@@ -1070,7 +1053,7 @@
    "site": "https://liceococito.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:09:12+00:00",
+   "checked": "2026-11-03T08:26:25+00:00",
    "readers": [
     "karon"
    ],
@@ -1089,7 +1072,7 @@
    "site": "https://www.albainternationalschool.com",
    "kind": "paritaria",
    "status": "ok",
-   "checked": "2026-11-03T08:09:12+00:00",
+   "checked": "2026-11-03T08:26:25+00:00",
    "readers": [],
    "manual": []
   },
@@ -1101,7 +1084,7 @@
    "site": "https://www.albainternationalschool.com",
    "kind": "paritaria",
    "status": "ok",
-   "checked": "2026-11-03T08:09:12+00:00",
+   "checked": "2026-11-03T08:26:25+00:00",
    "readers": [],
    "manual": []
   },
@@ -1113,7 +1096,7 @@
    "site": "https://www.albainternationalschool.com",
    "kind": "paritaria",
    "status": "ok",
-   "checked": "2026-11-03T08:09:12+00:00",
+   "checked": "2026-11-03T08:26:25+00:00",
    "readers": [],
    "manual": []
   },
@@ -1125,7 +1108,7 @@
    "site": "https://iccortemilia-saliceto.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:09:13+00:00",
+   "checked": "2026-11-03T08:26:25+00:00",
    "readers": [
     "nuvola",
     "karon"
@@ -1140,7 +1123,7 @@
    "site": "https://www.istitutomuzzone.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:09:14+00:00",
+   "checked": "2026-11-03T08:26:27+00:00",
    "readers": [
     "argo",
     "wordpress"
@@ -1155,7 +1138,7 @@
    "site": "https://www.ic3carmagnola.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:09:14+00:00",
+   "checked": "2026-11-03T08:26:28+00:00",
    "readers": [
     "argo",
     "wordpress"
@@ -1170,7 +1153,7 @@
    "site": "https://www.iccarmagnola2.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:09:14+00:00",
+   "checked": "2026-11-03T08:26:28+00:00",
    "readers": [
     "argo",
     "wordpress"
@@ -1185,7 +1168,7 @@
    "site": "https://www.iccarmagnolaprimo.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:09:14+00:00",
+   "checked": "2026-11-03T08:26:29+00:00",
    "readers": [
     "argo",
     "wordpress"
@@ -1200,8 +1183,9 @@
    "site": "https://www.iccavour.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:09:14+00:00",
+   "checked": "2026-11-03T08:26:31+00:00",
    "readers": [
+    "argo",
     "wordpress"
    ],
    "manual": []
@@ -1214,7 +1198,7 @@
    "site": "https://baldessano.roccati.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:09:15+00:00",
+   "checked": "2026-11-03T08:26:31+00:00",
    "readers": [],
    "manual": []
   },
@@ -1226,7 +1210,7 @@
    "site": "https://www.icberterosantavittoria.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:09:15+00:00",
+   "checked": "2026-11-03T08:26:31+00:00",
    "readers": [
     "argo",
     "wordpress"
@@ -1241,7 +1225,7 @@
    "site": "https://istitutogiovanniarpino.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:09:15+00:00",
+   "checked": "2026-11-03T08:26:31+00:00",
    "readers": [
     "karon"
    ],
@@ -1255,7 +1239,7 @@
    "site": "https://www.icbarge.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:09:15+00:00",
+   "checked": "2026-11-03T08:26:31+00:00",
    "readers": [],
    "manual": []
   },
@@ -1267,7 +1251,7 @@
    "site": "https://icbossolascomurazzano.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:09:15+00:00",
+   "checked": "2026-11-03T08:26:35+00:00",
    "readers": [
     "nuvola",
     "karon"
@@ -1282,7 +1266,7 @@
    "site": "https://wwwcomprensivosommarivaperno.it",
    "kind": "statale",
    "status": "unreachable",
-   "checked": "2026-11-03T08:09:16+00:00",
+   "checked": "2026-11-03T08:26:35+00:00",
    "readers": [],
    "manual": []
   },
@@ -1294,7 +1278,7 @@
    "site": "https://www.icsacco.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:09:16+00:00",
+   "checked": "2026-11-03T08:26:35+00:00",
    "readers": [
     "argo",
     "wordpress"
@@ -1308,8 +1292,8 @@
    "minutes": 61,
    "site": "https://www.iccarcare.edu.it",
    "kind": "statale",
-   "status": "ok",
-   "checked": "2026-11-03T08:09:16+00:00",
+   "status": "unreachable",
+   "checked": "2026-11-03T08:26:36+00:00",
    "readers": [],
    "manual": []
   },
@@ -1321,7 +1305,7 @@
    "site": "https://www.liceocarcare.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:09:16+00:00",
+   "checked": "2026-11-03T08:26:36+00:00",
    "readers": [
     "wordpress"
    ],
@@ -1335,7 +1319,7 @@
    "site": "https://icdianoalba.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:09:17+00:00",
+   "checked": "2026-11-03T08:26:36+00:00",
    "readers": [
     "karon"
    ],
@@ -1349,7 +1333,7 @@
    "site": "https://icvigone.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:09:17+00:00",
+   "checked": "2026-11-03T08:26:36+00:00",
    "readers": [
     "argo",
     "wordpress"
@@ -1364,7 +1348,7 @@
    "site": "https://ics-bagnolopiemonte.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:09:17+00:00",
+   "checked": "2026-11-03T08:26:37+00:00",
    "readers": [
     "nuvola",
     "wordpress"
@@ -1379,7 +1363,7 @@
    "site": "https://www.iccarignano.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:09:17+00:00",
+   "checked": "2026-11-03T08:26:37+00:00",
    "readers": [],
    "manual": []
   },
@@ -1390,8 +1374,8 @@
    "minutes": 64,
    "site": "https://www.iisbobbio.edu.it",
    "kind": "statale",
-   "status": "ok",
-   "checked": "2026-11-03T08:09:17+00:00",
+   "status": "unreachable",
+   "checked": "2026-11-03T08:26:38+00:00",
    "readers": [],
    "manual": []
   },
@@ -1403,7 +1387,7 @@
    "site": "https://www.iclaloggia.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:09:17+00:00",
+   "checked": "2026-11-03T08:26:38+00:00",
    "readers": [
     "argo",
     "wordpress"
@@ -1418,7 +1402,7 @@
    "site": "https://salesianilombriasco.it",
    "kind": "paritaria",
    "status": "ok",
-   "checked": "2026-11-03T08:09:18+00:00",
+   "checked": "2026-11-03T08:26:39+00:00",
    "readers": [
     "wordpress"
    ],
@@ -1432,7 +1416,7 @@
    "site": "https://salesianilombriasco.it",
    "kind": "paritaria",
    "status": "ok",
-   "checked": "2026-11-03T08:09:18+00:00",
+   "checked": "2026-11-03T08:26:39+00:00",
    "readers": [
     "wordpress"
    ],
@@ -1446,7 +1430,7 @@
    "site": "https://icgaressio.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:09:18+00:00",
+   "checked": "2026-11-03T08:26:40+00:00",
    "readers": [
     "nuvola",
     "karon"
@@ -1461,7 +1445,7 @@
    "site": "https://iccanale.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:09:19+00:00",
+   "checked": "2026-11-03T08:26:41+00:00",
    "readers": [
     "karon"
    ],
@@ -1475,7 +1459,7 @@
    "site": "https://www.icsantamaria.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:09:19+00:00",
+   "checked": "2026-11-03T08:26:41+00:00",
    "readers": [
     "argo",
     "wordpress"
@@ -1490,7 +1474,7 @@
    "site": "https://www.istitutocomprensivoborgosanpietro.edu.it",
    "kind": "statale",
    "status": "unreachable",
-   "checked": "2026-11-03T08:09:19+00:00",
+   "checked": "2026-11-03T08:26:41+00:00",
    "readers": [],
    "manual": []
   },
@@ -1502,7 +1486,7 @@
    "site": "https://iccentrostoricomoncalieri.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:09:19+00:00",
+   "checked": "2026-11-03T08:26:43+00:00",
    "readers": [
     "argo",
     "wordpress"
@@ -1517,7 +1501,7 @@
    "site": "https://www.iismajoranamoncalieri.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:09:20+00:00",
+   "checked": "2026-11-03T08:26:44+00:00",
    "readers": [
     "wordpress"
    ],
@@ -1531,7 +1515,7 @@
    "site": "https://www.icnasi.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:09:20+00:00",
+   "checked": "2026-11-03T08:26:44+00:00",
    "readers": [
     "argo",
     "wordpress"
@@ -1546,7 +1530,7 @@
    "site": "https://www.cpia3torino.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:09:21+00:00",
+   "checked": "2026-11-03T08:26:44+00:00",
    "readers": [
     "wordpress"
    ],
@@ -1568,8 +1552,8 @@
    "minutes": 65,
    "site": "https://www.itispininfarina.edu.it",
    "kind": "statale",
-   "status": "ok",
-   "checked": "2026-11-03T08:09:21+00:00",
+   "status": "unreachable",
+   "checked": "2026-11-03T08:26:44+00:00",
    "readers": [],
    "manual": []
   },
@@ -1581,7 +1565,7 @@
    "site": "https://scuolabarolomoncalieri.it",
    "kind": "paritaria",
    "status": "ok",
-   "checked": "2026-11-03T08:09:21+00:00",
+   "checked": "2026-11-03T08:26:45+00:00",
    "readers": [
     "wordpress"
    ],
@@ -1595,7 +1579,7 @@
    "site": null,
    "kind": "paritaria",
    "status": "no-site",
-   "checked": "2026-11-03T08:09:21+00:00",
+   "checked": "2026-11-03T08:26:46+00:00",
    "readers": [],
    "manual": []
   },
@@ -1607,7 +1591,7 @@
    "site": null,
    "kind": "paritaria",
    "status": "no-site",
-   "checked": "2026-11-03T08:09:21+00:00",
+   "checked": "2026-11-03T08:26:46+00:00",
    "readers": [],
    "manual": []
   },
@@ -1619,7 +1603,7 @@
    "site": "https://scuolabarolomoncalieri.it",
    "kind": "paritaria",
    "status": "ok",
-   "checked": "2026-11-03T08:09:21+00:00",
+   "checked": "2026-11-03T08:26:46+00:00",
    "readers": [
     "wordpress"
    ],
@@ -1633,7 +1617,7 @@
    "site": "https://www.istitutocomprensivopinerolo1.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:09:22+00:00",
+   "checked": "2026-11-03T08:26:47+00:00",
    "readers": [
     "argo",
     "wordpress"
@@ -1648,7 +1632,7 @@
    "site": "https://www.prever.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:09:22+00:00",
+   "checked": "2026-11-03T08:26:47+00:00",
    "readers": [
     "wordpress"
    ],
@@ -1662,7 +1646,7 @@
    "site": "https://www.ictrofarello.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:09:22+00:00",
+   "checked": "2026-11-03T08:26:49+00:00",
    "readers": [
     "argo",
     "wordpress"
@@ -1677,7 +1661,7 @@
    "site": "https://www.icgovone.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:09:23+00:00",
+   "checked": "2026-11-03T08:26:49+00:00",
    "readers": [
     "argo",
     "wordpress"
@@ -1692,7 +1676,7 @@
    "site": "https://www.scuolesantena.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:09:25+00:00",
+   "checked": "2026-11-03T08:26:49+00:00",
    "readers": [
     "argo",
     "wordpress"
@@ -1707,7 +1691,7 @@
    "site": "https://www.icnichelinouno.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:09:25+00:00",
+   "checked": "2026-11-03T08:26:49+00:00",
    "readers": [
     "argo",
     "wordpress"
@@ -1722,7 +1706,7 @@
    "site": "https://www.icnichelino2.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:09:26+00:00",
+   "checked": "2026-11-03T08:26:49+00:00",
    "readers": [
     "argo",
     "wordpress"
@@ -1737,7 +1721,7 @@
    "site": "https://www.icairasca.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:09:26+00:00",
+   "checked": "2026-11-03T08:26:52+00:00",
    "readers": [
     "argo",
     "wordpress"
@@ -1752,7 +1736,7 @@
    "site": "https://www.jcmaxwell.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:09:26+00:00",
+   "checked": "2026-11-03T08:26:53+00:00",
    "readers": [],
    "manual": []
   },
@@ -1764,7 +1748,7 @@
    "site": "https://www.icnichelino3.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:09:26+00:00",
+   "checked": "2026-11-03T08:26:54+00:00",
    "readers": [
     "argo",
     "wordpress"
@@ -1779,7 +1763,7 @@
    "site": "https://www.erasmonichelino.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:09:27+00:00",
+   "checked": "2026-11-03T08:26:55+00:00",
    "readers": [],
    "manual": []
   },
@@ -1791,7 +1775,7 @@
    "site": "https://www.istitutocomprensivonichelino4.edu.it",
    "kind": "statale",
    "status": "unreachable",
-   "checked": "2026-11-03T08:09:27+00:00",
+   "checked": "2026-11-03T08:26:55+00:00",
    "readers": [],
    "manual": []
   },
@@ -1803,7 +1787,7 @@
    "site": "https://www.iccambiano.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:09:28+00:00",
+   "checked": "2026-11-03T08:26:55+00:00",
    "readers": [
     "argo",
     "wordpress"
@@ -1818,7 +1802,7 @@
    "site": "https://www.icbricherasio.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:09:28+00:00",
+   "checked": "2026-11-03T08:26:56+00:00",
    "readers": [
     "argo",
     "wordpress"
@@ -1833,7 +1817,7 @@
    "site": "https://www.scuolecollegno3.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:09:29+00:00",
+   "checked": "2026-11-03T08:26:57+00:00",
    "readers": [
     "argo",
     "wordpress"
@@ -1847,8 +1831,8 @@
    "minutes": 70,
    "site": "https://www.icmonta.edu.it",
    "kind": "statale",
-   "status": "ok",
-   "checked": "2026-11-03T08:09:29+00:00",
+   "status": "unreachable",
+   "checked": "2026-11-03T08:26:58+00:00",
    "readers": [],
    "manual": []
   },
@@ -1860,7 +1844,7 @@
    "site": "https://www.scuolevinovo.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:09:29+00:00",
+   "checked": "2026-11-03T08:26:59+00:00",
    "readers": [
     "argo",
     "wordpress"
@@ -1875,7 +1859,7 @@
    "site": "https://iccandiolo.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:09:29+00:00",
+   "checked": "2026-11-03T08:26:59+00:00",
    "readers": [
     "karon"
    ],
@@ -1889,7 +1873,7 @@
    "site": "https://iccostigliole.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:09:30+00:00",
+   "checked": "2026-11-03T08:27:00+00:00",
    "readers": [
     "nuvola",
     "wordpress"
@@ -1903,8 +1887,8 @@
    "minutes": 70,
    "site": "https://www.istitutocomprensivocairo.edu.it",
    "kind": "statale",
-   "status": "ok",
-   "checked": "2026-11-03T08:09:31+00:00",
+   "status": "unreachable",
+   "checked": "2026-11-03T08:27:01+00:00",
    "readers": [],
    "manual": []
   },
@@ -1916,7 +1900,7 @@
    "site": "https://cpiasavona.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:09:31+00:00",
+   "checked": "2026-11-03T08:27:02+00:00",
    "readers": [
     "nuvola",
     "wordpress"
@@ -1931,7 +1915,7 @@
    "site": "https://icdeamicis-luserna.it",
    "kind": "statale",
    "status": "unreachable",
-   "checked": "2026-11-03T08:09:32+00:00",
+   "checked": "2026-11-03T08:27:03+00:00",
    "readers": [],
    "manual": []
   },
@@ -1943,7 +1927,7 @@
    "site": "https://www.patettacairo.edu.it",
    "kind": "statale",
    "status": "ok",
-   "checked": "2026-11-03T08:09:32+00:00",
+   "checked": "2026-11-03T08:27:03+00:00",
    "readers": [],
    "manual": []
   }
@@ -1960,19 +1944,19 @@
    "firstSeen": "2026-11-03T08:10:21+00:00"
   },
   {
-   "id": "2c24a695212e",
-   "title": "Agenda Nord 2026 - Avviso di selezione assistene per lezioni tenute dal madrelingua inglese alunni Secondaria di primo grado di Centallo (CCE) - CUP D34D24005670007",
-   "url": "https://www.portaleargo.it/albopretorio/online/#/dettaglio-atto?customerCode=SC9060&id=4743587",
-   "kind": "open",
-   "source": "CNIC84300R",
+   "id": "0eb665dc2db4",
+   "title": "Decreto formazione graduatoria triennale per gli aa. ss. 2026/27-2027/28-2028/29 e affidamento di n. 1 incarico individuale di Esperto Lingua Inglese per la preparazione agli esami di certificazione CAE da svolgersi nell’anno scolastico 2026/2027",
+   "url": "https://web.spaggiari.eu/sdg2/Documenti/CNLG0005/l52e4pjabr",
+   "kind": "filled",
+   "source": "CNPC030005",
    "date": "2026-11-02",
    "deadline": null,
    "firstSeen": "2026-11-03T08:10:21+00:00"
   },
   {
-   "id": "69aabb879307",
-   "title": "Agenda Nord 2026 -Avviso di selezione assistene per lezioni tenute dal madrelingua inglese alunni primaria Centallo e Roata Chiusani (CCE) - CUP D34D24005670007",
-   "url": "https://www.portaleargo.it/albopretorio/online/#/dettaglio-atto?customerCode=SC9060&id=4743533",
+   "id": "2c24a695212e",
+   "title": "Agenda Nord 2026 - Avviso di selezione assistene per lezioni tenute dal madrelingua inglese alunni Secondaria di primo grado di Centallo (CCE) - CUP D34D24005670007",
+   "url": "https://www.portaleargo.it/albopretorio/online/#/dettaglio-atto?customerCode=SC9060&id=4743587",
    "kind": "open",
    "source": "CNIC84300R",
    "date": "2026-11-02",
@@ -1990,11 +1974,11 @@
    "firstSeen": "2026-11-03T08:10:21+00:00"
   },
   {
-   "id": "0eb665dc2db4",
-   "title": "Decreto formazione graduatoria triennale per gli aa. ss. 2026/27-2027/28-2028/29 e affidamento di n. 1 incarico individuale di Esperto Lingua Inglese per la preparazione agli esami di certificazione CAE da svolgersi nell’anno scolastico 2026/2027",
-   "url": "https://web.spaggiari.eu/sdg2/Documenti/CNLG0005/l52e4pjabr",
-   "kind": "filled",
-   "source": "CNPC030005",
+   "id": "69aabb879307",
+   "title": "Agenda Nord 2026 -Avviso di selezione assistene per lezioni tenute dal madrelingua inglese alunni primaria Centallo e Roata Chiusani (CCE) - CUP D34D24005670007",
+   "url": "https://www.portaleargo.it/albopretorio/online/#/dettaglio-atto?customerCode=SC9060&id=4743533",
+   "kind": "open",
+   "source": "CNIC84300R",
    "date": "2026-11-02",
    "deadline": null,
    "firstSeen": "2026-11-03T08:10:21+00:00"
@@ -2040,9 +2024,9 @@
    "firstSeen": "2026-11-03T08:10:21+00:00"
   },
   {
-   "id": "973517453c4e",
-   "title": "Graduatoria definitiva esperti e tutor progetto Agenda Nord recuperi secondaria e inglese classi III",
-   "url": "https://www.portaleargo.it/albopretorio/online/#/dettaglio-atto?customerCode=SC29092&id=4730021",
+   "id": "73f7228a0ec5",
+   "title": "Verbale conclusivo approvazione graduatoria definitiva esperti e tutor progetto Agenda Nord recuperi secondaria e inglese classi III",
+   "url": "https://www.portaleargo.it/albopretorio/online/#/dettaglio-atto?customerCode=SC29092&id=4730013",
    "kind": "filled",
    "source": "CNIC85200G",
    "date": "2026-10-27",
@@ -2060,9 +2044,9 @@
    "firstSeen": "2026-11-03T08:10:21+00:00"
   },
   {
-   "id": "73f7228a0ec5",
-   "title": "Verbale conclusivo approvazione graduatoria definitiva esperti e tutor progetto Agenda Nord recuperi secondaria e inglese classi III",
-   "url": "https://www.portaleargo.it/albopretorio/online/#/dettaglio-atto?customerCode=SC29092&id=4730013",
+   "id": "973517453c4e",
+   "title": "Graduatoria definitiva esperti e tutor progetto Agenda Nord recuperi secondaria e inglese classi III",
+   "url": "https://www.portaleargo.it/albopretorio/online/#/dettaglio-atto?customerCode=SC29092&id=4730021",
    "kind": "filled",
    "source": "CNIC85200G",
    "date": "2026-10-27",
@@ -2070,19 +2054,19 @@
    "firstSeen": "2026-11-03T08:10:21+00:00"
   },
   {
-   "id": "30a0d045a824",
-   "title": "Nomina commissione di valutazione per selezione Esperto Madrelingua Inglese Scuola Primaria Progetto Centallo Certifica le Eccellenze a.s. 2026/2027",
-   "url": "https://www.portaleargo.it/albopretorio/online/#/dettaglio-atto?customerCode=SC9060&id=4728115",
+   "id": "2b57079cf7f8",
+   "title": "Costituzione Commissione giudicatrice per la formazione della graduatoria triennale aa. ss. 2026/27 – 2027/28 - 2028/29 per la ricerca di esperto esterno Lingua Inglese",
+   "url": "https://web.spaggiari.eu/sdg2/Documenti/CNLG0005/n8rah2gf3s",
    "kind": "filled",
-   "source": "CNIC84300R",
+   "source": "CNPC030005",
    "date": "2026-10-26",
    "deadline": null,
    "firstSeen": "2026-11-03T08:10:21+00:00"
   },
   {
-   "id": "f3feaeda6b7b",
-   "title": "FCRS - Saluzzo Certifica le Eccellenze - Graduatoria provvisoria madrelingua inglese - alunni secondaria Villafalletto a.s. 2026/2027",
-   "url": "https://www.portaleargo.it/albopretorio/online/#/dettaglio-atto?customerCode=SC9060&id=4726627",
+   "id": "30a0d045a824",
+   "title": "Nomina commissione di valutazione per selezione Esperto Madrelingua Inglese Scuola Primaria Progetto Centallo Certifica le Eccellenze a.s. 2026/2027",
+   "url": "https://www.portaleargo.it/albopretorio/online/#/dettaglio-atto?customerCode=SC9060&id=4728115",
    "kind": "filled",
    "source": "CNIC84300R",
    "date": "2026-10-26",
@@ -2100,11 +2084,11 @@
    "firstSeen": "2026-11-03T08:10:21+00:00"
   },
   {
-   "id": "2b57079cf7f8",
-   "title": "Costituzione Commissione giudicatrice per la formazione della graduatoria triennale aa. ss. 2026/27 – 2027/28 - 2028/29 per la ricerca di esperto esterno Lingua Inglese",
-   "url": "https://web.spaggiari.eu/sdg2/Documenti/CNLG0005/n8rah2gf3s",
+   "id": "f3feaeda6b7b",
+   "title": "FCRS - Saluzzo Certifica le Eccellenze - Graduatoria provvisoria madrelingua inglese - alunni secondaria Villafalletto a.s. 2026/2027",
+   "url": "https://www.portaleargo.it/albopretorio/online/#/dettaglio-atto?customerCode=SC9060&id=4726627",
    "kind": "filled",
-   "source": "CNPC030005",
+   "source": "CNIC84300R",
    "date": "2026-10-26",
    "deadline": null,
    "firstSeen": "2026-11-03T08:10:21+00:00"
@@ -2130,21 +2114,21 @@
    "firstSeen": "2026-11-03T08:10:21+00:00"
   },
   {
-   "id": "977e9dc81d7d",
-   "title": "Bando FCE - NOMINA E CONVOCAZIONE DELLA COMMISSIONE VALUTATRICE",
-   "url": "https://www.portaleargo.it/albopretorio/online/#/dettaglio-atto?customerCode=SC28528&id=4713392",
-   "kind": "filled",
-   "source": "CNIC86600D",
-   "date": "2026-10-21",
-   "deadline": null,
-   "firstSeen": "2026-11-03T08:10:21+00:00"
-  },
-  {
    "id": "7447849c23ca",
    "title": "Decreto per l’avvio di una procedura di selezione per il conferimento di 4 incarichi così definiti: 1 esperto per la realizzazione del corso “Tecnologie per la manutenzione” 1 tutor per il corso “Tecnologie per la manutenzione” 1 esperto per la realizzazione del “corso di inglese B1” 1 tutor per il ",
    "url": "https://web.spaggiari.eu/sdg2/Documenti/CNII0011/50l5a69rtl",
    "kind": "open",
    "source": "CNIS00200P",
+   "date": "2026-10-21",
+   "deadline": null,
+   "firstSeen": "2026-11-03T08:10:21+00:00"
+  },
+  {
+   "id": "977e9dc81d7d",
+   "title": "Bando FCE - NOMINA E CONVOCAZIONE DELLA COMMISSIONE VALUTATRICE",
+   "url": "https://www.portaleargo.it/albopretorio/online/#/dettaglio-atto?customerCode=SC28528&id=4713392",
+   "kind": "filled",
+   "source": "CNIC86600D",
    "date": "2026-10-21",
    "deadline": null,
    "firstSeen": "2026-11-03T08:10:21+00:00"
@@ -2178,6 +2162,26 @@
    "date": "2026-10-06",
    "deadline": null,
    "firstSeen": "2026-11-03T08:10:21+00:00"
+  },
+  {
+   "id": "a34129c9fffa",
+   "title": "AGENDA NORD Conferimento incarico DOCENTE ESPERTO ORIZZONTI SAPIENTI- SICCARDI inglese",
+   "url": "https://www.ic3carmagnola.edu.it/wpfd_file/sigillo_agenda-nord-conferimento-incarico-docente-esperto_orizzonti-sapienti-siccardi-inglese/",
+   "kind": "filled",
+   "source": "TOIC8AM009",
+   "date": "2026-10-05",
+   "deadline": null,
+   "firstSeen": "2026-11-03T08:27:48+00:00"
+  },
+  {
+   "id": "bc937650e393",
+   "title": "AGENDA NORD Conferimento incarico DOCENTE ESPERTO ORIZZONTI SAPIENTI- BARALE inglese",
+   "url": "https://www.ic3carmagnola.edu.it/wpfd_file/sigillo_agenda-nord-conferimento-incarico-docente-esperto_orizzonti-sapienti-barale-inglese/",
+   "kind": "filled",
+   "source": "TOIC8AM009",
+   "date": "2026-10-02",
+   "deadline": null,
+   "firstSeen": "2026-11-03T08:27:48+00:00"
   },
   {
    "id": "f80faaca9639",
