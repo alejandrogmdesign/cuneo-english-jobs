@@ -18,7 +18,7 @@ CONTRACT = re.compile(
     r"collaborazion\w+\s+(plurim|occasional)|incaric\w+|prestazion\w+\s+(d'?opera|occasional|professional)|"
     r"avviso\s+(pubblico\s+)?(di\s+|per\s+(la\s+)?)?(selezione|reclutamento|individuazione|manifestazione)|"
     r"manifestazion\w+\s+d'?interesse|bando|selezione|reclutamento|formator[ei]|docenz[ae]\s+estern|"
-    r"\bclil\b|certificazion\w+|corso\s+di\s+(lingua\s+)?ingles|cercasi|teacher",
+    r"\bclil\b|corso\s+di\s+(lingua\s+)?ingles|cercasi|teacher",
     re.I,
 )
 # Interpelli, supplenze and messa a disposizione need an Italian teaching qualification.

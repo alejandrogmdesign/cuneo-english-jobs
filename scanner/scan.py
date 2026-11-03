@@ -437,8 +437,9 @@ def main():
     now = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
     for src in todo:
         r = results[src["id"]]
-        first_scan = src["id"] not in state["sources"]
         prev = state["sources"].get(src["id"], {})
+        # Undated links found on a site's first successful read are its baseline (old), not news.
+        first_scan = not prev.get("lastOk")
         state["sources"][src["id"]] = {
             "status": r["status"], "checked": r["checked"], "readers": r["readers"], "manual": r["manual"],
             "error": r.get("error"),
@@ -464,7 +465,11 @@ def main():
     for iid, v in state["items"].items():
         if v["source"] in removed or v["source"] not in by_id or v.get("baseline"):
             continue
-        jobs.append({"id": iid, "title": v["title"], "url": v["url"], "kind": v["kind"], "source": v["source"],
+        kind = match.classify(v["title"])  # re-check saved notices against the current rules
+        if not kind:
+            continue
+        v["kind"] = kind
+        jobs.append({"id": iid, "title": v["title"], "url": v["url"], "kind": kind, "source": v["source"],
                      "date": v.get("date"), "deadline": v.get("deadline"), "firstSeen": v["firstSeen"]})
     jobs.sort(key=lambda j: (j["date"] or j["firstSeen"][:10]), reverse=True)
 
