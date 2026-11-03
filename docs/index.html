@@ -131,17 +131,18 @@ h1 {
 .where { margin: 2px 0 0; color: var(--muted); font-size: 0.95rem; }
 .where strong { color: var(--ink); font-weight: 600; }
 .tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; align-items: center; }
-.tag { font-size: 0.82rem; font-weight: 600; padding: 3px 9px; border-radius: 999px; background: var(--stamp-soft); color: var(--stamp); }
-.tag.filled { background: var(--chestnut-soft); color: var(--chestnut); }
-.tag.deadline { background: transparent; color: var(--warn); padding-left: 0; }
-.tag.new { border: 1.5px solid var(--stamp); background: transparent; }
+/* Labels (status) are plain colored text with a dot; only actions look like buttons. */
+.tag { display: inline-flex; align-items: center; gap: 6px; font-size: 0.88rem; font-weight: 600; color: var(--stamp); }
+.tag::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: currentColor; }
+.tag.filled { color: var(--chestnut); }
+.tag.deadline { color: var(--warn); }
 .links { display: flex; flex-wrap: wrap; gap: 6px 18px; align-items: center; margin-top: 10px; font-size: 0.95rem; }
 .links a { display: inline-flex; align-items: center; min-height: 44px; }
 .links a.open {
-  padding: 0 16px; border: 1.5px solid var(--stamp); border-radius: 999px;
+  padding: 0 18px; border-radius: 999px; background: var(--stamp); color: var(--surface);
   font-weight: 600; text-decoration: none;
 }
-.links a.open:hover { background: var(--stamp-soft); }
+.links a.open:hover { filter: brightness(1.12); }
 
 .empty { padding: 36px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
 .empty h2 { margin: 0 0 6px; font-size: 1.2rem; }
@@ -212,8 +213,7 @@ dialog::backdrop { background: rgb(10 14 20 / 0.45); }
     </div>
     <p class="status-line" id="status">Loading the latest list…</p>
     <div class="intro">
-      <p>Every few hours a small program reads the notice boards of the schools in “Schools I follow” and lists anything about English teaching. Add and remove schools or board websites you want this site to scan by clicking the "Schools I follow" button.</p>
-      <p class="signoff">Good luck -Alex</p>
+      <p>Every few hours a small program reads the notice boards of the schools in “Schools I follow” and lists anything about English teaching. Add and remove schools or board websites you want this site to scan by clicking the "Schools I follow" button. <span class="signoff">Good luck -Alex</span></p>
     </div>
   </header>
 
