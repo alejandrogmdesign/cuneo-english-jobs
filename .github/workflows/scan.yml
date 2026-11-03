@@ -42,7 +42,12 @@ jobs:
             echo "Nothing changed."
           else
             git commit -m "Update job list"
-            git push
+            # Someone may have pushed while the scan ran: rebase onto it (the scan's files win) and retry.
+            for attempt in 1 2 3; do
+              git pull --rebase -X theirs origin main && git push && exit 0
+              sleep 10
+            done
+            exit 1
           fi
 
   deploy:
