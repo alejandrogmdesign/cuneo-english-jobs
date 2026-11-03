@@ -19,7 +19,8 @@
   --surface: #FFFFFF;
   --ink: #1F2A36;
   --muted: #586573;
-  --line: #D8DEE5;
+  --line: #D8DEE5;         /* dividers only */
+  --control: #7E8995;      /* borders of inputs and buttons: 3.3:1 on paper */
   --stamp: #4B3FA8;        /* protocol-stamp violet */
   --stamp-soft: #ECE9FB;
   --chestnut: #7A4E2D;     /* "filled" notices */
@@ -38,6 +39,7 @@
     --ink: #E6EAEE;
     --muted: #9CA8B4;
     --line: #2D3742;
+    --control: #687585;
     --stamp: #B3A8FF;
     --stamp-soft: #262246;
     --chestnut: #E0B48F;
@@ -62,7 +64,7 @@ button { font: inherit; color: inherit; }
 .wrap { max-width: 46rem; margin: 0 auto; padding: 0 var(--gutter); }
 
 /* ---------- header */
-header.top { padding: clamp(28px, 6vw, 56px) 0 8px; }
+header.top { padding: clamp(24px, 5vw, 56px) 0 4px; }
 .top-row { display: flex; gap: 16px; align-items: flex-start; justify-content: space-between; flex-wrap: wrap; }
 h1 {
   margin: 0;
@@ -76,28 +78,29 @@ h1 {
 .status-line { margin: 14px 0 0; color: var(--muted); font-size: 0.98rem; }
 .btn {
   appearance: none; cursor: pointer;
-  border: 1.5px solid var(--line); background: var(--surface);
+  border: 1.5px solid var(--control); background: var(--surface);
   border-radius: 999px; padding: 9px 16px; font-weight: 600; font-size: 0.95rem;
   min-height: 44px; display: inline-flex; align-items: center; gap: 8px;
   transition: border-color .15s ease;
 }
 .btn:hover { border-color: var(--stamp); }
 .btn.primary { background: var(--stamp); border-color: var(--stamp); color: var(--surface); }
-.btn.small { min-height: 36px; padding: 5px 12px; font-size: 0.9rem; }
+.btn.small { min-height: 44px; padding: 5px 14px; font-size: 0.92rem; }
+::placeholder { color: var(--muted); opacity: 1; }
 
 /* ---------- controls */
 .controls { display: flex; flex-wrap: wrap; gap: 12px 24px; align-items: center; margin: 28px 0 8px; }
-.seg { display: inline-flex; background: var(--surface); border: 1.5px solid var(--line); border-radius: 999px; padding: 3px; }
+.seg { display: inline-flex; background: var(--surface); border: 1.5px solid var(--control); border-radius: 999px; padding: 3px; }
 .seg button {
   appearance: none; border: 0; background: transparent; cursor: pointer;
-  padding: 7px 14px; border-radius: 999px; font-weight: 600; font-size: 0.95rem; min-height: 38px;
+  padding: 7px 14px; border-radius: 999px; font-weight: 600; font-size: 0.95rem; min-height: 44px;
 }
 .seg button[aria-pressed="true"] { background: var(--ink); color: var(--paper); }
 .seg .count { font-weight: 400; opacity: 0.75; }
 .within { display: inline-flex; align-items: center; gap: 8px; color: var(--muted); font-size: 0.95rem; }
 .within select {
   font: inherit; color: var(--ink); background: var(--surface);
-  border: 1.5px solid var(--line); border-radius: var(--radius-s); padding: 6px 8px; min-height: 38px;
+  border: 1.5px solid var(--control); border-radius: var(--radius-s); padding: 6px 8px; min-height: 44px;
 }
 
 /* ---------- notices */
@@ -116,6 +119,7 @@ h1 {
   color: var(--stamp); text-align: center; line-height: 1;
   font-variant-numeric: tabular-nums;
 }
+.stamp .k { display: block; margin-bottom: 5px; font-size: 0.7rem; font-weight: 600; }
 .stamp .d { display: block; font-size: 1.65rem; font-weight: 750; }
 .stamp .m { display: block; margin-top: 4px; font-size: 0.85rem; font-weight: 600; }
 .stamp .y { display: block; margin-top: 3px; font-size: 0.72rem; opacity: 0.8; }
@@ -131,7 +135,13 @@ h1 {
 .tag.filled { background: var(--chestnut-soft); color: var(--chestnut); }
 .tag.deadline { background: transparent; color: var(--warn); padding-left: 0; }
 .tag.new { border: 1.5px solid var(--stamp); background: transparent; }
-.links { display: flex; flex-wrap: wrap; gap: 6px 18px; margin-top: 10px; font-size: 0.95rem; }
+.links { display: flex; flex-wrap: wrap; gap: 6px 18px; align-items: center; margin-top: 10px; font-size: 0.95rem; }
+.links a { display: inline-flex; align-items: center; min-height: 44px; }
+.links a.open {
+  padding: 0 16px; border: 1.5px solid var(--stamp); border-radius: 999px;
+  font-weight: 600; text-decoration: none;
+}
+.links a.open:hover { background: var(--stamp-soft); }
 
 .empty { padding: 36px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
 .empty h2 { margin: 0 0 6px; font-size: 1.2rem; }
@@ -142,7 +152,8 @@ section.more { margin-top: 56px; }
 section.more h2 { font-size: 1.3rem; margin: 0 0 6px; letter-spacing: -0.01em; }
 section.more > p { margin: 0 0 14px; color: var(--muted); max-width: 62ch; }
 .plain { list-style: none; padding: 0; margin: 0; }
-.plain li { padding: 12px 0; border-top: 1px solid var(--line); }
+.plain li { padding: 4px 0 12px; border-top: 1px solid var(--line); }
+.plain a { display: inline-flex; align-items: center; min-height: 44px; font-weight: 600; }
 .plain li:last-child { border-bottom: 1px solid var(--line); }
 .plain .sub { display: block; color: var(--muted); font-size: 0.92rem; }
 .intro { max-width: 62ch; color: var(--muted); font-size: 0.95rem; }
@@ -165,12 +176,13 @@ dialog::backdrop { background: rgb(10 14 20 / 0.45); }
 .addrow { display: flex; gap: 8px; flex-wrap: wrap; }
 .addrow input {
   flex: 1 1 16rem; min-width: 0; font: inherit; color: var(--ink); background: var(--paper);
-  border: 1.5px solid var(--line); border-radius: var(--radius-s); padding: 9px 11px; min-height: 44px;
+  border: 1.5px solid var(--control); border-radius: var(--radius-s); padding: 9px 11px; min-height: 44px;
 }
 .hint { margin: 8px 0 0; color: var(--muted); font-size: 0.9rem; }
 .addform .sub-label { margin-top: 14px; }
 .addform .opt { font-weight: 400; color: var(--muted); }
 .msg { margin: 8px 0 0; font-size: 0.92rem; font-weight: 600; }
+.msg:empty, .hint:empty { display: none; }
 .msg.err { color: var(--warn); }
 .src-group h3 { margin: 22px 0 4px; font-size: 1rem; }
 .src-group > p { margin: 0 0 6px; color: var(--muted); font-size: 0.9rem; }
@@ -179,7 +191,7 @@ dialog::backdrop { background: rgb(10 14 20 / 0.45); }
 .src .s { grid-column: 1; color: var(--muted); font-size: 0.88rem; overflow-wrap: anywhere; }
 .src .s .bad { color: var(--warn); }
 .src button { grid-row: span 2; }
-.search { width: 100%; font: inherit; color: var(--ink); background: var(--surface); border: 1.5px solid var(--line); border-radius: var(--radius-s); padding: 9px 11px; min-height: 44px; margin-top: 16px; }
+.search { width: 100%; font: inherit; color: var(--ink); background: var(--surface); border: 1.5px solid var(--control); border-radius: var(--radius-s); padding: 9px 11px; min-height: 44px; margin-top: 16px; }
 
 .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
 
@@ -200,8 +212,8 @@ dialog::backdrop { background: rgb(10 14 20 / 0.45); }
     </div>
     <p class="status-line" id="status">Loading the latest list…</p>
     <div class="intro">
-      <p>Every few hours a small program reads the notice boards (albo online, news and job pages) of the schools in “Schools I follow” and lists anything about English teaching: madrelingua experts, lettorato, Cambridge and Trinity courses, conversation. Interpelli and supplenze are left out. It uses no AI, just keyword matching, so open the notice before applying.</p>
-      <p class="signoff">Good luck. From Alex.</p>
+      <p>Every few hours a small program reads the notice boards (albo online, news and job pages) of the schools in “Schools I follow” and lists anything about English teaching: madrelingua experts, lettorato, Cambridge and Trinity courses, conversation. Add and remove schools or board you want this site to scan by clicking the "schools I follow button"</p>
+      <p class="signoff">Good luck -Alex</p>
     </div>
   </header>
 
@@ -221,8 +233,8 @@ dialog::backdrop { background: rgb(10 14 20 / 0.45); }
         </select>
       </label>
     </div>
-    <p class="hint" id="view-hint">Schools looking for an English teacher or native-speaker expert. Newest first.</p>
-    <ul class="notices" id="notices" aria-live="polite"></ul>
+    <p class="hint" id="view-hint" aria-live="polite"></p>
+    <ul class="notices" id="notices"></ul>
 
     <section class="more" aria-labelledby="byhand-h">
       <h2 id="byhand-h">Check these by hand</h2>
@@ -253,7 +265,9 @@ dialog::backdrop { background: rgb(10 14 20 / 0.45); }
       <p class="msg" id="add-msg" role="status"></p>
     </form>
     <p class="hint" id="readonly-note" hidden>You’re viewing the list read-only. Open the private link to add or remove websites.</p>
+    <p class="hint" id="src-summary"></p>
     <input class="search" id="filter" type="search" placeholder="Find a school or town" aria-label="Find a school or town">
+    <p class="msg" id="list-msg" role="status"></p>
     <div id="source-list"></div>
   </div>
 </dialog>
@@ -329,7 +343,8 @@ dialog::backdrop { background: rgb(10 14 20 / 0.45); }
     const srcs = allSources(); const byId = Object.fromEntries(srcs.map((s) => [s.id, s]));
     const followed = srcs.filter((s) => s.status !== "removed");
     const ok = followed.filter((s) => s.status === "ok").length;
-    $("#status").textContent = `Checked ${ago(d.generated)}. ${ok} of ${followed.length} school websites read automatically.`;
+    $("#status").textContent = `Updated ${ago(d.generated)}.`;
+    $("#src-summary").textContent = `${followed.length} websites followed. ${ok} were read at the last check.`;
 
     const inRange = (j) => { const s = byId[j.source]; if (!s || s.status === "removed") return false; return s.minutes == null || s.minutes <= state.within; };
     const pool = d.jobs.filter(inRange);
@@ -343,7 +358,7 @@ dialog::backdrop { background: rgb(10 14 20 / 0.45); }
     $("#count-open").textContent = `(${open.length})`; $("#count-past").textContent = `(${past.length})`;
     const list = state.view === "open" ? open : past;
     $("#view-hint").textContent = state.view === "open"
-      ? "Schools looking for an English teacher or native-speaker expert in the last 30 days. Newest first."
+      ? ""
       : "Older calls and ones already decided. These schools hire English experts, so they’re worth contacting directly.";
 
     const ul = $("#notices");
@@ -381,7 +396,7 @@ dialog::backdrop { background: rgb(10 14 20 / 0.45); }
     const where = s ? `<strong>${esc(s.name)}</strong>${s.town ? `, ${esc(s.town)}` : ""}${s.minutes != null ? `. ${s.minutes} min drive` : ""}` : "";
     const site = s?.site ? `<a href="${esc(s.site)}" rel="noopener" target="_blank">School website</a>` : "";
     return `<li class="notice ${state.view === "past" ? "filled" : ""} ${j.date ? "" : "undated"}">
-      <div class="stamp" aria-hidden="true"><span class="d">${fmtDay.format(d)}</span><span class="m">${fmtMon.format(d)}</span><span class="y">${d.getFullYear()}</span></div>
+      <div class="stamp" aria-hidden="true"><span class="k">${j.date ? "Posted" : "Found"}</span><span class="d">${fmtDay.format(d)}</span><span class="m">${fmtMon.format(d)}</span><span class="y">${d.getFullYear()}</span></div>
       <h2 class="title" lang="it"><a href="${esc(j.url)}" rel="noopener" target="_blank">${esc(tidyTitle(j.title))}</a></h2>
       <p class="where">${where}</p>
       <div>
@@ -391,7 +406,7 @@ dialog::backdrop { background: rgb(10 14 20 / 0.45); }
           ${dlTag}
           <span class="sr-only">${j.date ? "Posted" : "First seen"} ${fmtLong.format(d)}</span>
         </div>
-        <div class="links"><a href="${esc(j.url)}" rel="noopener" target="_blank">Open the notice</a>${site}</div>
+        <div class="links"><a class="open" href="${esc(j.url)}" rel="noopener" target="_blank">Open the notice</a>${site}</div>
       </div>
     </li>`;
   }
@@ -419,7 +434,7 @@ dialog::backdrop { background: rgb(10 14 20 / 0.45); }
   $("#filter").addEventListener("input", renderSources);
 
   const STATUS = {
-    ok: (s) => `Read automatically${s.readers?.length ? ` (${s.readers.join(", ")})` : ""}`,
+    ok: () => "Checked automatically",
     unreachable: () => `<span class="bad">Couldn’t reach this site at the last check</span>`,
     "no-site": () => `<span class="bad">No website on file. Add it with “Add a website”.</span>`,
     waiting: () => "Waiting for its first check",
@@ -451,9 +466,13 @@ dialog::backdrop { background: rgb(10 14 20 / 0.45); }
   }
   $("#source-list").addEventListener("click", async (e) => {
     const b = e.target.closest("button[data-remove],button[data-restore]"); if (!b) return;
+    const msg = $("#list-msg"); const name = b.closest(".src").querySelector(".n").textContent;
     b.disabled = true;
-    try { await edit(b.dataset.remove ? { op: "remove", id: b.dataset.remove } : { op: "restore", id: b.dataset.restore }); }
-    catch (err) { b.disabled = false; alert(err.message); }
+    try {
+      await edit(b.dataset.remove ? { op: "remove", id: b.dataset.remove } : { op: "restore", id: b.dataset.restore });
+      msg.className = "msg";
+      msg.textContent = b.dataset.remove ? `Removed ${name}. To bring it back, find it under “Removed” at the bottom.` : `Restored ${name}. It’s checked again from the next run.`;
+    } catch (err) { b.disabled = false; msg.className = "msg err"; msg.textContent = err.message; }
   });
   $("#addform").addEventListener("submit", async (e) => {
     e.preventDefault();
