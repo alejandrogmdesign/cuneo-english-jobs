@@ -145,7 +145,10 @@ section.more > p { margin: 0 0 14px; color: var(--muted); max-width: 62ch; }
 .plain li { padding: 12px 0; border-top: 1px solid var(--line); }
 .plain li:last-child { border-bottom: 1px solid var(--line); }
 .plain .sub { display: block; color: var(--muted); font-size: 0.92rem; }
-footer { margin: 64px 0 48px; color: var(--muted); font-size: 0.92rem; max-width: 62ch; }
+.intro { max-width: 62ch; color: var(--muted); font-size: 0.95rem; }
+.intro p { margin: 10px 0 0; }
+.intro .signoff { color: var(--ink); font-weight: 600; }
+main { padding-bottom: 56px; }
 
 /* ---------- schools dialog */
 dialog {
@@ -196,6 +199,10 @@ dialog::backdrop { background: rgb(10 14 20 / 0.45); }
       <button class="btn" id="open-sources" type="button">Schools I follow</button>
     </div>
     <p class="status-line" id="status">Loading the latest list…</p>
+    <div class="intro">
+      <p>Every few hours a small program reads the notice boards (albo online, news and job pages) of the schools in “Schools I follow” and lists anything about English teaching: madrelingua experts, lettorato, Cambridge and Trinity courses, conversation. Interpelli and supplenze are left out. It uses no AI, just keyword matching, so open the notice before applying.</p>
+      <p class="signoff">Good luck. From Alex.</p>
+    </div>
   </header>
 
   <main>
@@ -223,11 +230,6 @@ dialog::backdrop { background: rgb(10 14 20 / 0.45); }
       <ul class="plain" id="byhand"></ul>
     </section>
   </main>
-
-  <footer>
-    <p>Every few hours a small program reads the notice boards (albo online, news and job pages) of the schools in “Schools I follow” and lists anything about English teaching: madrelingua experts, lettorato, Cambridge and Trinity courses, conversation. Interpelli and supplenze are left out. It uses no AI, just keyword matching, so open the notice before applying.</p>
-    <p>Good luck. From Alex.</p>
-  </footer>
 </div>
 
 <dialog id="sources" aria-labelledby="sources-h" closedby="any">
