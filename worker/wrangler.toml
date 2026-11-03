@@ -15,3 +15,12 @@ GH_REPO = "alejandrogmdesign/cuneo-english-jobs"
 # Secrets (not in this file):
 #   npx wrangler secret put EDIT_KEY     the key in her private link
 #   npx wrangler secret put GH_TOKEN     optional, starts a scan as soon as she adds a site
+
+# Her list: one Durable Object (strongly consistent, free plan with SQLite storage).
+[[durable_objects.bindings]]
+name = "STORE"
+class_name = "SourcesStore"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["SourcesStore"]

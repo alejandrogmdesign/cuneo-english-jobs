@@ -168,10 +168,12 @@ dialog {
   padding: 0; border: 1px solid var(--line); border-radius: var(--radius-m);
   background: var(--paper); color: var(--ink);
 }
+/* The panel is a column: fixed header, and a body that scrolls on its own (phones included). */
+dialog[open] { display: flex; flex-direction: column; overflow: hidden; }
 dialog::backdrop { background: rgb(10 14 20 / 0.45); }
-.dlg-head { position: sticky; top: 0; z-index: 1; background: var(--paper); padding: 18px 20px 14px; border-bottom: 1px solid var(--line); display: flex; gap: 12px; align-items: center; justify-content: space-between; }
+.dlg-head { flex: none; background: var(--paper); padding: 18px 20px 14px; border-bottom: 1px solid var(--line); display: flex; gap: 12px; align-items: center; justify-content: space-between; }
 .dlg-head h2 { margin: 0; font-size: 1.25rem; }
-.dlg-body { padding: 4px 20px 24px; overflow: auto; overscroll-behavior: contain; }
+.dlg-body { flex: 1 1 auto; min-height: 0; padding: 4px 20px 32px; overflow-y: auto; overscroll-behavior: contain; -webkit-overflow-scrolling: touch; }
 .addform { margin: 16px 0 6px; padding: 16px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius-m); }
 .addform label { display: block; font-weight: 600; margin-bottom: 6px; }
 .addrow { display: flex; gap: 8px; flex-wrap: wrap; }
@@ -440,6 +442,7 @@ dialog::backdrop { background: rgb(10 14 20 / 0.45); }
       : `<span class="bad">Couldn’t be read for several days</span>`,
     "no-site": () => `<span class="bad">No website on file. Add it with “Add a website”.</span>`,
     waiting: () => "Waiting for its first check",
+    removed: () => "Not checked while removed",
   };
   function renderSources() {
     const q = $("#filter").value.trim().toLowerCase();
@@ -458,9 +461,9 @@ dialog::backdrop { background: rgb(10 14 20 / 0.45); }
     const group = (title, note, items, action) => items.length ? `<div class="src-group"><h3>${title} (${items.length})</h3>${note ? `<p>${note}</p>` : ""}${items.map((s) => row(s, action)).join("")}</div>` : "";
     $("#source-list").innerHTML =
       group("Websites you added", "", added, "remove") +
+      group("Removed", "Not checked any more. Tap Restore to check one again.", gone, "restore") +
       group("Needs attention", canEdit ? "These haven’t been readable for several days. If you know a school’s current website, add it above and remove the old entry." : "These haven’t been readable for several days.", trouble, "remove") +
-      group("Schools, nearest first", "State and private schools within about 70 minutes of Cuneo.", fine, "remove") +
-      group("Removed", "Not checked any more. Restore one to check it again.", gone, "restore");
+      group("Schools, nearest first", "State and private schools within about 70 minutes of Cuneo.", fine, "remove");
   }
 
   async function edit(body) {
@@ -476,7 +479,8 @@ dialog::backdrop { background: rgb(10 14 20 / 0.45); }
     try {
       await edit(b.dataset.remove ? { op: "remove", id: b.dataset.remove } : { op: "restore", id: b.dataset.restore });
       msg.className = "msg";
-      msg.textContent = b.dataset.remove ? `Removed ${name}. To bring it back, find it under “Removed” at the bottom.` : `Restored ${name}. It’s checked again from the next run.`;
+      msg.textContent = b.dataset.remove ? `Removed ${name}. It’s now under “Removed” at the top, where you can restore it.` : `Restored ${name}. It’s checked again from the next run.`;
+      $(".dlg-body").scrollTo({ top: 0, behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" });
     } catch (err) { b.disabled = false; msg.className = "msg err"; msg.textContent = err.message; }
   });
   $("#addform").addEventListener("submit", async (e) => {

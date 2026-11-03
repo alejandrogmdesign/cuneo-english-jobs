@@ -5,10 +5,13 @@
 //                      needs  Authorization: Bearer <EDIT_KEY>  (the key in her private link)
 //
 // Bindings (wrangler.toml / dashboard):
-//   SOURCES         KV namespace
+//   STORE           Durable Object (SourcesStore) holding her list; strongly consistent
+//   SOURCES         KV namespace (old storage, no longer used for the list)
 //   EDIT_KEY        secret: the key in her private link
 //   ALLOWED_ORIGIN  the page's origin, e.g. https://alejandrogmdesign.github.io
 //   GH_REPO, GH_TOKEN  optional: "owner/repo" and a fine-grained token (Actions: write) to start a scan right after she adds a site
+
+import { DurableObject } from "cloudflare:workers";
 
 const MAX_ADDED = 300;
 
@@ -29,8 +32,9 @@ export default {
     if (url.pathname === "/fetch") return relay(request, url, env);
     if (url.pathname !== "/sources") return reply({ error: "Not found." }, 404);
 
-    const data = (await env.SOURCES.get("list", { type: "json" })) || { added: [], removed: [] };
-    if (request.method === "GET") return reply(data);
+    // Her list lives in one Durable Object: every change is applied in order and every read is current.
+    const store = env.STORE.get(env.STORE.idFromName("her-list"));
+    if (request.method === "GET") return reply(await store.read());
     if (request.method !== "POST") return reply({ error: "Use GET or POST." }, 405);
 
     if (!(await keyMatches(request.headers.get("Authorization") || "", env.EDIT_KEY))) {
@@ -46,32 +50,49 @@ export default {
     if (body.op === "add") {
       const site = normaliseUrl(body.url);
       if (!site) return reply({ error: "That doesn’t look like a web address. Paste one starting with https://" }, 400);
-      if (data.added.length >= MAX_ADDED) return reply({ error: "The list is full. Remove a website first." }, 400);
       const id = "web-" + (await sha1(site)).slice(0, 10);
-      if (!data.added.some((a) => a.id === id)) {
-        data.added.push({ id, url: site, name: String(body.name || "").trim().slice(0, 80), addedAt: new Date().toISOString() });
-      }
-      data.removed = data.removed.filter((r) => r !== id);
-      await env.SOURCES.put("list", JSON.stringify(data));
+      const result = await store.apply({ op: "add", id, url: site, name: String(body.name || "").trim().slice(0, 80) });
+      if (result.error) return reply(result, 400);
       if (env.GH_REPO && env.GH_TOKEN) ctx.waitUntil(startScan(env));
-      return reply(data);
+      return reply(result);
     }
+    if (body.op === "reset") return reply(await store.apply({ op: "reset" }));
 
     const id = String(body.id || "").slice(0, 40);
     if (!/^[\w-]+$/.test(id)) return reply({ error: "Unknown website." }, 400);
-    if (body.op === "remove") {
-      const before = data.added.length;
-      data.added = data.added.filter((a) => a.id !== id); // a site she added is deleted outright
-      if (data.added.length === before && !data.removed.includes(id)) data.removed.push(id);
-    } else if (body.op === "restore") {
-      data.removed = data.removed.filter((r) => r !== id);
-    } else {
-      return reply({ error: "Unknown change." }, 400);
-    }
-    await env.SOURCES.put("list", JSON.stringify(data));
-    return reply(data);
+    if (body.op !== "remove" && body.op !== "restore") return reply({ error: "Unknown change." }, 400);
+    return reply(await store.apply({ op: body.op, id }));
   },
 };
+
+export class SourcesStore extends DurableObject {
+  async read() {
+    return (await this.ctx.storage.get("list")) || { added: [], removed: [] };
+  }
+
+  // Runs one change at a time (Durable Object input gates), so nothing is lost or overwritten.
+  async apply(change) {
+    const data = await this.read();
+    if (change.op === "reset") {
+      data.added = [];
+      data.removed = [];
+    } else if (change.op === "add") {
+      if (data.added.length >= MAX_ADDED) return { error: "The list is full. Remove a website first." };
+      if (!data.added.some((a) => a.id === change.id)) {
+        data.added.push({ id: change.id, url: change.url, name: change.name, addedAt: new Date().toISOString() });
+      }
+      data.removed = data.removed.filter((r) => r !== change.id);
+    } else if (change.op === "remove") {
+      const before = data.added.length;
+      data.added = data.added.filter((a) => a.id !== change.id); // a site she added is deleted outright
+      if (data.added.length === before && !data.removed.includes(change.id)) data.removed.push(change.id);
+    } else if (change.op === "restore") {
+      data.removed = data.removed.filter((r) => r !== change.id);
+    }
+    await this.ctx.storage.put("list", data);
+    return data;
+  }
+}
 
 // Some school servers refuse GitHub's runners (rate limits per IP, bot checks for datacenter
 // addresses). The scanner retries those through here. Only the scanner has SCAN_KEY.
