@@ -282,12 +282,16 @@ dialog::backdrop { background: rgb(10 14 20 / 0.45); }
   const $ = (s, el = document) => el.querySelector(s);
   const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 
-  // Private edit link: #key=... is stored on this device, then removed from the address bar.
+  // Private edit link: #key=... stays in the address bar, so the same link (bookmarked, or sent
+  // from her phone to her computer) can edit on any device. A device that has the key from an
+  // earlier visit puts it back into the address, so a bookmark made later still carries it.
   const readStore = (k) => { try { return localStorage.getItem(k); } catch { return null; } };
   const writeStore = (k, v) => { try { localStorage.setItem(k, v); } catch {} };
+  const dropStore = (k) => { try { localStorage.removeItem(k); } catch {} };
   const hashKey = new URLSearchParams(location.hash.slice(1)).get("key");
-  if (hashKey) { writeStore(KEY_STORE, hashKey); history.replaceState(null, "", location.pathname + location.search); }
-  const editKey = hashKey || readStore(KEY_STORE);
+  if (hashKey) writeStore(KEY_STORE, hashKey);
+  let editKey = hashKey || readStore(KEY_STORE);
+  if (editKey && !hashKey) history.replaceState(null, "", location.pathname + location.search + "#key=" + editKey);
   const canEdit = Boolean(API && editKey);
 
   const state = { data: null, live: { added: [], removed: [] }, view: "open", within: Number(readStore("cej-within") || 60) };
@@ -469,6 +473,11 @@ dialog::backdrop { background: rgb(10 14 20 / 0.45); }
   async function edit(body) {
     const r = await fetch(API + "/sources", { method: "POST", headers: { "Content-Type": "application/json", Authorization: "Bearer " + editKey }, body: JSON.stringify(body) });
     const out = await r.json().catch(() => ({}));
+    if (r.status === 401) {
+      // The key was changed (an old link): forget it on this device.
+      dropStore(KEY_STORE);
+      history.replaceState(null, "", location.pathname + location.search);
+    }
     if (!r.ok) throw new Error(out.error || "The change couldn’t be saved (HTTP " + r.status + ").");
     state.live = out; render(); renderByHand(); renderSources();
   }
