@@ -479,7 +479,8 @@ def main():
         out_sources.append({
             "id": s["id"], "name": s["name"], "town": s.get("town"), "minutes": s.get("minutes"), "site": s.get("site"),
             "kind": s["kind"], "status": "removed" if s["id"] in removed else st.get("status", "waiting"),
-            "checked": st.get("checked"), "readers": [r for r in st.get("readers", []) if r != "links"],
+            "checked": st.get("checked"), "lastOk": st.get("lastOk"),
+            "readers": [r for r in st.get("readers", []) if r != "links"],
             "manual": st.get("manual", []),
         })
 

@@ -435,7 +435,9 @@ dialog::backdrop { background: rgb(10 14 20 / 0.45); }
 
   const STATUS = {
     ok: () => "Checked automatically",
-    unreachable: () => `<span class="bad">Couldn’t reach this site at the last check</span>`,
+    unreachable: (s) => s.lastOk && Date.now() - asDate(s.lastOk) <= 3 * 864e5
+      ? "Checked automatically"  // a single missed check: not worth flagging
+      : `<span class="bad">Couldn’t be read for several days</span>`,
     "no-site": () => `<span class="bad">No website on file. Add it with “Add a website”.</span>`,
     waiting: () => "Waiting for its first check",
   };
@@ -447,13 +449,16 @@ dialog::backdrop { background: rgb(10 14 20 / 0.45); }
       ${canEdit ? `<button class="btn small" type="button" data-${action}="${esc(s.id)}">${action === "remove" ? "Remove" : "Restore"}</button>` : "<span></span>"}
       <span class="s">${esc(s.town || hostOf(s.site || ""))}${s.minutes != null ? `, ${s.minutes} min` : ""}. ${(STATUS[s.status] || STATUS.waiting)(s)}${s.manual?.length ? `. <a href="${esc(s.manual[0].url)}" target="_blank" rel="noopener">Notice board</a> needs checking by hand` : ""}</span></div>`;
     const added = srcs.filter((s) => (s.kind === "added" || s.kind === "other") && s.status !== "removed");
-    const trouble = srcs.filter((s) => !added.includes(s) && ["unreachable", "no-site"].includes(s.status));
+    // A school only "needs attention" after 3 days without a good read; one bad check is normal.
+    const failing = (s) => ["unreachable", "no-site"].includes(s.status)
+      && (!s.lastOk || Date.now() - asDate(s.lastOk) > 3 * 864e5);
+    const trouble = srcs.filter((s) => !added.includes(s) && failing(s));
     const fine = srcs.filter((s) => !added.includes(s) && !trouble.includes(s) && s.status !== "removed").sort((a, b) => (a.minutes ?? 999) - (b.minutes ?? 999));
     const gone = srcs.filter((s) => s.status === "removed");
     const group = (title, note, items, action) => items.length ? `<div class="src-group"><h3>${title} (${items.length})</h3>${note ? `<p>${note}</p>` : ""}${items.map((s) => row(s, action)).join("")}</div>` : "";
     $("#source-list").innerHTML =
       group("Websites you added", "", added, "remove") +
-      group("Needs attention", canEdit ? "These couldn’t be read. If you know a school’s current website, add it above and remove the old entry." : "These couldn’t be read at the last check.", trouble, "remove") +
+      group("Needs attention", canEdit ? "These haven’t been readable for several days. If you know a school’s current website, add it above and remove the old entry." : "These haven’t been readable for several days.", trouble, "remove") +
       group("Schools, nearest first", "State and private schools within about 70 minutes of Cuneo.", fine, "remove") +
       group("Removed", "Not checked any more. Restore one to check it again.", gone, "restore");
   }

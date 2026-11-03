@@ -361,20 +361,6 @@
   ]
  },
  {
-  "code": "CNIC86500N",
-  "name": "Fossano \"Andrea Paglieri\"",
-  "kind": "statale",
-  "town": "Fossano",
-  "minutes": 30,
-  "site": "https://icfossano.edu.it",
-  "grades": [
-   "ISTITUTO COMPRENSIVO",
-   "SCUOLA INFANZIA",
-   "SCUOLA PRIMARIA",
-   "SCUOLA PRIMO GRADO"
-  ]
- },
- {
   "code": "CNPS010003",
   "name": "Fossano - \"G.Ancina\"",
   "kind": "statale",
@@ -1202,7 +1188,7 @@
   "kind": "statale",
   "town": "Sommariva Perno",
   "minutes": 61,
-  "site": "https://wwwcomprensivosommarivaperno.it",
+  "site": "https://nuvola.madisoft.it/bacheca-digitale/bacheca/CNIC818004/1",
   "grades": [
    "ISTITUTO COMPRENSIVO",
    "SCUOLA INFANZIA",
@@ -1397,20 +1383,6 @@
   ]
  },
  {
-  "code": "TOIC88900P",
-  "name": "I.C. Moncalieri/Borgo S. Pietro",
-  "kind": "statale",
-  "town": "Moncalieri",
-  "minutes": 65,
-  "site": "https://www.istitutocomprensivoborgosanpietro.edu.it",
-  "grades": [
-   "ISTITUTO COMPRENSIVO",
-   "SCUOLA INFANZIA",
-   "SCUOLA PRIMARIA",
-   "SCUOLA PRIMO GRADO"
-  ]
- },
- {
   "code": "TOIC88800V",
   "name": "I.C. Moncalieri/Centro Storico",
   "kind": "statale",
@@ -1481,28 +1453,6 @@
   "town": "Moncalieri",
   "minutes": 65,
   "site": "https://scuolabarolomoncalieri.it",
-  "grades": [
-   "SCUOLA SEC. PRIMO GRADO NON STATALE"
-  ]
- },
- {
-  "code": "TO1E05600Q",
-  "name": "Centro Flora Manfrinati",
-  "kind": "paritaria",
-  "town": "Moncalieri",
-  "minutes": 65,
-  "site": null,
-  "grades": [
-   "SCUOLA PRIMARIA NON STATALE"
-  ]
- },
- {
-  "code": "TO1M055005",
-  "name": "Centro Flora Manfrinati",
-  "kind": "paritaria",
-  "town": "Moncalieri",
-  "minutes": 65,
-  "site": null,
   "grades": [
    "SCUOLA SEC. PRIMO GRADO NON STATALE"
   ]
@@ -1667,20 +1617,6 @@
   ]
  },
  {
-  "code": "TOIC8BF00G",
-  "name": "I.C. Nichelino Iv - Montalcini",
-  "kind": "statale",
-  "town": "Nichelino",
-  "minutes": 68,
-  "site": "https://www.istitutocomprensivonichelino4.edu.it",
-  "grades": [
-   "ISTITUTO COMPRENSIVO",
-   "SCUOLA INFANZIA",
-   "SCUOLA PRIMARIA",
-   "SCUOLA PRIMO GRADO"
-  ]
- },
- {
   "code": "TOIC85600B",
   "name": "I.C. Cambiano",
   "kind": "statale",
@@ -1806,7 +1742,7 @@
   "kind": "statale",
   "town": "Lusernetta",
   "minutes": 70,
-  "site": "https://icdeamicis-luserna.it",
+  "site": "https://nuvola.madisoft.it/bacheca-digitale/bacheca/TOIC843009/1",
   "grades": [
    "SCUOLA INFANZIA",
    "SCUOLA PRIMARIA"
