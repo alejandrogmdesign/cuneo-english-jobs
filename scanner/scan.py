@@ -395,20 +395,23 @@ def load_sources():
                         "site": s["site"], "kind": s["kind"]})
     for s in load_json(EXTRA, []):
         sources.append({"id": s.get("id") or source_id(s["site"]), "kind": "other", "added": True, **s})
-    removed = set()
-    if SOURCES_API:
-        st, _, body = fetch(SOURCES_API + "/sources", timeout=20)
+    # Each private link has its own list. Removing a school only hides it on that list's page, so
+    # every school is scanned; websites added on any list are scanned too, and each page shows
+    # only the ones on its own list.
+    if SOURCES_API and SCAN_KEY:
+        st, _, body = fetch_sources_all()
         if st == 200:
             try:
-                live = json.loads(body)
-                removed = set(live.get("removed", []))
-                # Backup: each run commits a copy of her list, so git history keeps every version.
+                lists = json.loads(body)["lists"]
+                # Backup: each run commits a copy of every list, so git history keeps every version.
                 with open(BACKUP, "w", encoding="utf-8") as f:
-                    json.dump({"added": sorted(live.get("added", []), key=lambda a: a.get("addedAt", "")),
-                               "removed": sorted(removed)}, f, ensure_ascii=False, indent=1)
+                    json.dump({k: {"added": sorted(v.get("added", []), key=lambda a: a.get("addedAt", "")),
+                                   "removed": sorted(v.get("removed", []))} for k, v in sorted(lists.items())},
+                              f, ensure_ascii=False, indent=1)
                 known = {s["site"].rstrip("/") for s in sources if s.get("site")}
-                for a in live.get("added", []):
+                for a in (a for v in lists.values() for a in v.get("added", [])):
                     if a["url"].rstrip("/") not in known:
+                        known.add(a["url"].rstrip("/"))
                         sources.append({"id": a["id"], "name": a.get("name") or urllib.parse.urlparse(a["url"]).netloc,
                                         "town": a.get("town") or "", "minutes": None, "site": a["url"], "kind": "added",
                                         "added": True})
@@ -416,7 +419,16 @@ def load_sources():
                 print("warning: could not read the sources list from", SOURCES_API, file=sys.stderr)
         else:
             print(f"warning: sources list unavailable (HTTP {st}); scanning the built-in list only", file=sys.stderr)
-    return sources, removed
+    return sources, set()
+
+
+def fetch_sources_all():
+    try:
+        req = urllib.request.Request(SOURCES_API + "/sources/all", headers={"User-Agent": UA, "X-Scan-Key": SCAN_KEY})
+        with urllib.request.urlopen(req, timeout=20) as r:
+            return r.status, None, r.read().decode("utf-8")
+    except Exception as e:
+        return getattr(e, "code", 0), None, ""
 
 
 def item_id(url, title):

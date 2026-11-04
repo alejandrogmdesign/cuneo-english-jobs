@@ -1,19 +1,37 @@
-// Stores the websites she adds to, or removes from, the scan list.
+// Stores the websites each friend adds to, or removes from, her own list. Each private link has
+// its own key and its own list; one friend never sees the other's changes.
 //
-//   GET  /sources   -> { added: [{id, url, name, addedAt}], removed: [id, ...] }   (public: the page and the scanner read it)
-//   POST /sources   -> { op: "add", url, name? } | { op: "remove", id } | { op: "restore", id }
-//                      needs  Authorization: Bearer <EDIT_KEY>  (the key in her private link)
+//   GET  /sources       -> { added: [{id, url, name, addedAt}], removed: [id, ...] }
+//                          with  Authorization: Bearer <key>  the list of that private link;
+//                          without it (the plain link) an empty list: every school, no one's changes
+//   POST /sources       -> { op: "add", url, name? } | { op: "remove", id } | { op: "restore", id }
+//                          needs  Authorization: Bearer <key>; changes only that link's list
+//   GET  /sources/all   -> { lists: { "1": {added, removed}, "2": {...} } }   scanner only (X-Scan-Key)
 //
 // Bindings (wrangler.toml / dashboard):
 //   STORE           Durable Object (SourcesStore) holding her list; strongly consistent
 //   SOURCES         KV namespace (old storage, no longer used for the list)
-//   EDIT_KEY        secret: the key in her private link
+//   EDIT_KEY        secret: the key in the first friend's private link (list "1")
+//   EDIT_KEY_2      secret: the key in the second friend's private link (list "2"); delete a secret to cancel that link
 //   ALLOWED_ORIGIN  the page's origin, e.g. https://alejandrogmdesign.github.io
 //   GH_REPO, GH_TOKEN  optional: "owner/repo" and a fine-grained token (Actions: write) to start a scan right after she adds a site
 
 import { DurableObject } from "cloudflare:workers";
 
 const MAX_ADDED = 300;
+const EMPTY = { added: [], removed: [] };
+
+// Private link key -> its list. List "1" keeps the original store name so her list carried over.
+const LISTS = [
+  { id: "1", secret: "EDIT_KEY", store: "her-list" },
+  { id: "2", secret: "EDIT_KEY_2", store: "list-2" },
+];
+async function listFor(request, env) {
+  const auth = request.headers.get("Authorization") || "";
+  for (const l of LISTS) if (await keyMatches(auth, env[l.secret])) return l;
+  return null;
+}
+const storeOf = (env, l) => env.STORE.get(env.STORE.idFromName(l.store));
 
 export default {
   async fetch(request, env, ctx) {
@@ -30,16 +48,23 @@ export default {
 
     if (request.method === "OPTIONS") return new Response(null, { status: 204, headers: cors });
     if (url.pathname === "/fetch") return relay(request, url, env);
+    if (url.pathname === "/sources/all") {
+      if (!(await keyMatches(request.headers.get("X-Scan-Key") || "", env.SCAN_KEY, ""))) return reply({ error: "Forbidden" }, 403);
+      const lists = {};
+      for (const l of LISTS) if (env[l.secret]) lists[l.id] = await storeOf(env, l).read();
+      return reply({ lists });
+    }
     if (url.pathname !== "/sources") return reply({ error: "Not found." }, 404);
 
-    // Her list lives in one Durable Object: every change is applied in order and every read is current.
-    const store = env.STORE.get(env.STORE.idFromName("her-list"));
-    if (request.method === "GET") return reply(await store.read());
+    // Each list lives in its own Durable Object: every change is applied in order and every read is current.
+    const list = await listFor(request, env);
+    if (request.method === "GET") return reply(list ? await storeOf(env, list).read() : EMPTY);
     if (request.method !== "POST") return reply({ error: "Use GET or POST." }, 405);
 
-    if (!(await keyMatches(request.headers.get("Authorization") || "", env.EDIT_KEY))) {
+    if (!list) {
       return reply({ error: "This link can’t change the list. Open the private link Alex sent you." }, 401);
     }
+    const store = storeOf(env, list);
     let body;
     try {
       body = await request.json();
